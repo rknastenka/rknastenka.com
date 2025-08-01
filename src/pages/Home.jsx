@@ -28,7 +28,7 @@ export default function Home() {
                 </p>
 
                 <p>
-                    a brief explanation about my <a href="projects.html">projects</a>
+                    a brief explanation about my <a href="/projects">projects</a>
                     &nbsp;and the way i make them,
                     i’ve had this problem forever, and if you’re reading this
                     and facing the same matter, please just read these lines.
