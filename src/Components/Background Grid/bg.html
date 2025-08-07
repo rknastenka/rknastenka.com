@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Background Grid</title>
+    <style>
+        body{
+            background-color: #0545a5;
+        }
+        #bg-grid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: grid;
+            z-index: -2;
+            pointer-events: none;
+            filter: blur(10px);
+            grid-template-columns: repeat(10, 1fr);
+            /* Automatically create rows to fit all cells */
+            transform: scale(1.05);
+        }
+
+        #bg-grid div {
+            background: #f8f9fa;
+            transition: 800ms background linear;
+        }
+
+        #bg-grid div.hovered {
+            background: #e9ecef;
+        }
+
+        #bg-grid div.hovered-fast-trans {
+            transition: 100ms background linear;
+        }
+
+        #bg-grid div.clicked {
+            background: var(--click-bg);
+            transition: 10ms background linear;
+        }
+    </style>
+</head>
+<body>
+<div id="bg-grid" aria-hidden="true">
+    <!-- Grid cells will be generated dynamically in the script -->
+</div>
+
+<script>
+    // Generate 100 grid cells (10x10)
+    const grid = document.getElementById('bg-grid');
+    const rows = 10;
+    const columns = 10;
+
+    for (let i = 0; i < rows * columns; i++) {
+        const cell = document.createElement('div');
+        grid.appendChild(cell);
+    }
+
+    let lastHovered = -1;
+    let mouseDown = false;
+    let lastHue = 0;
+    const prevDown = {};
+
+    const render = (event) => {
+        const { clientX: x, clientY: y } = event;
+        const row = Math.floor((y * rows) / window.innerHeight);
+        const column = Math.floor((x * columns) / window.innerWidth);
+
+        const cellIndex = row < rows && column < columns ? row * columns + column : -1;
+        const hovered = grid.children[cellIndex];
+
+        if (cellIndex >= 0) {
+            if (!prevDown[cellIndex] && (mouseDown || window.rainbowMode)) {
+                // Generate a pastel hue by lowering saturation and increasing lightness
+                const hue = (lastHue + 12 + Math.floor(Math.random() * 16)) % 360;
+                hovered.style.setProperty('--click-bg', `hsl(${hue}deg, 70%, 80%, 0.5)`);
+                lastHue = hue;
+            }
+
+            hovered.classList.add('hovered');
+            hovered.classList.toggle('clicked', mouseDown || window.rainbowMode);
+            hovered.classList.toggle('hovered-fast-trans', !prevDown[cellIndex] && !(mouseDown || window.rainbowMode));
+        }
+
+        if (lastHovered >= 0 && lastHovered !== cellIndex) {
+            grid.children[lastHovered].classList.remove('hovered', 'hovered-fast-trans', 'clicked');
+            prevDown[lastHovered] = false;
+        }
+
+        lastHovered = cellIndex;
+        prevDown[cellIndex] = mouseDown || window.rainbowMode;
+    };
+
+    document.addEventListener('mousemove', render, { capture: true, passive: true });
+    document.addEventListener('mouseleave', () => render({ clientX: -1, clientY: -1 }), { passive: true });
+    document.addEventListener('mousedown', (event) => { mouseDown = true; render(event); }, { capture: true, passive: true });
+    document.addEventListener('mouseup', (event) => { mouseDown = false; render(event); }, { capture: true, passive: true });
+    document.addEventListener('dragend', (event) => { mouseDown = false; render(event); }, { capture: true, passive: true });
+</script>
+</body>
+</html>

@@ -15,8 +15,10 @@ export default function Home() {
                 </p>
 
                 <div className="test">
-                    <a href="#"> [Github]</a> <a href="#"> [Email]</a> <a href="#"> [Linkedin]</a> <a
-                    href="#">[Resume]</a>
+                    <a href="#">[Github]</a> &nbsp;
+                    <a href="mailto:banabilal@gmail.com">[Email]</a> &nbsp;
+                    <a href="#">[Linkedin]</a>  &nbsp;
+                    <a href="#">[Resume]</a>
                 </div>
 
                 <br/>
