@@ -4,6 +4,11 @@ export default function Writings() {
     return (
         <main>
 
+            <h2> chatgpt5 is out??  </h2>
+            <p>
+                updates soon...
+            </p>
+
             <h2> you're not lazy, you just need a reason. </h2>
             <p>
                 updates soon...
