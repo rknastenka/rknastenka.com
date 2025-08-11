@@ -21,4 +21,15 @@ nav { margin-top: 0 !important;
 font-size: 1.2rem;
 }
 
-.nav-link { margin: 0 0.75rem; }
+.nav-link { margin: 0 0.55rem; }
+
+
+
+@media (max-width: 1280px) {
+    nav {
+        font-size: 1rem;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
