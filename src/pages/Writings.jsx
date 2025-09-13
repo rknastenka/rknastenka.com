@@ -4,31 +4,17 @@ export default function Writings() {
     return (
         <main>
 
-            <h2> chatgpt5 is out??  </h2>
-            <p>
-                updates soon...
-            </p>
 
-            <h2> you're not lazy, you just need a reason. </h2>
+<div>
+            <h2> Who Am I ? </h2>
             <p>
-                updates soon...
+                i wouldn't say i'm a web dev master nor a hardware grinder,
+                i'm a jack of all trades, master of some. i'm a fast learner
+                that's for sure, i do and act the way my curiosity leads me to,
             </p>
+</div>
 
-            <h2> The Art of Flow </h2>
-            <p>
-                soon...
-            </p>
-
-            <h2> what pisses me off about friends at collage </h2>
-            <p>
-                soon...
-            </p>
-
-            <h2> Collage Life At Jordan </h2>
-            <p>
-                soon...
-            </p>
-
+            <div>
             <h2> how I delight in serene melancholy </h2>
             <p>
                 life is simple and full of happiness and welfare. If by any chance it seemed
@@ -45,7 +31,7 @@ export default function Writings() {
                 I can see how life is fucked, and I can also see how beautiful it is. How I delight in serene melancholy
                 means the joy I zip out of the messed up world.
             </p>
-
+            </div>
             <h2>in a world where you wanna be everything, you must be defined as something </h2>
             <p>
                 since the very first breath of maturity i took, i've wanted to ace everything, to be everything
@@ -57,7 +43,7 @@ export default function Writings() {
                 totally
                 does make sense, says that companies and job market needs ppl whom are really good at one thing. it is
                 so true
-                but why should i obligy. one such self is me and me is refusing to obey to such nonesense.
+                but why should i oblige. one such self is me and me is refusing to obey to such nonsense.
                 i'm not considering myself a polymath, but i may at some point be.
                 for a human to be defined, one human has a one name, such and such each has a one x, no matter how many
                 things
@@ -65,7 +51,6 @@ export default function Writings() {
                 for a long time in my life i thought i must be something. but do i...
                 <br/>
                 <br/>
-
             </p>
 
             <h2> Will I Ever Reach There </h2>
@@ -108,7 +93,27 @@ export default function Writings() {
                 i hate all kinds of social media; i have nearly none.
                 soon enough, i’ll be giving up on linkedin as well (after securing a job).
 
+            </p>
 
+
+            <h2> you're not lazy, you just need a reason. </h2>
+            <p>
+                updates soon...
+            </p>
+
+            <h2> The Art of Flow </h2>
+            <p>
+                soon...
+            </p>
+
+            <h2> what pisses me off about friends at collage </h2>
+            <p>
+                soon...
+            </p>
+
+            <h2> Collage Life At Jordan </h2>
+            <p>
+                soon...
             </p>
         </main>
 

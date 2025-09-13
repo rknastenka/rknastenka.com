@@ -6,8 +6,8 @@
 
   /* Core Palette */
   --color-bg:    #fafaf9;
-  --color-text:  #333333;
-  --color-accent: #0545a5;
+  --color-text: #333333;
+  --color-accent: #004873;
 
   /* Code-block Palette */
   --color-code-bg:   #272822;
@@ -51,9 +51,6 @@ h2 { font-size: 1.5rem; }
 a { color: var(--color-accent); text-decoration: none; }
 a:hover, a:focus { text-decoration: underline; }
 
-/* ----- Structural Layout ----- */
-main, footer { max-width: var(--max-width); margin: 0 auto; }
-
 
 /* Article previews on the homepage */
 .preview + .preview { margin-top: 2rem; }
@@ -89,12 +86,17 @@ footer {
   h2 { font-size: 1.75rem; }
 }
 
-@media (min-width: 1280px) {
-  :root { --max-width: 70ch; }
-}
-
 
 .test a:hover{
   color: #fafaf9;
   background-color: var(--color-accent) !important;
 }
+
+
+/* ----- Structural Layout ----- */
+main, footer { max-width: var(--max-width); margin: 0 auto; }
+
+@media (min-width: 1280px) {
+  :root { --max-width: 70ch; }
+}
+
