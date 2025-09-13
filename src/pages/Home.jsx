@@ -24,7 +24,7 @@ export default function Home() {
 
                 <p>
                     it's more about the time you spend understanding yourself
-                    to get where you somehow specifies your next step,
+                    to get where you somehow specify your next step,
                     and you're barking the wrong tree if you believe it's social media
                     that's holding you back. when in fact, it's just you. during the past weeks,
                     the truth had dawned on me. i now avow the verity that has
