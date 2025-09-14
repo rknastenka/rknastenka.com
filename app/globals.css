@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+    /* Fonts */
+  --font-headings: "Lora", serif;
+  --font-body: "Fira Code", monospace;
+
+  --textColor: #1f1d1d;
+
+  --aColor: rgb(1, 98, 196);
+}
+
+.font-headings {
+  font-family: var(--font-headings);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family:var(--font-body);
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--aColor);
+
+  text-decoration: underline;
+}
+
+
+a {
+    color: #363333;
+}
+
+
+@media (prefers-color-scheme: dark) {
+       a {
+          color: #a8a8a8;
+      }
+}
+
+
+
+/* Force dark when html has class="dark" (overrides system preference) */
+.dark:root {
+  --background: #0f0f0f;
+  --foreground: #ededed;
+}
+
+.dark a {
+          color: #a8a8a8;
+      }
