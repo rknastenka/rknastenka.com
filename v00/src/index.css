@@ -1,0 +1,102 @@
+
+:root {
+  /* Fonts */
+  --font-headings: "Lora", serif;
+  --font-body: "Fira Code", monospace;
+
+  /* Core Palette */
+  --color-bg:   white;
+  --color-text: #333333;
+  --color-accent: #004873;
+
+  /* Code-block Palette */
+  --color-code-bg:   #272822;
+  --color-code-text: #EAEAEA;
+
+  /* Layout */
+  --max-width: 60ch;
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+/* ----- Reset & Base ----- */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { font-size: 100%; }
+
+body {
+  padding: 0 1rem;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: 1.6;
+
+}
+
+/* ----- Typography ----- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headings);
+  margin: 2rem 0 1rem;
+  line-height: 1.2;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+
+/* ----- Links ----- */
+a { color: var(--color-accent); text-decoration: none; }
+a:hover, a:focus { text-decoration: underline; }
+
+
+/* Article previews on the homepage */
+.preview + .preview { margin-top: 2rem; }
+.preview h2 { margin: 0 0 0.5rem; }
+.read-more { display: inline-block; margin-top: 0.5rem; }
+
+/* ----- Code Block Styling ----- */
+pre {
+  background: var(--color-code-bg);
+  color: var(--color-code-text);
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+code {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+}
+
+/* ----- Footer ----- */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 0.875rem;
+  border-top: 1px solid #ddd;
+  margin-top: 2rem;
+}
+
+/* ----- Responsiveness ----- */
+@media (min-width: 768px) {
+  body { padding: 0 2rem; }
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 1.75rem; }
+}
+
+
+.test a:hover{
+  color: #fafaf9;
+  background-color: var(--color-accent) !important;
+}
+
+
+/* ----- Structural Layout ----- */
+main, footer { max-width: var(--max-width); margin: 0 auto; }
+
+@media (min-width: 1280px) {
+  :root { --max-width: 70ch; }
+}
+
