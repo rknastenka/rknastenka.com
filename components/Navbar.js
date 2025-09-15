@@ -32,7 +32,7 @@ export default function Navbar() {
           <div className="flex items-center gap-4 sm:gap-6">
             {/* Avatar */}
             <img
-              src="/me.jpg"
+              src="/pic2.jpg"
               alt="Avatar"
               width={70}
               height={70}
