@@ -5,7 +5,7 @@ export default function Home() {
 
                 <p>
                     <strong>
-                        Hey stalker, welcome to my blog. Here you'll see a bunch of unscripted perceptions of mine,
+                        Hey, welcome to my blog. Here you'll see a bunch of unscripted perceptions of mine,
                         i mostly post my thoughts and notions about different random topics
                         as i'm free as my thoughts allow me to be. get your cup of tea and enjoy reading
                         dear passenger.
