@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/.github/workflows/deploy.yml">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/.github/workflows/deploy.yml" />
+              <option name="updatedContent" value="name: Deploy to GitHub Pages&#10;&#10;on:&#10;  push:&#10;    branches: [ main ]&#10;  pull_request:&#10;    branches: [ main ]&#10;&#10;jobs:&#10;  build-and-deploy:&#10;    runs-on: ubuntu-latest&#10;    &#10;    permissions:&#10;      contents: read&#10;      pages: write&#10;      id-token: write&#10;&#10;    steps:&#10;    - name: Checkout&#10;      uses: actions/checkout@v4&#10;&#10;    - name: Setup Node.js&#10;      uses: actions/setup-node@v4&#10;      with:&#10;        node-version: '18'&#10;        cache: 'npm'&#10;&#10;    - name: Install dependencies&#10;      run: npm ci&#10;&#10;    - name: Build&#10;      run: npm run build&#10;&#10;    - name: Setup Pages&#10;      uses: actions/configure-pages@v4&#10;&#10;    - name: Upload artifact&#10;      uses: actions/upload-pages-artifact@v3&#10;      with:&#10;        path: './out'&#10;&#10;    - name: Deploy to GitHub Pages&#10;      id: deployment&#10;      uses: actions/deploy-pages@v4" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/next.config.mjs">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/next.config.mjs" />
+              <option name="originalContent" value="/** @type {import('next').NextConfig} */&#10;const nextConfig = {};&#10;&#10;export default nextConfig;&#10;" />
+              <option name="updatedContent" value="/** @type {import('next').NextConfig} */&#10;const nextConfig = {&#10;  output: 'export',&#10;  trailingSlash: true,&#10;  images: {&#10;    unoptimized: true&#10;  },&#10;  // Since this is a user GitHub Pages site (itzbana.github.io), no basePath needed&#10;  // If this were a project site, you'd need: basePath: '/repository-name'&#10;};&#10;&#10;export default nextConfig;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/package.json">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/package.json" />
+              <option name="originalContent" value="{&#10;  &quot;name&quot;: &quot;banatawalbeh&quot;,&#10;  &quot;version&quot;: &quot;0.1.0&quot;,&#10;  &quot;private&quot;: true,&#10;  &quot;scripts&quot;: {&#10;    &quot;dev&quot;: &quot;next dev --turbopack&quot;,&#10;    &quot;build&quot;: &quot;next build --turbopack&quot;,&#10;    &quot;start&quot;: &quot;next start&quot;,&#10;    &quot;lint&quot;: &quot;eslint&quot;&#10;  },&#10;  &quot;dependencies&quot;: {&#10;    &quot;react&quot;: &quot;19.1.0&quot;,&#10;    &quot;react-dom&quot;: &quot;19.1.0&quot;,&#10;    &quot;next&quot;: &quot;15.5.3&quot;&#10;  },&#10;  &quot;devDependencies&quot;: {&#10;    &quot;@tailwindcss/postcss&quot;: &quot;^4&quot;,&#10;    &quot;tailwindcss&quot;: &quot;^4&quot;,&#10;    &quot;eslint&quot;: &quot;^9&quot;,&#10;    &quot;eslint-config-next&quot;: &quot;15.5.3&quot;,&#10;    &quot;@eslint/eslintrc&quot;: &quot;^3&quot;&#10;  }&#10;}&#10;" />
+              <option name="updatedContent" value="{&#10;  &quot;name&quot;: &quot;banatawalbeh&quot;,&#10;  &quot;version&quot;: &quot;0.1.0&quot;,&#10;  &quot;private&quot;: true,&#10;  &quot;scripts&quot;: {&#10;    &quot;dev&quot;: &quot;next dev --turbopack&quot;,&#10;    &quot;build&quot;: &quot;next build&quot;,&#10;    &quot;start&quot;: &quot;next start&quot;,&#10;    &quot;lint&quot;: &quot;eslint&quot;,&#10;    &quot;export&quot;: &quot;next build &amp;&amp; next export&quot;&#10;  },&#10;  &quot;dependencies&quot;: {&#10;    &quot;next&quot;: &quot;15.5.3&quot;,&#10;    &quot;react&quot;: &quot;19.1.0&quot;,&#10;    &quot;react-dom&quot;: &quot;19.1.0&quot;&#10;  },&#10;  &quot;devDependencies&quot;: {&#10;    &quot;@eslint/eslintrc&quot;: &quot;^3&quot;,&#10;    &quot;eslint&quot;: &quot;^9&quot;,&#10;    &quot;eslint-config-next&quot;: &quot;15.5.3&quot;,&#10;    &quot;@tailwindcss/postcss&quot;: &quot;^4&quot;,&#10;    &quot;tailwindcss&quot;: &quot;^4&quot;&#10;  }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
