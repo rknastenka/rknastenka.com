@@ -2,12 +2,12 @@
   "name": "banatawalbeh",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "export": "next build && next export"
+    "lint": "eslint"
   },
   "dependencies": {
     "next": "15.5.3",
@@ -16,9 +16,10 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.3",
-    "@tailwindcss/postcss": "^4",
+    "eslint-plugin-react-refresh": "^0.4.20",
     "tailwindcss": "^4"
   }
 }
