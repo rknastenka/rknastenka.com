@@ -5,9 +5,12 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
+  // Ensure static export works properly
+  experimental: {
+    missingSuspenseWithCSRBailout: false,
+  },
   // Custom domain configuration
   assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
-  // No basePath needed for custom domain
 };
 
 export default nextConfig;

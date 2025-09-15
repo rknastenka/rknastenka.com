@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/.github/workflows/deploy.yml">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/.github/workflows/deploy.yml" />
+              <option name="originalContent" value="name: Deploy to GitHub Pages&#10;&#10;on:&#10;  push:&#10;    branches: [ main ]&#10;  pull_request:&#10;    branches: [ main ]&#10;&#10;jobs:&#10;  build-and-deploy:&#10;    runs-on: ubuntu-latest&#10;&#10;    permissions:&#10;      contents: read&#10;      pages: write&#10;      id-token: write&#10;&#10;    steps:&#10;    - name: Checkout&#10;      uses: actions/checkout@v4&#10;&#10;    - name: Setup Node.js&#10;      uses: actions/setup-node@v4&#10;      with:&#10;        node-version: '18'&#10;        cache: 'npm'&#10;&#10;    - name: Install dependencies&#10;      run: npm ci&#10;&#10;    - name: Build&#10;      run: npm run build&#10;&#10;    - name: Setup Pages&#10;      uses: actions/configure-pages@v4&#10;&#10;    - name: Upload artifact&#10;      uses: actions/upload-pages-artifact@v3&#10;      with:&#10;        path: './out'&#10;&#10;    - name: Deploy to GitHub Pages&#10;      id: deployment&#10;      uses: actions/deploy-pages@v4&#10;" />
+              <option name="updatedContent" value="name: Deploy to GitHub Pages&#13;&#10;&#13;&#10;on:&#13;&#10;  push:&#13;&#10;    branches: [ main ]&#13;&#10;  workflow_dispatch:&#13;&#10;&#13;&#10;jobs:&#13;&#10;  build-and-deploy:&#13;&#10;    runs-on: ubuntu-latest&#13;&#10;    &#13;&#10;    permissions:&#13;&#10;      contents: read&#13;&#10;      pages: write&#13;&#10;      id-token: write&#13;&#10;      &#13;&#10;    environment:&#13;&#10;      name: github-pages&#13;&#10;      url: ${{ steps.deployment.outputs.page_url }}&#13;&#10;&#13;&#10;    steps:&#13;&#10;    - name: Checkout&#13;&#10;      uses: actions/checkout@v4&#13;&#10;&#13;&#10;    - name: Setup Node.js&#13;&#10;      uses: actions/setup-node@v4&#13;&#10;      with:&#13;&#10;        node-version: '18'&#13;&#10;        cache: 'npm'&#13;&#10;&#13;&#10;    - name: Install dependencies&#13;&#10;      run: npm ci&#13;&#10;&#13;&#10;    - name: Build&#13;&#10;      run: npm run build&#13;&#10;&#13;&#10;    - name: List build output&#13;&#10;      run: ls -la out/&#13;&#10;&#13;&#10;    - name: Setup Pages&#13;&#10;      uses: actions/configure-pages@v4&#13;&#10;&#13;&#10;    - name: Upload artifact&#13;&#10;      uses: actions/upload-pages-artifact@v4&#13;&#10;      with:&#13;&#10;        path: './out'&#13;&#10;&#13;&#10;    - name: Deploy to GitHub Pages&#13;&#10;      id: deployment&#13;&#10;      uses: actions/deploy-pages@v4" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/next.config.mjs">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/next.config.mjs" />
+              <option name="originalContent" value="/** @type {import('next').NextConfig} */&#10;const nextConfig = {&#10;  output: 'export',&#10;  trailingSlash: true,&#10;  images: {&#10;    unoptimized: true&#10;  },&#10;  // Custom domain configuration&#10;  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',&#10;  // No basePath needed for custom domain&#10;};&#10;&#10;export default nextConfig;&#10;" />
+              <option name="updatedContent" value="/** @type {import('next').NextConfig} */&#10;const nextConfig = {&#10;  output: 'export',&#10;  trailingSlash: true,&#10;  images: {&#10;    unoptimized: true&#10;  },&#10;  // Ensure static export works properly&#10;  experimental: {&#10;    missingSuspenseWithCSRBailout: false,&#10;  },&#10;  // Custom domain configuration&#10;  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',&#10;};&#10;&#10;export default nextConfig;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
