@@ -1,17 +1,36 @@
 @import "tailwindcss";
 
 :root {
+  /* Light theme variables (default) */
   --background: #ffffff;
   --foreground: #171717;
+  --textColor: #1f1d1d;
+  --aColor: rgb(1, 98, 196);
 
-    /* Fonts */
+  /* Fonts */
   --font-headings: "Lora", serif;
   --font-body: "Fira Code", monospace;
-
-  --textColor: #1f1d1d;
-
-  --aColor: rgb(1, 98, 196);
 }
+
+/* Dark theme variables when .dark class is present */
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --textColor: #ededed;
+  --aColor: rgb(96, 165, 250);
+}
+
+/* Force light theme when .light class is present (overrides browser dark mode) */
+.light {
+  --background: #ffffff !important;
+  --foreground: #171717 !important;
+  --textColor: #1f1d1d !important;
+  --aColor: rgb(1, 98, 196) !important;
+  color-scheme: light !important;
+}
+
+/* Remove the media query that was causing conflicts */
+/* @media (prefers-color-scheme: dark) is removed */
 
 .font-headings {
   font-family: var(--font-headings);
@@ -24,17 +43,23 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family:var(--font-body);
+  font-family: var(--font-body);
+  /* Force the color scheme to respect our theme choice */
+  color-scheme: light dark;
+}
+
+/* Force styles when in light mode to override browser dark mode */
+.light body {
+  background: var(--background) !important;
+  color: var(--foreground) !important;
+  color-scheme: light !important;
+}
+
+.dark body {
+  color-scheme: dark !important;
 }
 
 a {
@@ -45,30 +70,5 @@ a {
 
 a:hover {
   color: var(--aColor);
-
   text-decoration: underline;
 }
-
-
-a {
-    color: #363333;
-}
-
-
-@media (prefers-color-scheme: dark) {
-       a {
-          color: #a8a8a8;
-      }
-}
-
-
-
-/* Force dark when html has class="dark" (overrides system preference) */
-.dark:root {
-  --background: #0f0f0f;
-  --foreground: #ededed;
-}
-
-.dark a {
-          color: #a8a8a8;
-      }

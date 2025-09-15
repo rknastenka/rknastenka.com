@@ -13,16 +13,36 @@ export default function Navbar() {
     const saved = localStorage.getItem('theme');
   // Default to dark when no saved preference
   const shouldDark = saved ? saved === 'dark' : true;
-    root.classList.toggle('dark', shouldDark);
+
+    // Remove all theme classes first
+    root.classList.remove('dark', 'light');
+
+    // Add the appropriate class
+    if (shouldDark) {
+      root.classList.add('dark');
+    } else {
+      root.classList.add('light');
+    }
+
     setIsDark(shouldDark);
   }, []);
 
   const toggleTheme = () => {
     const root = document.documentElement;
-    const next = !root.classList.contains('dark');
-    root.classList.toggle('dark', next);
-    localStorage.setItem('theme', next ? 'dark' : 'light');
-    setIsDark(next);
+    const newIsDark = !isDark;
+
+    // Remove all theme classes first
+    root.classList.remove('dark', 'light');
+
+    // Add the appropriate class with !important styles to override browser forcing
+    if (newIsDark) {
+      root.classList.add('dark');
+    } else {
+      root.classList.add('light');
+    }
+
+    localStorage.setItem('theme', newIsDark ? 'dark' : 'light');
+    setIsDark(newIsDark);
   };
   return (
     <header className="w-full backdrop-blur-sm">
