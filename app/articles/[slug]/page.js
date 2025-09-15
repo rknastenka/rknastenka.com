@@ -5,8 +5,9 @@ export async function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
 }
 
-export function generateMetadata({ params }) {
-  const article = articles.find((a) => a.slug === params.slug);
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const article = articles.find((a) => a.slug === slug);
   if (!article) return { title: 'Article' };
   const fallback = Array.isArray(article.content) && article.content[0]
     ? article.content[0].slice(0, 160)
@@ -14,8 +15,9 @@ export function generateMetadata({ params }) {
   return { title: article.title, description: article.summary || fallback };
 }
 
-export default function ArticlePage({ params }) {
-  const article = articles.find((a) => a.slug === params.slug);
+export default async function ArticlePage({ params }) {
+  const { slug } = await params;
+  const article = articles.find((a) => a.slug === slug);
   if (!article) return notFound();
 
   return (

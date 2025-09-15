@@ -1,48 +1,92 @@
 export const articles = [
   {
-    slug: 'intro-to-the-unknown',
-    title: 'Intro to the Unknown in a amazing Life Time',
+    slug: 'how-I-delight-in-serene-melancholy',
+    title: 'how I delight in serene melancholy',
     date: '2025-09-15',
     summary: 'Thoughts on embracing uncertainty and moving forward.',
     content: [
-      'Originality does not mean being first. It means being yourself and taking action.',
-      'The unknown can be intimidating, but it is also where growth lives. Start small, ship fast, iterate.',
+      'life is simple and full of happiness and welfare. If by any chance it seemed\n' +
+      'the opposite, trust me, there\'s only and only one reason for which life could seem miserable, which is\n' +
+      'obviously other people. We were born to build, to connect, to grow together hand in hand, but most of us\n' +
+      'got distracted by what society fooled them into. We make life miserable for one another; the only\n' +
+      'reason why we aren\'t all happy today is caused by another human, I wouldn\'t say I despise humans (I do)\n' +
+      'but I\'d say most of the walking souls nowadays are merely retarded. But that\'s not what this topic is\n' +
+      'about, anyway\n' +
+      'we\'re here to talk about making your own happiness. As I mentioned earlier, life is full of joy and\n' +
+      'welfare,\n' +
+      'we just have to look for it. If not, you\'ll live in misery for the rest of your life. With the same two\n' +
+      'eyes\n' +
+      'I can see how life is fucked, and I can also see how beautiful it is. How I delight in serene melancholy\n' +
+      'means the joy I zip out of the messed up world.',
     ],
   },
   {
-    slug: 'hello-article-2',
-    title: 'hello article 2',
+    slug: 'will-i-ever-reach-there',
+    title: 'Will I Ever Reach There?',
     date: '2025-09-15',
-    summary: 'A short follow-up note.',
+    summary: 'Thoughts on embracing uncertainty and moving forward.',
     content: [
-      'Just showing up is half the work. Keep the momentum and let the work teach you.',
+      '                i\'ve admired smart people, people who have done things, people who revolutised their fields, some are\n' +
+      '                well known\n' +
+      '                some aren\'t, but they all in one way or another contributed to the current life we\'ve living right now.\n' +
+      '                people who reached that are people who are willing to spend an unrealstic amount of time doing such\n' +
+      '                thing or things.\n' +
+      '                i have this amazing friend that keeps reminding me of this -your hardwwok will pay off, if not today\n' +
+      '                then tomorroww, at the end\n' +
+      '                it\'ll get you somewhere, not today maybe not tmrw as well but make sure that nothing goes for a waste.\n' +
+      '                keep grinding to get what\n' +
+      '                you\'ve always dreamt of dear...',
     ],
   },
   {
-    slug: 'stoic-morning',
-    title: 'stoic morning',
+    slug: 'you-must-be-defined-as-something',
+    title: 'in a world where you wanna be everything, you must be defined as something',
     date: '2025-09-15',
-    summary: 'Quiet rituals and deliberate focus.',
+    summary: 'Thoughts on embracing uncertainty and moving forward.',
     content: [
-      'Choose what is in your control, release the rest. A calm morning sets the tone for the day.',
+      '                since the very first breath of maturity i took, i\'ve wanted to ace everything, to be everything\n' +
+      '                ,to know everything, and everyone. i was forever occupied with my own thoughts,\n' +
+      '                with the palace of dreams i kept myself in. then i got that reality check that i must choose a path\n' +
+      '                it\'s sad, ain\'t it. but it\'s reality one self must consent. i knew that for a fact and still refused to\n' +
+      '                obey\n' +
+      '                i know i might be wrong, it\'s a huge risk but i ain\'t letting myself in this herd. one argument ; which\n' +
+      '                totally\n' +
+      '                does make sense, says that companies and job market needs ppl whom are really good at one thing. it is\n' +
+      '                so true\n' +
+      '                but why should i oblige. one such self is me and me is refusing to obey to such nonsense.\n' +
+      '                i\'m not considering myself a polymath, but i may at some point be.\n' +
+      '                for a human to be defined, one human has a one name, such and such each has a one x, no matter how many\n' +
+      '                things\n' +
+      '                you\'re actually good at, they\'re mostly all round about the same topic,\n' +
+      '                for a long time in my life i thought i must be something. but do i...',
     ],
   },
   {
-    slug: 'attacking-the-blank-page',
-    title: 'attacking the blank page',
+    slug: 'the-human-mankind-cycle',
+    title: 'The Human Mankind cycle',
     date: '2025-09-15',
     summary: 'Tiny steps to break inertia.',
     content: [
-      'Start with one messy sentence. Momentum beats perfection; clarity follows action.',
+      'We spend our lives chasing answers. One puzzle solved slips into the next, and along the way we collect\n' +
+      '                obsessions; porn, cigarettes, social media, whatever dulls the ache for a minute. We gorge on\n' +
+      '                information until the craving loses its grip, then we move on, convinced the next fix will finally\n' +
+      '                silence the questions.\n' +
+      '                We have been asking since childhood: Why is the sky blue? Why is “Dad” spelled D‑A‑D? Soon the questions\n' +
+      '                aim at our friends, our lovers, the manager who frowns behind the desk, the stranger brushing past on\n' +
+      '                the street. The interrogation never stops. We turn it on ourselves; our worth, our beauty, our\n' +
+      '                God—looking for someone or something to shoulder the blame.\n' +
+      '                And sometimes the weight feels lethal. One hardship too many and the mind whispers it would be easier to\n' +
+      '                quit the whole experiment. Most of us have stood near that edge. Yet the very restlessness that drags us\n' +
+      '                there also keeps us alive: the stubborn, infuriating need to know why, and what comes next.',
     ],
   },
   {
-    slug: 'bits-of-dopamine',
-    title: 'bits of dopamine',
+    slug: 'you-just-need-a-reason',
+    title: 'you\'re not lazy, you just need a reason.',
     date: '2025-09-15',
     summary: 'Managing rewards to keep focus.',
     content: [
-      'Design your loops: task, reward, reset. Keep the dose small and the work meaningful.',
+      'updates soon...',
     ],
   },
 ];
