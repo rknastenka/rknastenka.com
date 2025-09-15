@@ -5,8 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  // Since this is a user GitHub Pages site (itzbana.github.io), no basePath needed
-  // If this were a project site, you'd need: basePath: '/repository-name'
+  // Custom domain configuration
+  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
+  // No basePath needed for custom domain
 };
 
 export default nextConfig;

@@ -11,6 +11,14 @@
             </PendingDiffInfo>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/projects/project1/page.js">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/app/projects/project1/page.js" />
+              <option name="updatedContent" value="export default function Project1() {&#10;  return (&#10;    &lt;div className=&quot;container mx-auto px-4 py-8&quot;&gt;&#10;      &lt;h1 className=&quot;text-3xl font-bold mb-4&quot;&gt;Project 1&lt;/h1&gt;&#10;      &lt;p className=&quot;text-gray-600&quot;&gt;&#10;        This is a placeholder for Project 1. Add your project details here.&#10;      &lt;/p&gt;&#10;    &lt;/div&gt;&#10;  );&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/next.config.mjs">
           <value>
             <PendingDiffInfo>
@@ -24,8 +32,8 @@
           <value>
             <PendingDiffInfo>
               <option name="filePath" value="$PROJECT_DIR$/package.json" />
-              <option name="originalContent" value="{&#10;  &quot;name&quot;: &quot;banatawalbeh&quot;,&#10;  &quot;version&quot;: &quot;0.1.0&quot;,&#10;  &quot;private&quot;: true,&#10;  &quot;scripts&quot;: {&#10;    &quot;dev&quot;: &quot;next dev --turbopack&quot;,&#10;    &quot;build&quot;: &quot;next build --turbopack&quot;,&#10;    &quot;start&quot;: &quot;next start&quot;,&#10;    &quot;lint&quot;: &quot;eslint&quot;&#10;  },&#10;  &quot;dependencies&quot;: {&#10;    &quot;react&quot;: &quot;19.1.0&quot;,&#10;    &quot;react-dom&quot;: &quot;19.1.0&quot;,&#10;    &quot;next&quot;: &quot;15.5.3&quot;&#10;  },&#10;  &quot;devDependencies&quot;: {&#10;    &quot;@tailwindcss/postcss&quot;: &quot;^4&quot;,&#10;    &quot;tailwindcss&quot;: &quot;^4&quot;,&#10;    &quot;eslint&quot;: &quot;^9&quot;,&#10;    &quot;eslint-config-next&quot;: &quot;15.5.3&quot;,&#10;    &quot;@eslint/eslintrc&quot;: &quot;^3&quot;&#10;  }&#10;}&#10;" />
-              <option name="updatedContent" value="{&#10;  &quot;name&quot;: &quot;banatawalbeh&quot;,&#10;  &quot;version&quot;: &quot;0.1.0&quot;,&#10;  &quot;private&quot;: true,&#10;  &quot;scripts&quot;: {&#10;    &quot;dev&quot;: &quot;next dev --turbopack&quot;,&#10;    &quot;build&quot;: &quot;next build&quot;,&#10;    &quot;start&quot;: &quot;next start&quot;,&#10;    &quot;lint&quot;: &quot;eslint&quot;,&#10;    &quot;export&quot;: &quot;next build &amp;&amp; next export&quot;&#10;  },&#10;  &quot;dependencies&quot;: {&#10;    &quot;next&quot;: &quot;15.5.3&quot;,&#10;    &quot;react&quot;: &quot;19.1.0&quot;,&#10;    &quot;react-dom&quot;: &quot;19.1.0&quot;&#10;  },&#10;  &quot;devDependencies&quot;: {&#10;    &quot;@eslint/eslintrc&quot;: &quot;^3&quot;,&#10;    &quot;eslint&quot;: &quot;^9&quot;,&#10;    &quot;eslint-config-next&quot;: &quot;15.5.3&quot;,&#10;    &quot;@tailwindcss/postcss&quot;: &quot;^4&quot;,&#10;    &quot;tailwindcss&quot;: &quot;^4&quot;&#10;  }&#10;}" />
+              <option name="originalContent" value="{&#10;  &quot;name&quot;: &quot;banatawalbeh&quot;,&#10;  &quot;version&quot;: &quot;0.1.0&quot;,&#10;  &quot;private&quot;: true,&#10;  &quot;scripts&quot;: {&#10;    &quot;dev&quot;: &quot;next dev --turbopack&quot;,&#10;    &quot;build&quot;: &quot;next build --turbopack&quot;,&#10;    &quot;start&quot;: &quot;next start&quot;,&#10;    &quot;lint&quot;: &quot;eslint&quot;&#10;  },&#10;  &quot;dependencies&quot;: {&#10;    &quot;react&quot;: &quot;19.1.0&quot;,&#10;    &quot;react-dom&quot;: &quot;19.1.0&quot;,&#10;    &quot;next&quot;: &quot;15.5.3&quot;&#10;  },&#10;  &quot;devDependencies&quot;: {&#10;    &quot;@tailwindcss/postcss&quot;: &quot;^4&quot;,&#10;    &quot;tailwindcss&quot;: &quot;^4&quot;,&#10;    &quot;@tailwindcss/postcss&quot;: &quot;^4&quot;,&#10;    &quot;eslint&quot;: &quot;^9&quot;,&#10;    &quot;@eslint/eslintrc&quot;: &quot;^3&quot;&#10;    &quot;tailwindcss&quot;: &quot;^4&quot;&#10;  }&#10;}&#10;" />
+              <option name="updatedContent" value="{&#10;  &quot;name&quot;: &quot;banatawalbeh&quot;,&#10;  &quot;version&quot;: &quot;0.1.0&quot;,&#10;  &quot;private&quot;: true,&#10;  &quot;type&quot;: &quot;module&quot;,&#10;  &quot;scripts&quot;: {&#10;    &quot;dev&quot;: &quot;next dev --turbopack&quot;,&#10;    &quot;build&quot;: &quot;next build&quot;,&#10;    &quot;start&quot;: &quot;next start&quot;,&#10;    &quot;lint&quot;: &quot;eslint&quot;&#10;  },&#10;  &quot;dependencies&quot;: {&#10;    &quot;next&quot;: &quot;15.5.3&quot;,&#10;    &quot;react&quot;: &quot;19.1.0&quot;,&#10;    &quot;react-dom&quot;: &quot;19.1.0&quot;&#10;  },&#10;  &quot;devDependencies&quot;: {&#10;    &quot;@eslint/eslintrc&quot;: &quot;^3&quot;,&#10;    &quot;@tailwindcss/postcss&quot;: &quot;^4&quot;,&#10;    &quot;eslint&quot;: &quot;^9&quot;,&#10;    &quot;eslint-config-next&quot;: &quot;15.5.3&quot;,&#10;    &quot;eslint-plugin-react-refresh&quot;: &quot;^0.4.20&quot;,&#10;    &quot;tailwindcss&quot;: &quot;^4&quot;&#10;  }&#10;}" />
             </PendingDiffInfo>
           </value>
         </entry>
