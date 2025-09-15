@@ -1,10 +1,11 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [isDark, setIsDark] = useState(false);
+  const pathname = usePathname();
 
   // Initialize theme from localStorage or system preference
   useEffect(() => {
@@ -74,16 +75,15 @@ export default function Navbar() {
             <Link href="#" target="_blank" >Resume</Link>
             </nav>
 
-
             </div>
             
           </div>
 
           {/* Right: Links */}
           <nav className="flex flex-col gap-1 text-xs sm:text-sm leading-none">
-                <Link href="/" >[About]</Link>
-                <Link href="/projects" >[Projects]</Link>
-                <Link href="/articles" >[Articles]</Link>
+                <Link href="/" className={pathname === "/" ? "font-bold" : ""}>[About]</Link>
+                <Link href="/projects" className={pathname === "/projects" ? "font-bold" : ""}>[Projects]</Link>
+                <Link href="/articles" className={pathname === "/articles" ? "font-bold" : ""}>[Articles]</Link>
                 <Link href="#" >[Links]</Link>
           </nav>
 

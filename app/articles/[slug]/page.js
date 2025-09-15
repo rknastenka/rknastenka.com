@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import Link from 'next/link';
 import { articles } from '../data';
 
 export async function generateStaticParams() {
@@ -21,15 +22,24 @@ export default async function ArticlePage({ params }) {
   if (!article) return notFound();
 
   return (
-    <article className="prose prose-neutral dark:prose-invert max-w-none">
-      <h1 className="text-[clamp(1.6rem,5vw,2.25rem)] font-extrabold !text-[var(--aColor)] mb-2">
-        {article.title}
-      </h1>
-      <div className="text-gray-500 text-sm mb-6">{article.date}</div>
+    <>
+      <Link
+        href="/articles"
+        className="inline-block text-sm text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 mb-2 transition-colors"
+      >
+        ← Back
+      </Link>
 
-      {article.content?.map((p, i) => (
-        <p key={i}>{p}</p>
-      ))}
-    </article>
+      <article className="prose prose-neutral dark:prose-invert max-w-none">
+        <h1 className="text-[clamp(1.6rem,5vw,2.25rem)] font-extrabold !text-[var(--aColor)] mb-2">
+          {article.title}
+        </h1>
+        <div className="text-gray-500 text-sm mb-6">{article.date}</div>
+
+        {article.content?.map((p, i) => (
+          <p key={i}>{p}</p>
+        ))}
+      </article>
+    </>
   );
 }
