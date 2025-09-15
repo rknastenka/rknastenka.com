@@ -20,6 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en" className="dark">
+            
         <body className={`flex min-h-screen flex-col ${geistSans.variable} ${geistMono.variable} antialiased`}>
 
         {/* Shows everywhere EXCEPT paths that match HIDE_NAVBAR */}
