@@ -70,7 +70,7 @@ export default function Navbar() {
               
             {/* Navigation under name */}
             <nav className="flex items-center gap-2 sm:gap-3 text-xs leading-none font-bold">
-            <Link href="https://github.com/itzbana" target="_blank" >GitHub</Link>
+            <Link href="https://github.com/rknastenka" target="_blank" >GitHub</Link>
             <Link href="mailto:banabilalt@gmail.com" >Email</Link>
             <Link href="#" target="_blank" >Resume</Link>
             </nav>
@@ -93,10 +93,3 @@ export default function Navbar() {
   );
 }
 
-/*
-  Notes:
-  - Place your 72×72 avatar image at /public/avatar.png (or change the src).
-  - The serif heading mimics the screenshot's typographic weight; adjust Tailwind font families
-    in tailwind.config.js if you want a specific font.
-  - Links, spacing, and subtle borders are tuned to match the reference look.
-*/

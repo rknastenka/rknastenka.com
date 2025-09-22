@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-    title: " ⌈ ini ⌉",
-    description: "Bana Tawalbeh's personal website",
+    title: "Nastenka",
+    description: "Nastenka's personal blog",
 };
 
 export default function RootLayout({ children }) {
