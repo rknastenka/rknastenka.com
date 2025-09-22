@@ -19,6 +19,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
     title: "Nastenka",
     description: "Nastenka's personal blog",
+        icons: {
+        icon: '/icon2.jpg',
+    },
 };
 
 export default function RootLayout({ children }) {
