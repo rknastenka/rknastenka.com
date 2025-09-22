@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavbarGate from "@/components/NavbarGate";
 import Script from 'next/script';
+import SideVideos from "@/components/SideVideos";
 
 import Footer from "@/components/Footer";
 import ConditionalFooter from "@/components/ConditionalFooter";
@@ -44,16 +45,18 @@ export default function RootLayout({ children }) {
             </head>
 
             <body className={`flex min-h-screen flex-col ${geistSans.variable} ${geistMono.variable} antialiased`}>
-                {/* Shows everywhere EXCEPT paths that match HIDE_NAVBAR */}
+              
                 <NavbarGate />
 
-                <main className="max-w-2xl mx-auto lg:w-full flex-grow px-6 sm:px-0 lg:px-0 py-8 ">
+                {/* Side Videos - Hidden until hovered */}
+                <SideVideos side="left" />
+                <SideVideos side="right" />
+
+                <main className="max-w-2xl mx-auto lg:w-full flex-grow px-6 sm:px-0 lg:px-0 py-8 relative z-10">
                     {children}
 
                     {/* <ConditionalFooter /> */}
                 </main>
-
-                
 
             </body>
         </html>
