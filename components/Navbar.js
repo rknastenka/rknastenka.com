@@ -5,6 +5,8 @@ import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [isDark, setIsDark] = useState(false);
+  const [randomPfp, setRandomPfp] = useState('');
+  const [isHydrated, setIsHydrated] = useState(false);
   const pathname = usePathname();
 
   // Initialize theme from localStorage or system preference
@@ -26,6 +28,13 @@ export default function Navbar() {
     }
 
     setIsDark(shouldDark);
+  }, []);
+
+  // Set random profile picture after hydration
+  useEffect(() => {
+    setIsHydrated(true);
+    const randomNum = Math.floor(Math.random() * 14) + 1;
+    setRandomPfp(`/pfp/${randomNum}.jpg`);
   }, []);
 
   const toggleTheme = () => {
@@ -52,15 +61,17 @@ export default function Navbar() {
           {/* Left: avatar + name + nav */}
           <div className="flex items-center gap-4 sm:gap-6">
             {/* Avatar */}
-            <img
-              src="/pic2.jpg"
-              alt="Avatar"
-              width={70}
-              height={70}
-              title={isDark ? 'Switch to light' : 'Switch to dark'}
-              onClick={toggleTheme}
-              className="border  h-14 w-14 sm:h-16 sm:w-16 lg:h-18 lg:w-18 object-cover cursor-pointer select-none transition-opacity hover:opacity-90 focus:opacity-90 outline-none"
-            />
+            {isHydrated && (
+              <img
+                src={randomPfp}
+                alt="Avatar"
+                width={70}
+                height={70}
+                title={isDark ? 'Switch to light' : 'Switch to dark'}
+                onClick={toggleTheme}
+                className="border  h-14 w-14 sm:h-16 sm:w-16 lg:h-18 lg:w-18 object-cover cursor-pointer select-none transition-opacity hover:opacity-90 focus:opacity-90 outline-none"
+              />
+            )}
 
             <div className="flex flex-col justify-between h-12 sm:h-14">
               {/* Name */}
