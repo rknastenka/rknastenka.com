@@ -3,6 +3,9 @@ import "./globals.css";
 import NavbarGate from "@/components/NavbarGate";
 import Script from 'next/script';
 
+import Footer from "@/components/Footer";
+import ConditionalFooter from "@/components/ConditionalFooter";
+
 const geistSans = Geist({
     variable: "--font-geist-sans",
     subsets: ["latin"],
@@ -41,9 +44,14 @@ export default function RootLayout({ children }) {
                 {/* Shows everywhere EXCEPT paths that match HIDE_NAVBAR */}
                 <NavbarGate />
 
-                <main className="max-w-2xl mx-auto lg:w-full flex-grow  px-6 sm:px-0 lg:px-0 py-8 ">
+                <main className="max-w-2xl mx-auto lg:w-full flex-grow px-6 sm:px-0 lg:px-0 py-8 ">
                     {children}
+
+                    {/* <ConditionalFooter /> */}
                 </main>
+
+                
+
             </body>
         </html>
     );

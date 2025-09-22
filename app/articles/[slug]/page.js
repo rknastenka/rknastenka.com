@@ -34,7 +34,7 @@ export default async function ArticlePage({ params }) {
         <h1 className="text-[clamp(1.6rem,5vw,2.25rem)] font-extrabold !text-[var(--aColor)] mb-2">
           {article.title}
         </h1>
-        <div className="text-gray-500 text-sm mb-6">{article.date}</div>
+        <div className="text-gray-500 text-sm mb-6">{article.date} · By Bana Tawalbeh</div>
 
         {article.content?.map((p, i) => (
           <p key={i}>{p}</p>

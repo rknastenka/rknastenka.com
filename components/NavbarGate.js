@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 // Any path that should HIDE the navbar.
 // Supports exact paths and whole subtrees via RegExp.
 const HIDE_NAVBAR = [
-    /^\/dashboard\/project1(?:\/.*)?$/, // hide on /dashboard/project1 and everything under it
+    /^\/articles\/.+$/, // hide on everything under articles but not articles
     // add more patterns here if needed
 ];
 
