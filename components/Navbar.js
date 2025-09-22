@@ -33,7 +33,7 @@ export default function Navbar() {
   // Set random profile picture after hydration
   useEffect(() => {
     setIsHydrated(true);
-    const randomNum = Math.floor(Math.random() * 17) + 1;
+    const randomNum = Math.floor(Math.random() * 22) + 1;
     setRandomPfp(`/pfp/${randomNum}.jpg`);
   }, []);
 
@@ -84,7 +84,7 @@ export default function Navbar() {
             <nav className="flex items-center gap-2 sm:gap-3 text-xs leading-none font-bold ">
             <Link href="https://github.com/rknastenka" target="_blank" >GitHub</Link>
             <Link href="mailto:banabilalt@gmail.com" >Email</Link>
-            <Link href="#" target="_blank" >Resume</Link>
+            <Link href="/hello" >Resume</Link>
             </nav>
 
             </div>
