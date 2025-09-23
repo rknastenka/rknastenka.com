@@ -27,8 +27,32 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
+        <html lang="en" suppressHydrationWarning>
             <head>
+                {/* Theme script - runs immediately to prevent flash */}
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                            (function() {
+                                try {
+                                    var saved = localStorage.getItem('theme');
+                                    var shouldDark = saved ? saved === 'dark' : true;
+                                    var root = document.documentElement;
+                                    
+                                    if (shouldDark) {
+                                        root.className = root.className.replace(/\\b(light)\\b/g, '') + ' dark';
+                                    } else {
+                                        root.className = root.className.replace(/\\b(dark)\\b/g, '') + ' light';
+                                    }
+                                } catch (e) {
+                                    // Fallback to dark if localStorage is not available
+                                    document.documentElement.className += ' dark';
+                                }
+                            })();
+                        `,
+                    }}
+                />
+                
                 {/* Google Analytics */}
                 <Script
                     src="https://www.googletagmanager.com/gtag/js?id=G-KCDV4R337N"

@@ -12,21 +12,12 @@ export default function Navbar() {
   // Initialize theme from localStorage or system preference
   useEffect(() => {
     if (typeof window === 'undefined') return;
-    const root = document.documentElement;
+    
     const saved = localStorage.getItem('theme');
-  // Default to dark when no saved preference
-  const shouldDark = saved ? saved === 'dark' : true;
-
-    // Remove all theme classes first
-    root.classList.remove('dark', 'light');
-
-    // Add the appropriate class
-    if (shouldDark) {
-      root.classList.add('dark');
-    } else {
-      root.classList.add('light');
-    }
-
+    // Default to dark when no saved preference
+    const shouldDark = saved ? saved === 'dark' : true;
+    
+    // Sync the state with what was already applied in layout
     setIsDark(shouldDark);
   }, []);
 
