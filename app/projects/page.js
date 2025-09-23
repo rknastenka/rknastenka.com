@@ -50,7 +50,7 @@ export default function Projects() {
                     Make your life worth living."
                 </p>
 
-                <p style={{fontSize: '13px'}}>
+                <p className="text-xs lg:text-[13px]">
                     <b> ― Albert Einstein </b>
                 </p>
 

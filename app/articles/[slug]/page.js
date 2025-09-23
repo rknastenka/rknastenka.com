@@ -31,13 +31,13 @@ export default async function ArticlePage({ params }) {
       </Link>
 
       <article className="prose prose-neutral dark:prose-invert max-w-none">
-        <h1 className="text-[clamp(1.6rem,5vw,2.25rem)] font-extrabold !text-[var(--aColor)] mb-2">
+        <h1 className="text-[2rem] lg:text-[2rem] font-extrabold !text-[var(--aColor)] mb-2">
           {article.title}
         </h1>
         <div className="text-gray-500 text-sm mb-6">{article.date} · By Bana Tawalbeh</div>
 
         {article.content?.map((p, i) => (
-          <p key={i}>{p}</p>
+          <p className="text-sm lg:text-base" key={i}>{p}</p>
         ))}
       </article>
     </>

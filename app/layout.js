@@ -81,6 +81,7 @@ export default function RootLayout({ children }) {
 
                     <ConditionalFooter /> 
                 </main>
+                
 
             </body>
         </html>

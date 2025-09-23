@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-          <div className="text-xs lg:text-xl">
+          <div className="text-xs lg:text-[1.15rem]">
 
                 <p>
                     <strong>
@@ -44,7 +44,7 @@ export default function Home() {
                         myself in all the skills I want. And why do I want? I want to
                         live and feel all the shades, tones and variations of mental
                         and physical experience possible in my life. And I am horribly limited." </p>
-                    <p className="text-2xs lg:text-[13px] p-2">
+                    <p className="text-xs lg:text-[13px] p-2">
                         <b> — Sylvia Plath, <cite>The Unabridged Journals of Sylvia Plath</cite>
                         </b></p>
                 </div>

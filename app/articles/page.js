@@ -13,7 +13,7 @@ export default function Articles() {
         {articles.map((a) => (
           <article key={a.slug}>
             <Link
-              className="block text-[clamp(1.25rem,4vw,1.5rem)] leading-[1.1] font-extrabold !text-[var(--aColor)] mb-1"
+              className="block text-[1.2rem] lg:text-[1.5rem] leading-[1.1] font-extrabold !text-[var(--aColor)] mb-1"
               href={`/articles/${a.slug}`}
             >
               {a.title}
