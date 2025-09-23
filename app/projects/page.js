@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <>
+    <div className="text-xs lg:text-[1.1rem]">
                <p>
                 a brief explanation about my <a href="/projects">projects</a>
                 &nbsp;and the way i make them,
@@ -55,6 +55,6 @@ export default function Projects() {
                 </p>
 
             </div>
-    </>
+    </div>
   );
 }

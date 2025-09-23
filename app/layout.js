@@ -79,7 +79,7 @@ export default function RootLayout({ children }) {
                 <main className="max-w-2xl mx-auto lg:w-full flex-grow px-6 sm:px-0 lg:px-0 py-8 relative z-10">
                     {children}
 
-                    {/* <ConditionalFooter /> */}
+                    <ConditionalFooter /> 
                 </main>
 
             </body>
