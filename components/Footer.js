@@ -94,7 +94,7 @@ export default function Footer() {
                 className="text-left text-xs underline pl-6 lg:pl-0 cursor-pointer hover:text-blue-600 transition-colors" 
                 onClick={toggleMusic}
             >
-                {isPlaying ? 'good tatse right' : 'music?'}
+                {isPlaying ? 'good taste right :)' : 'music?'}
             </p>
         </footer>
     );
