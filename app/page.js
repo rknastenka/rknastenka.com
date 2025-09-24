@@ -28,6 +28,21 @@ export default function Home() {
                     i wish to perceive more about the sky and moon and what's in between.
                 </p>
 
+                
+                <br/>
+                <br/>
+
+
+        <div>
+                <h4 className="text-[1rem] lg:text-lg font-bold"> Some Quotes I like</h4>
+                <ul className="font-serif text-[0.7rem] lg:text-[1rem] list-disc list-inside mt-2 space-y-1">
+                    <li>"The only way to do great work is to love what you do."</li>
+                    <li>"In the end, we only regret the chances we didn't take."</li>
+                    <li>"if you wanna be the best, you have to work more than anyone else."</li>
+                </ul>
+        </div>
+
+
                 <br/>
                 <br/>
 
@@ -39,12 +54,16 @@ export default function Home() {
                 }}
                 >
 
-                    <p>"I can never read all the books I want; I can never be all the
+                    <p className="text-[0.7rem] lg:text-[0.9rem] ">
+                        "I can never read all the books I want; I can never be all the
                         people I want and live all the lives I want. I can never train
                         myself in all the skills I want. And why do I want? I want to
                         live and feel all the shades, tones and variations of mental
-                        and physical experience possible in my life. And I am horribly limited." </p>
-                    <p className="text-[10px] lg:text-[13px] p-2">
+                        and physical experience possible in my life. And I am horribly limited."
+                    </p>
+
+
+                    <p className="text-[10px] lg:text-[12px] p-2">
                         <b> — Sylvia Plath, <cite>The Unabridged Journals of Sylvia Plath</cite>
                         </b></p>
                 </div>
