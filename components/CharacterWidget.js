@@ -100,7 +100,7 @@ const CharacterWidget = () => {
             {/* Backdrop overlay when expanded (optional, for mobile) */}
             {isExpanded && (
                 <div 
-                    className="fixed inset-0 z-40 bg-black bg-opacity-20 md:hidden"
+                    className="fixed inset-0 z-40  bg-opacity-20 md:hidden"
                     onClick={toggleExpanded}
                 />
             )}
