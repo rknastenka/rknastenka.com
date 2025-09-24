@@ -3,6 +3,7 @@ import "./globals.css";
 import NavbarGate from "@/components/NavbarGate";
 import Script from 'next/script';
 import SideVideos from "@/components/SideVideos";
+import MobilePopup from "@/components/MobilePopup";
 
 import Footer from "@/components/Footer";
 import ConditionalFooter from "@/components/ConditionalFooter";
@@ -71,6 +72,7 @@ export default function RootLayout({ children }) {
             <body className={`flex min-h-screen flex-col ${geistSans.variable} ${geistMono.variable} antialiased`}>
               
                 <NavbarGate />
+                <MobilePopup />
 
                 
                 <SideVideos side="left" />
