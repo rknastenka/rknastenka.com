@@ -4,6 +4,7 @@ import NavbarGate from "@/components/NavbarGate";
 import Script from 'next/script';
 import SideVideos from "@/components/SideVideos";
 import MobilePopup from "@/components/MobilePopup";
+import CharacterWidget from "@/components/CharacterWidget";
 
 import Footer from "@/components/Footer";
 import ConditionalFooter from "@/components/ConditionalFooter";
@@ -72,8 +73,8 @@ export default function RootLayout({ children }) {
             <body className={`flex min-h-screen flex-col ${geistSans.variable} ${geistMono.variable} antialiased`}>
               
                 <NavbarGate />
-                <MobilePopup />
 
+                {/* <MobilePopup /> */}
                 
                 <SideVideos side="left" />
 
@@ -85,6 +86,8 @@ export default function RootLayout({ children }) {
                     <ConditionalFooter /> 
                 </main>
                 
+                {/* Character Widget */}
+                <CharacterWidget />
 
             </body>
         </html>

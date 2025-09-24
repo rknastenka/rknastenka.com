@@ -48,12 +48,11 @@ const MobilePopup = () => {
     if (!mounted || !showPopup) return null;
 
     return (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div className="fixed inset-0 bg-opacity-50 flex items-center justify-center z-50 p-4">
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg max-w-sm w-full p-6 text-center">
                 <div className="mb-4">
-                    <div className="text-4xl mb-2">💻</div>
                     <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                        Hey there!
+                        Hey there! :p
                     </h2>
                     <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                         Please open your laptop for a better experience. This website has some cool interactive features that work best on desktop!
@@ -63,15 +62,15 @@ const MobilePopup = () => {
                 <div className="flex flex-col gap-2">
                     <button
                         onClick={handleContinue}
-                        className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
+                        className="bg-white-500 hover:bg-gay-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
                     >
-                        Continue anyway
+                        i'm too lazy to switch devices
                     </button>
                     <button
                         onClick={handleDismiss}
                         className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 text-xs transition-colors"
                     >
-                        Don't show again
+                        understood!!
                     </button>
                 </div>
             </div>
