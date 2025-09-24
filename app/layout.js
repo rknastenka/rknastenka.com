@@ -72,9 +72,10 @@ export default function RootLayout({ children }) {
               
                 <NavbarGate />
 
-                {/* Side Videos - Hidden until hovered */}
+                
                 <SideVideos side="left" />
-                <SideVideos side="right" />
+
+                {/* <SideVideos side="right" /> */}
 
                 <main className="max-w-2xl mx-auto lg:w-full flex-grow px-6 sm:px-0 lg:px-0 py-8 relative z-10">
                     {children}

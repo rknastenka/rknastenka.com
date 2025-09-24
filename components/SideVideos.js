@@ -2,10 +2,10 @@
 
 import { useState, useRef, useEffect } from 'react';
 
-const SideVideos = ({ side = 'left' }) => {
+const SideVideos = ({ side = 'right' }) => {
     const videos = ['1.mp4', '2.mp4', '3.mp4', '4.mp4', '5.mp4', '6.mp4'];
     // Reverse video order for right side
-    const displayVideos = side === 'right' ? [...videos].reverse() : videos;
+    const displayVideos = side === 'left' ? [...videos].reverse() : videos;
     const [hoveredVideo, setHoveredVideo] = useState(null);
     const [mounted, setMounted] = useState(false);
     const videoRefs = useRef({});

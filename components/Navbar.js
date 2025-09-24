@@ -67,7 +67,6 @@ export default function Navbar() {
             <div className="flex flex-col justify-between h-12 sm:h-14">
               {/* Name */}
               <div className="-mb-1 text-2xl sm:text-3xl lg:text-4xl font-semibold leading-none font-headings ">
-                
                 <Link href="/" > Bana Tawalbeh </Link>
               </div>
 
