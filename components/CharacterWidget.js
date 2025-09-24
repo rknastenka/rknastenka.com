@@ -64,8 +64,8 @@ const CharacterWidget = () => {
             >
                 <div className="relative">
                     {/* Character Image */}
-                    <div className={`transition-all duration-300 ${
-                        isExpanded ? 'w-25 h-25' : 'w-15 h-15'
+                    <div className={`transition-all duration-300 opacity-80 ${
+                        isExpanded ? 'w-25 h-25' : 'w-13 h-13'
                     }`}>
                         <Image
                             src="/char.png"
@@ -92,7 +92,7 @@ const CharacterWidget = () => {
 
                     {/* Floating animation indicator when not expanded */}
                     {!isExpanded && (
-                        <div className="absolute -top-1 -right-0.5 w-2 h-2 bg-blue-500 rounded-full "></div>
+                        <div className="absolute -top-1 -right-0.5 w-1.5 h-1.5 bg-blue-500 rounded-full "></div>
                     )}
                 </div>
             </div>

@@ -1,27 +1,89 @@
 'use client';
-import { useState, useRef } from 'react';
+import { useState, useEffect } from 'react';
+
+// Global audio instance to persist across component mounts/unmounts
+let globalAudio = null;
+let globalIsPlaying = false;
+let listeners = new Set();
+
+const audioManager = {
+    getAudio() {
+        if (!globalAudio) {
+            globalAudio = new Audio('/music/Togetherless.mp3');
+            globalAudio.addEventListener('ended', () => {
+                globalIsPlaying = false;
+                this.notifyListeners();
+            });
+            globalAudio.addEventListener('pause', () => {
+                globalIsPlaying = false;
+                this.notifyListeners();
+            });
+            globalAudio.addEventListener('play', () => {
+                globalIsPlaying = true;
+                this.notifyListeners();
+            });
+        }
+        return globalAudio;
+    },
+    
+    isPlaying() {
+        return globalIsPlaying;
+    },
+    
+    play() {
+        const audio = this.getAudio();
+        return audio.play().catch(error => {
+            console.error('Error playing audio:', error);
+        });
+    },
+    
+    pause() {
+        const audio = this.getAudio();
+        audio.pause();
+    },
+    
+    toggle() {
+        if (this.isPlaying()) {
+            this.pause();
+        } else {
+            this.play();
+        }
+    },
+    
+    addListener(callback) {
+        listeners.add(callback);
+    },
+    
+    removeListener(callback) {
+        listeners.delete(callback);
+    },
+    
+    notifyListeners() {
+        listeners.forEach(callback => callback(globalIsPlaying));
+    }
+};
 
 export default function Footer() {
-    const [isPlaying, setIsPlaying] = useState(false);
-    const audioRef = useRef(null);
+    const [isPlaying, setIsPlaying] = useState(audioManager.isPlaying());
+
+    useEffect(() => {
+        // Sync with global state on mount
+        setIsPlaying(audioManager.isPlaying());
+        
+        // Listen for state changes
+        const handleStateChange = (playing) => {
+            setIsPlaying(playing);
+        };
+        
+        audioManager.addListener(handleStateChange);
+        
+        return () => {
+            audioManager.removeListener(handleStateChange);
+        };
+    }, []);
 
     const toggleMusic = () => {
-        if (!audioRef.current) {
-            audioRef.current = new Audio('/music/Togetherless.mp3');
-            audioRef.current.addEventListener('ended', () => {
-                setIsPlaying(false);
-            });
-        }
-
-        if (isPlaying) {
-            audioRef.current.pause();
-            setIsPlaying(false);
-        } else {
-            audioRef.current.play().catch(error => {
-                console.error('Error playing audio:', error);
-            });
-            setIsPlaying(true);
-        }
+        audioManager.toggle();
     };
 
     return (
