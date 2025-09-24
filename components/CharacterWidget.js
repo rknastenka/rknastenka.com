@@ -58,14 +58,14 @@ const CharacterWidget = () => {
             {/* Character Widget - Bottom Right Corner */}
             <div 
                 className={`fixed bottom-4 right-4 z-50 transition-all duration-300 cursor-pointer ${
-                    isExpanded ? 'transform scale-100' : 'hover:transform hover:scale-105'
+                    isExpanded ? 'transform scale-90' : 'hover:transform hover:scale-105'
                 }`}
                 onClick={toggleExpanded}
             >
                 <div className="relative">
                     {/* Character Image */}
                     <div className={`transition-all duration-300 ${
-                        isExpanded ? 'w-32 h-32' : 'w-20 h-20'
+                        isExpanded ? 'w-25 h-25' : 'w-15 h-15'
                     }`}>
                         <Image
                             src="/char.png"
