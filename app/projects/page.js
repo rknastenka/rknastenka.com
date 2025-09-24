@@ -50,7 +50,7 @@ export default function Projects() {
                     Make your life worth living."
                 </p>
 
-                <p className="text-xs lg:text-[13px]">
+                <p className="text-[10px] lg:text-[14px] p-2">
                     <b> ― Albert Einstein </b>
                 </p>
 
