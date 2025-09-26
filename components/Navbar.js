@@ -86,7 +86,7 @@ export default function Navbar() {
                 <Link href="/" className={`hover:text-white hover:bg-black ${pathname === "/" ? "font-bold " : ""}`}>[About]</Link>
                 <Link href="/projects" className={`hover:text-white hover:bg-black ${pathname === "/projects" ? "font-bold " : ""}`}>[Projects]</Link>
                 <Link href="/articles" className={`hover:text-white hover:bg-black ${pathname.startsWith("/articles")  ? "font-bold " : ""}`}>[Articles]</Link>
-                <Link href="/links"  className={`hover:text-white hover:bg-black ${pathname===("/links")  ? "font-bold " : ""}`}>[Links]</Link>
+                <Link href="/gallery"  className={`hover:text-white hover:bg-black ${pathname===("/gallery")  ? "font-bold " : ""}`}>[Gallery]</Link>
           </nav>
 
         </div>
