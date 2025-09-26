@@ -73,7 +73,7 @@ export default function Navbar() {
             {/* Navigation under name */}
             <nav className="flex items-center gap-2 sm:gap-3 text-xs leading-none font-bold ">
             <Link href="https://github.com/rknastenka" target="_blank" >GitHub</Link>
-            <Link href="mailto:banabilalt@gmail.com" >Email</Link>
+            <Link href="mailto:rknastenka@gmail.com" >Email</Link>
             <Link href="/hello" >Resume</Link>
             </nav>
 
