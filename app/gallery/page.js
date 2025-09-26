@@ -5,41 +5,37 @@ import Image from 'next/image';
 export default function Gallery() {
   const [imageList, setImageList] = useState([]);
   
-  // Generate a list of images with vintage dates
+  // Generate a list of images from the gallary folder where filenames are dates
   useEffect(() => {
     const generateImageList = () => {
       const images = [];
-      const totalImages = 21; // Based on the files in pfp folder
-      const baseYear = 1995;
       
-      // Generate dates that feel authentic for old photos
-      const months = [
-        'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+      // List of images from the gallery folder with date-based filenames (oldest to newest)
+      const galleryImages = [
+        'SEP 2, 2024.jpg',
+        'DEC 5, 2024.jpg',
+        'DEC 14, 2024.jpg',
+        'JAN 4, 2025.jpg',
+        'JAN 29, 2025.jpg',
+        'FEB 13, 2025.jpg',
+        'FEB 19, 2025.jpg',
+        'FEB 22, 2025.jpg',
+        'MAR 1, 2025.jpg',
+        'MAR 14, 2025.jpg',
+       
       ];
       
-      for (let i = 1; i <= totalImages; i++) {
-        const yearOffset = Math.floor(Math.random() * 25); // 1995-2020
-        const month = months[Math.floor(Math.random() * months.length)];
-        const day = Math.floor(Math.random() * 28) + 1;
-        const year = baseYear + yearOffset;
+      galleryImages.forEach((filename, index) => {
+        // Extract date from filename (remove .jpg extension)
+        const dateFromFilename = filename.replace('.jpg', '');
         
         images.push({
-          id: i,
-          src: `/pfp/${i}.jpg`,
-          alt: `Memory ${i}`,
-          date: `${month} ${day}, ${year}`,
+          id: index + 1,
+          src: `/gallery/${filename}`,
+          alt: `Memory from ${dateFromFilename}`,
+          date: dateFromFilename,
           rotation: (Math.random() - 0.5) * 6 // Random rotation between -3 and 3 degrees
         });
-      }
-      
-      // Add the special mm.jpg image
-      images.push({
-        id: 'mm',
-        src: '/pfp/mm.jpg',
-        alt: 'Special Memory',
-        date: 'Jul 15, 1998',
-        rotation: (Math.random() - 0.5) * 6
       });
       
       return images;
@@ -63,7 +59,7 @@ export default function Gallery() {
         </div>
 
         {/* Gallery Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {imageList.map((image) => (
             <div
               key={image.id}
@@ -82,7 +78,7 @@ export default function Gallery() {
                     alt={image.alt}
                     fill
                     className="object-cover rounded-sm filter sepia-[0.1] contrast-[1.1] brightness-[0.95]"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                   
                   {/* Vintage Photo Overlay */}
