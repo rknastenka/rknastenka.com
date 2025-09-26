@@ -87,7 +87,7 @@ export default function Footer() {
     };
 
     return (
-        <footer className="max-w-2xl py-2 text-sm mt-6 mx-auto w-full lg:mb-6 mb-4">
+        <footer className="max-w-3xl py-2 text-sm mt-6 mx-auto w-full lg:mb-6 mb-4">
             <div className="mb-2 border-b-2 pt-2 w-full"></div>
             {/* moretocome@2025 */}
             <p 

@@ -10,6 +10,7 @@ export default {
     extend: {
       fontFamily: {
         'headings': ['Lora', 'serif'],
+        'roboto': ['var(--font-roboto)', 'sans-serif'],
       },
     },
   },

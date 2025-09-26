@@ -1,21 +1,21 @@
 
 export default function Home() {
   return (
-          <div className="text-xs lg:text-[1.15rem]">
+          <div className="font-noto-sans text-justify leading-relaxed tracking-wide text-xs lg:text-[1.1rem]">
 
-                <p>
-                    <strong>
+                <p className="font-bold text-justify ">
                         Hey, welcome to my blog. Here you'll see a bunch of unscripted perceptions of mine,
                         i mostly post my thoughts and notions about different random topics
                         as i'm free as my thoughts allow me to be. get your cup of tea and enjoy reading
                         dear passenger.
-                    </strong>
                 </p>
 
 
                 <br/>
 
-                <p>
+                                <br/>
+
+                <p >
                     it's more about the time you spend understanding yourself
                     to get where you somehow specify your next step,
                     and you're barking the wrong tree if you believe it's social media
@@ -27,6 +27,8 @@ export default function Home() {
                     but i somehow acknowledge my intents. hence, beyond my belief, which i may or may not achieve,
                     i wish to perceive more about the sky and moon and what's in between.
                 </p>
+
+                
 
                 
                 <br/>
@@ -43,9 +45,8 @@ export default function Home() {
         </div>
 
 
-                <br/>
-                <br/>
 
+                {/*
                 <div style={{
                     fontStyle: 'italic',
                     color: 'rgba(113,108,108,0.79)',
@@ -66,7 +67,7 @@ export default function Home() {
                     <p className="text-[10px] lg:text-[12px] p-2">
                         <b> — Sylvia Plath, <cite>The Unabridged Journals of Sylvia Plath</cite>
                         </b></p>
-                </div>
+                </div> */}
 
           </div>
   );

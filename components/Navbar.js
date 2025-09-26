@@ -24,7 +24,7 @@ export default function Navbar() {
   // Set random profile picture after hydration
   useEffect(() => {
     setIsHydrated(true);
-    const randomNum = Math.floor(Math.random() * 22) + 1;
+    const randomNum = Math.floor(Math.random() * 21) + 1;
     setRandomPfp(`/pfp/${randomNum}.jpg`);
   }, []);
 
@@ -47,7 +47,7 @@ export default function Navbar() {
   };
   return (
     <header className="w-full backdrop-blur-sm">
-      <div className="max-w-2xl mx-auto px-6 pt-4 lg:pt-8 sm:px-0 border-b-2">
+      <div className="max-w-3xl mx-auto px-6 pt-4 lg:pt-8 sm:px-0 border-b-2">
         <div className="flex h-24 items-center justify-between w-full">
           {/* Left: avatar + name + nav */}
           <div className="flex items-center gap-4 sm:gap-6">

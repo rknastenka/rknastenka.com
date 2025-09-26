@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Roboto } from "next/font/google";
 import "./globals.css";
 import NavbarGate from "@/components/NavbarGate";
 import Script from 'next/script';
@@ -19,11 +19,17 @@ const geistMono = Geist_Mono({
     subsets: ["latin"],
 });
 
+const roboto = Roboto({
+    variable: "--font-roboto",
+    subsets: ["latin"],
+    weight: ["300", "400", "500", "700"],
+});
+
 export const metadata = {
     title: "Nastenka",
     description: "Nastenka's personal blog",
         icons: {
-        icon: '/icon2.jpg',
+        icon: '/ini2.png',
     },
 };
 
@@ -70,26 +76,23 @@ export default function RootLayout({ children }) {
                 </Script>
             </head>
 
-            <body className={`flex min-h-screen flex-col ${geistSans.variable} ${geistMono.variable} antialiased`}>
+            <body className={`flex min-h-screen flex-col ${geistSans.variable} ${geistMono.variable} ${roboto.variable} antialiased`}>
               
                 <NavbarGate />
 
                 {/* <MobilePopup /> */}
                 
-                <SideVideos side="left" />
+                {/* <SideVideos side="left" /> */}
 
                 {/* <SideVideos side="right" /> */}
 
-                <main className="max-w-2xl mx-auto lg:w-full flex-grow px-6 sm:px-0 lg:px-0 py-8 relative z-10">
+                <main className=" max-w-3xl mx-auto lg:w-full flex-grow px-6 sm:px-0 lg:px-0 py-8 relative z-10">
                     {children}
-
-                    
                 </main>
                 
                 <ConditionalFooter /> 
-                
-                {/* Character Widget */}
-                <CharacterWidget />
+
+                {/* <CharacterWidget /> */}
 
             </body>
         </html>
