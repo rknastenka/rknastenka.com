@@ -45,14 +45,14 @@ export default function Gallery() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-yellow-50 to-orange-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 px-4">
+    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-yellow-50 to-orange-50 py-12 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className=" text-4xl lg:text-5xl font-bold mb-4 text-amber-900 dark:text-amber-100 font-serif">
+          <h1 className=" text-4xl lg:text-5xl font-bold mb-4 text-amber-900 font-serif">
             Memory Gallery
           </h1>
-          <p className="text-xs lg:text-base text-amber-700 dark:text-amber-200 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xs lg:text-base text-amber-700 max-w-2xl mx-auto leading-relaxed">
             A collection of moments frozen in time, preserved like vintage photographs 
             from years gone by. Each memory tells a story worth remembering.
           </p>
@@ -70,7 +70,7 @@ export default function Gallery() {
               }}
             >
               {/* Photo Card Container */}
-              <div className="relative bg-white dark:bg-gray-100 p-4 shadow-xl rounded-sm border border-gray-200 hover:shadow-2xl transition-all duration-300 transform hover:scale-105 hover:rotate-0">
+              <div className="relative bg-white p-4 shadow-xl rounded-sm border border-gray-200 hover:shadow-2xl transition-all duration-300 transform hover:scale-105 hover:rotate-0">
                 {/* Photo */}
                 <div className="relative aspect-[4/3] mb-3 overflow-hidden bg-gray-100">
                   <Image
@@ -87,7 +87,7 @@ export default function Gallery() {
                 
                 {/* Date Stamp */}
                 <div className="text-center">
-                  <p className="text-xs font-mono text-gray-600 dark:text-gray-700 tracking-wide uppercase">
+                  <p className="text-xs font-mono text-gray-600 tracking-wide uppercase">
                     {image.date}
                   </p>
                 </div>
@@ -104,7 +104,7 @@ export default function Gallery() {
 
         {/* Footer Note */}
         <div className="text-center mt-16">
-          <p className="text-sm text-amber-600 dark:text-amber-300 italic font-serif">
+          <p className="text-sm text-amber-600 italic font-serif">
             "Every picture tells a story, every moment is a treasure."
           </p>
         </div>
