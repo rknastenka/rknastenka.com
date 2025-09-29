@@ -37,7 +37,11 @@ export default async function ArticlePage({ params }) {
         <div className="text-gray-500 text-sm mb-6">{article.date} · By Bana Tawalbeh</div>
 
         {article.content?.map((p, i) => (
-          <p className="text-sm lg:text-base" key={i}>{p}</p>
+          p === '' ? (
+            <div key={i} className="h-4"></div>
+          ) : (
+            <p className="text-sm lg:text-base mb-4" key={i}>{p}</p>
+          )
         ))}
       </article>
     </>

@@ -10,6 +10,7 @@ export default function Articles() {
   return (
     <>
       <section className="space-y-6">
+
         {articles.map((a) => (
           <article key={a.slug}>
             <Link

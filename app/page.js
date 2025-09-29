@@ -13,7 +13,7 @@ export default function Home() {
 
                 <br/>
 
-                                <br/>
+                <br/>
 
                 <p >
                     it's more about the time you spend understanding yourself
@@ -68,6 +68,14 @@ export default function Home() {
                         <b> — Sylvia Plath, <cite>The Unabridged Journals of Sylvia Plath</cite>
                         </b></p>
                 </div> */}
+
+<br/>
+<br/>                    
+                        <p className='text-gray-600'>
+                        All articles and notes shared here reflect my personal thoughts, 
+                        experiences, and perspectives. They represent only my own opinions
+                         and should not be taken as statements on behalf of any group, organization, or broader viewpoint.
+                        </p>
 
           </div>
   );

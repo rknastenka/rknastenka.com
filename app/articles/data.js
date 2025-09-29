@@ -2,22 +2,14 @@ export const articles = [
   {
     slug: 'how-I-delight-in-serene-melancholy',
     title: 'how I delight in serene melancholy',
-    date: '2025-09-15',
+    date: '2025-09-28',
     summary: 'Thoughts on embracing uncertainty and moving forward.',
     content: [
-      'life is simple and full of happiness and welfare. If by any chance it seemed\n' +
-      'the opposite, trust me, there\'s only and only one reason for which life could seem miserable, which is\n' +
-      'obviously other people. We were born to build, to connect, to grow together hand in hand, but most of us\n' +
-      'got distracted by what society fooled them into. We make life miserable for one another; the only\n' +
-      'reason why we aren\'t all happy today is caused by another human, I wouldn\'t say I despise humans (I do)\n' +
-      'but I\'d say most of the walking souls nowadays are merely retarded. But that\'s not what this topic is\n' +
-      'about, anyway\n' +
-      'we\'re here to talk about making your own happiness. As I mentioned earlier, life is full of joy and\n' +
-      'welfare,\n' +
-      'we just have to look for it. If not, you\'ll live in misery for the rest of your life. With the same two\n' +
-      'eyes\n' +
-      'I can see how life is fucked, and I can also see how beautiful it is. How I delight in serene melancholy\n' +
-      'means the joy I zip out of the messed up world.',
+      'If you focus on the good, you\'ll encounter the good. If you focus on the bad, you\'ll encounter the bad. It\'s not because only one exists -both are always present- but because your perspective decides what stands out. it\'s about your pov to the world and how you observe it, you must carve happiness out of everything, the bad before the good. if you learn to see the good in the bad, you\'ll always be happy, you got laid off from work, smile maybe it\'s the right place for you. One miss consumption that i must point out, is that "seeing happiness in the so called -bad events" doesn\'t mean not fighting for the things you really want. don\'t surround easily but fight happily.',
+      '',
+      'Happy people aren\'t always the richest, nor the poorest, nor the ones with good health. Happy people are those who wake up and choose to smile through it, you\'re not the only i-got-the-worst-life person. for some of which are happy, some of which chose to blame it on life. life was never fair upon the eyes of a fragile human, so stop comparing your life to your friend\'s. you\'ve got your battels and i can assure you, they do have their ones too. one argument says that "no if i had their (battle) i wouldn\'t be sad as much as they are", "i wish i had that battle instead of my battle". Dear human, it wouldn\'t be called a "battle" if you don\'t lose your insanity dealing with it :). it\'s as simple as that, God knows that event-x wouldn\'t be a battle for you, so he gave you event-y, not bcz god doesn\'t love you, but because he knows better the test subject you should be graded upon.',
+      '',
+      'With the same two eyes I can see how broken the world is, and I can also see its beauty. How I delight in serene melancholy means the joy I **carve out** of the messed up world.',
     ],
   },
   {
