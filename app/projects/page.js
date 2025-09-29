@@ -1,3 +1,13 @@
+export const metadata = {
+  title: 'Projects - Creative Works & Solutions',
+  description: 'Discover Nastenka\'s projects and creative solutions. Learn about the process of turning ideas into action and the philosophy behind originality and creativity.',
+  openGraph: {
+    title: 'Projects - Nastenka\'s Creative Works',
+    description: 'Discover Nastenka\'s projects and creative solutions. Learn about the process of turning ideas into action.',
+    images: ['/website-preview.png'],
+  },
+};
+
 export default function Projects() {
   return (
     <div className="font-noto-sans leading-relaxed tracking-wide text-xs lg:text-[1.1rem]">

@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://rknastenka.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow specific paths (if any)
+# Disallow: /private/
+
+# Allow Google bots
+User-agent: Googlebot
+Allow: /
+
+# Allow Bing bots
+User-agent: Bingbot
+Allow: /

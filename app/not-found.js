@@ -1,5 +1,10 @@
 import Link from 'next/link';
 
+export const metadata = {
+  title: '404 - Page Not Found',
+  description: 'The page you are looking for does not exist. Return to Nastenka\'s blog homepage to explore articles, gallery, and projects.',
+};
+
 export default function NotFound() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[60vh] text-center px-4">
@@ -13,7 +18,7 @@ export default function NotFound() {
       <div className="my-6">
         <img 
           src="/so-good-wink.gif" 
-          alt="Hi animation" 
+          alt="Animated winking character greeting visitors on 404 page" 
           className="mx-auto rounded-sm shadow-lg"
           style={{ 
             maxWidth: '250px', 

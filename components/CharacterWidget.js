@@ -69,7 +69,7 @@ const CharacterWidget = () => {
                     }`}>
                         <Image
                             src="/char.png"
-                            alt="Character"
+                            alt="Nastenka's blog character mascot"
                             width={128}
                             height={128}
                             className="w-full h-full object-contain drop-shadow-lg"

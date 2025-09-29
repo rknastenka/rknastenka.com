@@ -2,6 +2,16 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
+export const metadata = {
+  title: 'Gallery - Visual Journey',
+  description: 'Explore Nastenka\'s visual gallery featuring personal photography and moments captured over time. A visual journey through memories and experiences.',
+  openGraph: {
+    title: 'Gallery - Nastenka\'s Visual Journey',
+    description: 'Explore Nastenka\'s visual gallery featuring personal photography and moments captured over time.',
+    images: ['/website-preview.png'],
+  },
+};
+
 export default function Gallery() {
   const [imageList, setImageList] = useState([]);
   

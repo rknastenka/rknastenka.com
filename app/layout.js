@@ -26,10 +26,57 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-    title: "Nastenka",
-    description: "Nastenka's personal blog",
-        icons: {
+    title: {
+        default: "Nastenka",
+        template: "%s | Nastenka"
+    },
+    description: "Welcome to Nastenka's personal blog.",
+    keywords: ["Bana Tawalbeh","Nastenka","ini","personal blog", "thoughts", "writing", "introspection", "life philosophy", "self-reflection", "articles", "blog posts"],
+    authors: [{ name: "Nastenka" }],
+    creator: "Nastenka",
+    publisher: "Nastenka",
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        },
+    },
+    openGraph: {
+        type: 'website',
+        locale: 'en_US',
+        url: 'https://rknastenka.com',
+        siteName: 'Nastenka',
+        title: 'Nastenka - Personal Blog & Thoughts',
+        description: 'Welcome to Nastenka\'s personal blog. Explore unscripted thoughts, perceptions, and notions about life, self-understanding, and random topics.',
+        images: [
+            {
+                url: '/website-preview.png',
+                width: 1200,
+                height: 630,
+                alt: 'Nastenka\'s Personal Blog',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Nastenka - Personal Blog & Thoughts',
+        description: 'Welcome to Nastenka\'s personal blog. Explore unscripted thoughts, perceptions, and notions about life, self-understanding, and random topics.',
+        images: ['/website-preview.png'],
+        creator: '@nastenka',
+    },
+    icons: {
         icon: '/ini2.png',
+        shortcut: '/ini2.png',
+        apple: '/ini2.png',
+    },
+    manifest: '/manifest.json',
+    alternates: {
+        canonical: 'https://rknastenka.com',
     },
 };
 
@@ -37,6 +84,11 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" suppressHydrationWarning>
             <head>
+                <meta charSet="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="theme-color" content="#000000" />
+                <link rel="canonical" href="https://rknastenka.com" />
+                
                 {/* Theme script - runs immediately to prevent flash */}
                 <script
                     dangerouslySetInnerHTML={{
@@ -74,6 +126,38 @@ export default function RootLayout({ children }) {
                         gtag('config', 'G-KCDV4R337N');
                     `}
                 </Script>
+
+                {/* JSON-LD Structured Data */}
+                <Script
+                    id="structured-data"
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            "@context": "https://schema.org",
+                            "@type": "Person",
+                            "name": "Nastenka",
+                            "url": "https://rknastenka.com",
+                            "image": "https://rknastenka.com/ini2.png",
+                            "description": "Personal blogger sharing thoughts, perceptions, and notions about life and self-understanding",
+                            "mainEntityOfPage": {
+                                "@type": "WebPage",
+                                "@id": "https://rknastenka.com"
+                            },
+                            "author": {
+                                "@type": "Person",
+                                "name": "Nastenka"
+                            },
+                            "publisher": {
+                                "@type": "Person",
+                                "name": "Nastenka",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://rknastenka.com/ini2.png"
+                                }
+                            }
+                        })
+                    }}
+                />
             </head>
 
             <body className={`flex min-h-screen flex-col ${geistSans.variable} ${geistMono.variable} ${roboto.variable} antialiased`}>

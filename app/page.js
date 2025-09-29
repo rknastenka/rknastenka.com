@@ -1,4 +1,14 @@
 
+export const metadata = {
+  title: "Home - Personal Blog & Thoughts",
+  description: "Welcome to Nastenka's personal blog. Discover unscripted thoughts and perceptions about life, self-understanding, and random topics. A space for authentic introspective writing.",
+  openGraph: {
+    title: "Nastenka - Personal Blog & Thoughts",
+    description: "Welcome to Nastenka's personal blog. Discover unscripted thoughts and perceptions about life, self-understanding, and random topics.",
+    images: ['/website-preview.png'],
+  },
+};
+
 export default function Home() {
   return (
           <div className="font-noto-sans text-justify leading-relaxed tracking-wide text-xs lg:text-[1.1rem]">
