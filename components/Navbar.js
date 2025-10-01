@@ -83,10 +83,10 @@ export default function Navbar() {
 
           {/* Right: Links */}
           <nav className="flex flex-col gap-1 text-xs sm:text-sm leading-none">
-                <Link href="/" className={`hover:text-white hover:bg-black ${pathname === "/" ? "font-bold " : ""}`}>[About]</Link>
-                <Link href="/projects" className={`hover:text-white hover:bg-black ${pathname === "/projects" ? "font-bold " : ""}`}>[Projects]</Link>
-                <Link href="/articles" className={`hover:text-white hover:bg-black ${pathname.startsWith("/articles")  ? "font-bold " : ""}`}>[Articles]</Link>
-                <Link href="/gallery"  className={`hover:text-white hover:bg-black ${pathname===("/gallery")  ? "font-bold " : ""}`}>[Gallery]</Link>
+                <Link href="/" className={`nav-effect ${pathname === "/" ? "font-bold " : ""}`}>[About]</Link>
+                <Link href="/projects" className={`nav-effect ${pathname === "/projects" ? "font-bold " : ""}`}>[Projects]</Link>
+                <Link href="/articles" className={`nav-effect ${pathname.startsWith("/articles")  ? "font-bold " : ""}`}>[Articles]</Link>
+                <Link href="/gallery"  className={`nav-effect ${pathname===("/gallery")  ? "font-bold " : ""}`}>[Gallery]</Link>
           </nav>
 
         </div>
