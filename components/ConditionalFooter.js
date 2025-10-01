@@ -10,6 +10,7 @@ export default function ConditionalFooter() {
     if (pathname.startsWith('/articles')) {
         return null;
     }
+
     
     return <Footer />;
 }

@@ -1,8 +1,8 @@
 export const metadata = {
-  title: 'Poems - Creative Expressions',
+  title: 'Nastenka Poetry',
   description: 'A collection of poems and creative expressions by Nastenka. Explore heartfelt verses and poetic thoughts.',
   openGraph: {
-    title: 'Poems - Nastenka\'s Creative Expressions',
+    title: 'Nastenka Poetry',
     description: 'A collection of poems and creative expressions by Nastenka.',
     images: ['/website-preview.png'],
   },
@@ -46,6 +46,25 @@ export default function Poems() {
             </div>
           </article>
         ))}
+
+                {/* Back to top link */}
+        <div className="text-center pt-4">
+          <Link 
+            href="#" 
+            className="text-[var(--aColor)] hover:opacity-80 transition-opacity text-sm underline"
+          >
+            Back To Top
+          </Link>
+        </div>
+        
+        {/* Footer disclaimer */}
+        <div className=" ">
+          <p className="text-xs leading-relaxed border-t border p-2 border-black">
+            <strong>DISCLAIMER:</strong> poetry is art, and sometimes it reflects my own raw emotions, while other times it’s inspired by the feelings or stories of others. Some pieces might sound a bit heavy or dark, but don’t worry, it’s just art, nothing more.          </p>
+        </div>
+        
+
+
       </section>
     </>
   );

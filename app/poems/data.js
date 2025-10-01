@@ -91,6 +91,28 @@ A liar as Disney was,
 no story ends in light.
 No happy ending waits for you, my dear.`
   },
+      {
+    slug: 'breathes-for-a-homesick-home',
+    title: 'Breathes for a Homesick Home',
+    date: 'March 8, 2024',
+    content: `from ear to ear it's not what it seems
+i wanna breathe without the pain in my chest
+i wanna feel the love they've never held
+is it too hard to raise
+what about the tears i shed 
+these prayers were never off
+nothing seems to change
+it's all just the same
+let's stop getting each others for a fool
+it's literally an endless loop
+i'm thinking of ending things
+but God i wanna see you
+do you hear me sobbing for your mercy
+this pain this pain this pain
+please end this
+i'm not made for this
+`
+  },
 
       {
     slug: 'feeling-the-ugliest-ive-ever-felt',
