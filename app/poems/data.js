@@ -214,9 +214,7 @@ i don’t get this life
 it’s harder than it seems
 yes it’s true but you weren’t
 none of you is
-feeling the ugliest i’ve ever felt
-you kissed my lips and i dreamed of a life you’re in.
- `
+feeling the ugliest i’ve ever felt. `
   },
       {
     slug: 'the-pawn-who-tried-to-be-king',
