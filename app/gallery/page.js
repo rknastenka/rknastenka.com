@@ -45,14 +45,14 @@ export default function Gallery() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-yellow-50 to-orange-50 py-12 px-4">
+    <div className="gallery-bg  min-h-screen  py-12 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className=" text-4xl lg:text-5xl font-bold mb-4 text-amber-900 font-serif">
+          <h1 className=" text-4xl lg:text-5xl font-bold mb-4 gall-text1 font-serif">
             Memory Gallery
           </h1>
-          <p className="text-xs lg:text-base text-amber-700 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xs lg:text-base max-w-2xl mx-auto leading-relaxed">
             A collection of moments frozen in time, preserved like vintage photographs 
             from years gone by. Each memory tells a story worth remembering.
           </p>
@@ -96,7 +96,7 @@ export default function Gallery() {
                 <div className="absolute inset-0 rounded-sm border-2 border-gray-300/50 pointer-events-none"></div>
                 
                 {/* Corner tape effect */}
-                <div className="absolute -top-1 -right-1 w-6 h-6 bg-yellow-200/60 transform rotate-45 opacity-70"></div>
+                <div className="absolute -top-1 -right-1 w-6 h-6 bg-blue-400/60 transform rotate-45 opacity-70"></div>
               </div>
             </div>
           ))}
@@ -104,7 +104,7 @@ export default function Gallery() {
 
         {/* Footer Note */}
         <div className="text-center mt-16">
-          <p className="text-sm text-amber-600 italic font-serif">
+          <p className="text-sm italic font-serif">
             "Every picture tells a story, every moment is a treasure."
           </p>
         </div>

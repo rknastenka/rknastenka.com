@@ -100,3 +100,18 @@ a:hover {
   background: white;
   transition: color 0.3s ease, background-color 0.3s ease;
 }
+
+.gallery-bg {
+  background: linear-gradient(to bottom right, #eff6ff, #dbeafe, #bfdbfe);
+}
+.dark .gallery-bg {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b, #334155);
+}
+
+
+.gall-text1 { color: #1146b0; }
+.dark .gall-text1 { color: #bfdbfe; }
+
+/* 
+.gall-text2 { color: #1447e6; }
+.dark .gall-text2 { color: #93c5fd; } */
