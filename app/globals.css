@@ -115,3 +115,10 @@ a:hover {
 /* 
 .gall-text2 { color: #1447e6; }
 .dark .gall-text2 { color: #93c5fd; } */
+
+.poems-text{
+  color: rgb(76, 74, 74);
+}
+.dark .poems-text{
+  color: rgb(199, 199, 199);
+}

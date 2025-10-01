@@ -20,7 +20,7 @@ export default function Articles() {
           <article key={a.slug}>
             <Link
               className="block text-[1.2rem] lg:text-[1.5rem] leading-[1.1] font-extrabold !text-[var(--aColor)] mb-1"
-              href={`/articles/${a.slug}`}
+              href={a.slug === 'poems' ? '/poems' : `/articles/${a.slug}`}
             >
               {a.title}
             </Link>
