@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export const metadata = {
-  title: 'Projects - Creative Works & Solutions',
-  description: 'Discover Nastenka\'s projects and creative solutions. Learn about the process of turning ideas into action and the philosophy behind originality and creativity.',
+  title: 'Projects s',
+  description: 'Discover Nastenka\'s projects',
   openGraph: {
     title: 'Projects - Nastenka\'s Creative Works',
     description: 'Discover Nastenka\'s projects and creative solutions. Learn about the process of turning ideas into action.',
@@ -8,65 +10,87 @@ export const metadata = {
   },
 };
 
+
 export default function Projects() {
   return (
     <div className="leading-relaxed tracking-wide text-xs lg:text-[1rem]">
 
-        
-               <p>
-                a brief explanation about my <a href="/projects">projects</a>
-                &nbsp;and the way i make them,
-                i've had this problem forever, and if you're reading this
-                and facing the same matter, please just read these lines.
-                originality doesn't mean first, to be original you just have to be yourself
-                find a problem you face and solve it, there's always gonna be someone who thought about the same
-                solution 8 years ago, so don't let that let you down
-                just do what you love, do it the second you think about it
-                do not let your ideas drown over time
-                trust me, we all have brains; you're not the only smartie
-                with great ideas in the room, even that person you believe is
-                an absolute retard has some ideas in his head.
-                what really matters is action! like bro fuck your ideas
-                show me some results, show me what you did, show me how you
-                implement it. publish your MVP, get some feedback,
-                as mark zuckerberg once said: "ideas don't come fully formed, they become clear as you work on
-                them." so
-                stop making excuses for yourself. just stop waiting for
-                the right time, right place, right UI/UX or whatever.
-                just start…
-                that's all i can say.
-                just start.
-            </p>
+           {/* Projects Container */}
+            <div className="space-y-6">
 
+                {/* JSYP project */}
+                <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-6 items-start">
+                    {/* Left column - Text content (larger) */}
+                    <div className="lg:col-span-3 space-y-3">
+                        <a href="https://jsyp.jordan.ieee.org" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[JSYP 10th Edition Congress]</a>
+                        <p className="text-sm text-gray-400 dark:text-gray-500">
+                           A modern interactive website built with [three.js x shaders x gsap x lenis x react] for the IEEE Jordan Section Young Professionals Congress 2025, with the theme "IOT meets LEGO".
+                            
+                        </p>
+                    </div>
+                    {/* Right column - Image (smaller) */}
+                    <div className="lg:col-span-1">
+                        <div className="w-45 h-24 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-500 dark:text-gray-400">
+                           <img src="/projects/jsyp-prev.gif" alt="IEEE JSYP CONGRESS WEBSITE" className="max-w-full max-h-full object-contain"/>
+                        </div>
+                    </div>
+                </div>
 
-            <br/>
-            <p>
-                updating this page right after my finals :P
+                
+                {/* JVF project */}
+                <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-6 items-start">
+                    {/* Left column - Text content (larger) */}
+                    <div className="lg:col-span-3 space-y-3">
+                        <a href="#" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[JVF Management System]</a>
+                        <p className="text-sm text-gray-400 dark:text-gray-500">
+                    A full stack e-registration hierarchical system and admin panel for the Jordan Volleyball Federation built with [React x AntDesign x PHP] to manage clubs, players, seasons, age groups, requests/approvals, document attachments, ID card printing, and club statements.                            
+                        </p>
+                    </div>
+                    {/* Right column - Image (smaller) */}
+                    <div className="lg:col-span-1">
+                        <div className="w-45 h-24 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-500 dark:text-gray-400">
+                           <img src="/projects/jvf-img.png" alt="JVF MANAGEMENT SYSTEM" className="max-w-full max-h-full object-contain"/>
+                        </div>
+                    </div>
+                </div>
+                
+               {/* RAWI project */}
+                <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-6 items-start">
+                    {/* Left column - Text content (larger) */}
+                    <div className="lg:col-span-3 space-y-3">
+                        <a href="#" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[RAWI Ai story Maker]</a>
+                        <p className="text-sm text-gray-400 dark:text-gray-500">
+                          A web application built with [Next.js x TailwindCSS x Python] that utilizes multiple APIs to personalize kids' stories based on their face and name.
+                        </p>
+                    </div>
+                    {/* Right column - Image (smaller) */}
+                    <div className="lg:col-span-1">
+                        <div className="w-45 h-24 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-500 dark:text-gray-400">
+                           <img src="/projects/rawi-prev.gif" alt="RAWI AI STORY MAKER" className="max-w-full max-h-full object-contain"/>
+                        </div>
+                    </div>
+                </div>
 
-            </p>
-            
-            <br/>
-            <br/>
-
-            <div style={{
-                fontStyle: 'italic',
-                color: 'rgba(113,108,108,0.79)',
-                lineHeight: 1.5,
-                fontFamily: 'Constantia, monospace',
-            }}
-            >
-
-                <p>
-                    "Be a loner. That gives you time to wonder,
-                    to search for the truth. Have holy curiosity.
-                    Make your life worth living."
-                </p>
-
-                <p className="text-[10px] lg:text-[14px] p-2">
-                    <b> ― Albert Einstein </b>
-                </p>
-
+                {/* TopOnTop project */}
+                <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-6 items-start">
+                    {/* Left column - Text content (larger) */}
+                    <div className="lg:col-span-3 space-y-3">
+                        <a href="#" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[E-commerce Shopify Template]</a>
+                        <p className="text-sm text-gray-400 dark:text-gray-500">
+                          A modern, responsive e-commerce template built with [Shopify x Liquid x TailwindCSS] for a fictional brand "TopOnTop", featuring a clean design, intuitive navigation, and seamless shopping experience.
+                        </p>
+                    </div>
+                    {/* Right column - Image (smaller) */}
+                    <div className="lg:col-span-1">
+                        <div className="w-45 h-24 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-500 dark:text-gray-400">
+                           <img src="/projects/topontop-prev.gif" alt="TOPONTOP E-COMMERCE TEMPLATE" className="max-w-full max-h-full object-contain"/>
+                        </div>
+                    </div>
+                </div>       
             </div>
+
+  
+
     </div>
   );
 }
