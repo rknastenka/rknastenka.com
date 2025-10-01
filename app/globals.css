@@ -122,3 +122,10 @@ a:hover {
 .dark .poems-text{
   color: rgb(199, 199, 199);
 }
+
+.bg-pot {
+  background: #f9fafb;
+}
+.dark .bg-pot {
+  background: #1f2937!important;
+}

@@ -18,8 +18,8 @@ export default function Poems() {
 
 
         {/* Table of contents */}
-        <div className="mb-12 p-6 bg-gray-50 rounded-lg">
-          <h3 className=" underline text-lg font-semibold mb-4 text-gray-700">Poetry Archive</h3>
+        <div className="mb-12 p-6 bg-pot rounded-lg">
+          <h3 className=" underline text-lg font-semibold mb-4">Poetry Archive</h3>
           <div className="space-y-2">
             {poems.map((poem) => (
               <Link 

@@ -61,6 +61,60 @@ Look what you’ve made.
 Who am I, I asked.
 I don’t know, I replied.`
   },
+      {
+    slug: 'the-white-shroud',
+    title: 'The White Shroud',
+    date: 'May 4, 2021',
+    content: `
+ after a rainy day, my hands found the paper.
+the pencil moved, my eyes began to see.
+see and write, in a never-ending way.
+
+i told the moon: come, close my mind.
+the crowded mind became an empty sky,
+ready to fly.
+
+ignite the engine, let’s go hide.
+just take a step for life,
+kill the thought, restart the night.
+
+afraid of me, i called the sky.
+on my knees, letting it inside.
+
+my heart ended.
+the clock stopped.
+they wrote the time.
+
+and i walked into the white land.
+nothing left prepared to say.
+just terrified.
+`
+  },
+    {
+    slug: 'seed-of-mistakes',
+    title: 'Seed of Mistakes',
+    date: 'September 12, 2023',
+    content: `
+  can’t leave yet, can’t stay
+ the urge to reprieve
+ is the golden winner of this seed 
+ the seed we built by our deeds.
+
+deeds are mistakes that won’t let us proceed,
+ proceed toward what is meant to be.
+
+be the stone that never creaks.
+ creak is the sound of us when we scream,
+ screaming high as if the core could hear,
+ hear what we shut our eyes to see.
+
+see nothing 
+ as if sight itself could flee.
+
+flee, the last words
+ to the twigs of my tree.
+`
+  },
     {
     slug: 'Sins',
     title: 'Sins',
@@ -90,6 +144,21 @@ but many wandered too far to return.
 A liar as Disney was,
 no story ends in light.
 No happy ending waits for you, my dear.`
+  },
+  {
+    slug: 'sacrificed-sight',
+    title: 'Sacrificed Sight',
+    date: 'December 20, 2023',
+    content: `
+    are you trying to act blind,
+ to fuse the poison around
+ do you call this a world?
+ look around. decide.
+you stacked the stones,
+ lids to your own eyes.
+ and now you’re seeking to define
+ what you’ve already sacrificed.
+`
   },
       {
     slug: 'breathes-for-a-homesick-home',
