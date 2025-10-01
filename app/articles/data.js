@@ -1,4 +1,10 @@
 export const articles = [
+  //     {
+  //   slug: 'poems',
+  //   title: 'All got all but only some chose some, as the devil was once an angel.',
+  //   date: 'a collection of poems...',
+  //   isExternal: true, // This indicates it's a link to another page
+  // },
   {
     slug: 'how-I-delight-in-serene-melancholy',
     title: 'how I delight in serene melancholy',
@@ -81,10 +87,5 @@ export const articles = [
       'updates soon...',
     ],
   },
-    {
-    slug: 'poems',
-    title: 'All got all but only some chose some, as the devil was once an angel.',
-    date: 'a collection of poems...',
-    isExternal: true, // This indicates it's a link to another page
-  },
+
 ];

@@ -86,7 +86,7 @@ export default function Navbar() {
                 <Link href="/" className={`nav-effect ${pathname === "/" ? "font-bold " : ""}`}>[About]</Link>
                 <Link href="/projects" className={`nav-effect ${pathname === "/projects" ? "font-bold " : ""}`}>[Projects]</Link>
                 <Link href="/articles" className={`nav-effect ${pathname.startsWith("/articles")  ? "font-bold " : ""}`}>[Articles]</Link>
-                <Link href="/gallery"  className={`nav-effect ${pathname===("/gallery")  ? "font-bold " : ""}`}>[Gallery]</Link>
+                <Link href="/poems"  className={`nav-effect ${pathname===("/poems")  ? "font-bold " : ""}`}>[Poetry]</Link>
           </nav>
 
         </div>

@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function Projects() {
   return (
-    <div className="font-noto-sans leading-relaxed tracking-wide text-xs lg:text-[1.1rem]">
+    <div className="leading-relaxed tracking-wide text-xs lg:text-[1rem]">
 
         
                <p>

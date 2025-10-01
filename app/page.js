@@ -11,9 +11,9 @@ export const metadata = {
 
 export default function Home() {
   return (
-          <div className="font-noto-sans text-justify leading-relaxed tracking-wide text-xs lg:text-[1.1rem]">
+          <div className=" leading-[#1.8] tracking-wide text-xs lg:text-[1rem]">
 
-                <p className="font-bold text-justify ">
+                <p className="font-bold ">
                         Hey, welcome to my blog. Here you'll see a bunch of unscripted perceptions of mine,
                         i mostly post my thoughts and notions about different random topics
                         as i'm free as my thoughts allow me to be. get your cup of tea and enjoy reading
@@ -45,14 +45,14 @@ export default function Home() {
                 <br/>
 
 
-        <div>
+        {/* <div>
                 <h4 className="text-[1rem] lg:text-lg font-bold"> Some Quotes I like</h4>
                 <ul className="font-serif text-[0.7rem] lg:text-[1rem] list-disc list-inside mt-2 space-y-1">
                     <li>"The only way to do great work is to love what you do."</li>
                     <li>"In the end, we only regret the chances we didn't take."</li>
                     <li>"if you wanna be the best, you have to work more than anyone else."</li>
                 </ul>
-        </div>
+        </div> */}
 
 
 
