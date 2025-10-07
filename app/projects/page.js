@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: 'Projects s',
+  title: 'Projects',
   description: 'Discover Nastenka\'s projects',
   openGraph: {
     title: 'Projects - Nastenka\'s Creative Works',

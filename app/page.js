@@ -106,9 +106,45 @@ export default function Home() {
                 just start.
             </p>
 
+<p className="mt-10 mb-10" >
+  <h5 className='mb-1 text-[0.8rem] lg:text-[1.2rem] font-bold'>Knowledge Base: </h5>
+ 
+  <div >
+   - [x] CLI
+   <br/>
+   - [x] Git & GitHub
+   <br/>
+   - [x] Nextjs
+    <br/>
+   - [ ] Objective C
+   <br/>
+   - [ ] Verilog
+   <br/>
+   - [ ] FBGA
+   <br/>
+   - [ ] React
+   <br/>
+   - [ ] Raspberry pi
+   <br/>
+   - [ ] Assembly
+   <br/>
+   - [ ] Virtual Machine
+   <br/>
+   - [ ] LLMS
+   <br/>
+   - [ ] JavaScript
+    <br/>
+   - [ ] Intermediate JavaScript
+   <br/>
+    - [x][ ][ ] Python
+   <br/>
+   - [x][ ][ ] C++
+   <br/>
+  </div>
 
-<br/>
-<br/>                    
+</p>
+
+                 
                         <p className='text-gray-600'>
                         All articles and notes shared here reflect my personal thoughts, 
                         experiences, and perspectives. They represent only my own opinions
