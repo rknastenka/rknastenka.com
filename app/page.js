@@ -106,10 +106,10 @@ export default function Home() {
                 just start.
             </p>
 
-<p className="mt-10 mb-10" >
-  <h5 className='mb-1 text-[0.8rem] lg:text-[1.2rem] font-bold'>Knowledge Base: </h5>
+<div className="mt-10 mb-10" >
+  <div className='mb-1 text-[0.9rem] lg:text-[1.2rem] font-bold'>Knowledge Base: </div>
  
-  <div >
+  <div>
    - [x] CLI
    <br/>
    - [x] Git & GitHub
@@ -142,7 +142,7 @@ export default function Home() {
    <br/>
   </div>
 
-</p>
+</div>
 
                  
                         <p className='text-gray-600'>

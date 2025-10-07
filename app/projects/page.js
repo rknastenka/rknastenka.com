@@ -30,7 +30,7 @@ export default function Projects() {
                     </div>
                     {/* Right column - Image (smaller) */}
                     <div className="lg:col-span-1">
-                        <div className="w-45 h-24 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-500 dark:text-gray-400">
+                        <div className="flex items-center justify-center text-gray-500 dark:text-gray-400">
                            <img src="/projects/jsyp-prev.gif" alt="IEEE JSYP CONGRESS WEBSITE" className="max-w-full max-h-full object-contain"/>
                         </div>
                     </div>
@@ -48,8 +48,8 @@ export default function Projects() {
                     </div>
                     {/* Right column - Image (smaller) */}
                     <div className="lg:col-span-1">
-                        <div className="w-45 h-24 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-500 dark:text-gray-400">
-                           <img src="/projects/jvf-img.png" alt="JVF MANAGEMENT SYSTEM" className="max-w-full max-h-full object-contain"/>
+                        <div className="w-45 h-24  rounded-lg flex items-center justify-center text-gray-500 dark:text-gray-400">
+                           <video src="/projects/jvf-preview-vid.mp4" alt="JVF MANAGEMENT SYSTEM" className="max-w-full max-h-full object-contain" autoPlay loop muted playsInline/>
                         </div>
                     </div>
                 </div>
@@ -65,8 +65,8 @@ export default function Projects() {
                     </div>
                     {/* Right column - Image (smaller) */}
                     <div className="lg:col-span-1">
-                        <div className="w-45 h-24 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-500 dark:text-gray-400">
-                           <img src="/projects/rawi-prev.gif" alt="RAWI AI STORY MAKER" className="max-w-full max-h-full object-contain"/>
+                        <div className="  flex items-center justify-center text-gray-500 dark:text-gray-400">
+                           <img src="/projects/rawi-prev.gif" alt="RAWI AI STORY MAKER" className=" max-w-full max-h-full object-contain"/>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ export default function Projects() {
                     </div>
                     {/* Right column - Image (smaller) */}
                     <div className="lg:col-span-1">
-                        <div className="w-45 h-24 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-500 dark:text-gray-400">
+                        <div className="flex items-center justify-center text-gray-500 dark:text-gray-400">
                            <img src="/projects/topontop-prev.gif" alt="TOPONTOP E-COMMERCE TEMPLATE" className="max-w-full max-h-full object-contain"/>
                         </div>
                     </div>
