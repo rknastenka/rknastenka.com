@@ -1,8 +1,8 @@
 export const metadata = {
-  title: 'Articles - Short Notes & Writings',
+  title: 'Articles',
   description: 'Explore a collection of short notes, writings, and thoughtful articles by Nastenka. Deep thoughts and perceptions on various topics of life and self-discovery.',
   openGraph: {
-    title: 'Articles - Nastenka\'s Writings',
+    title: 'Articles',
     description: 'Explore a collection of short notes, writings, and thoughtful articles by Nastenka.',
     images: ['/website-preview.png'],
   },

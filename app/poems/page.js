@@ -1,8 +1,8 @@
 export const metadata = {
-  title: 'Nastenka Poetry',
+  title: 'Poetry',
   description: 'A collection of poems and creative expressions by Nastenka. Explore heartfelt verses and poetic thoughts.',
   openGraph: {
-    title: 'Nastenka Poetry',
+    title: 'Poetry',
     description: 'A collection of poems and creative expressions by Nastenka.',
     images: ['/website-preview.png'],
   },

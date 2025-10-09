@@ -1,6 +1,6 @@
 
 export const metadata = {
-  title: "Home - Personal Blog & Thoughts",
+  title: "Home",
   description: "Welcome to Nastenka's personal blog. Discover unscripted thoughts and perceptions about life, self-understanding, and random topics. A space for authentic introspective writing.",
   openGraph: {
     title: "Nastenka - Personal Blog & Thoughts",
