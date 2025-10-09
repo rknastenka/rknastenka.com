@@ -8,6 +8,7 @@ import CharacterWidget from "@/components/CharacterWidget";
 
 import Footer from "@/components/Footer";
 import ConditionalFooter from "@/components/ConditionalFooter";
+import TimeMessage from "@/components/TimeMessage";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -177,6 +178,8 @@ export default function RootLayout({ children }) {
                 <ConditionalFooter /> 
 
                 {/* <CharacterWidget /> */}
+                
+                <TimeMessage />
 
             </body>
         </html>
