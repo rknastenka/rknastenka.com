@@ -13,19 +13,23 @@ export default function Home() {
   return (
           <div className=" leading-[#1.8] tracking-wide text-xs lg:text-[1rem]">
 
-                <p className="font-bold ">
+                <div className="font-bold mb-10">
                         Hey, welcome to my blog. Here you'll see a bunch of unscripted perceptions of mine,
                         i mostly post my thoughts and notions about different random topics
                         as i'm free as my thoughts allow me to be. get your cup of tea and enjoy reading
                         dear passenger.
-                </p>
+                </div>
+
+                <div className="mt-10 mb-10">
+                  i'm bana, mostly known as nastenka or ini, choose the one that lingers with you.
+                  this is supposed to be an about me section,
+                  but I’d rather not write the ordinary script.
+                  go through my notes, read my articles,
+                  and decide for your own what kind of a soul you think i am.
+                </div>
 
 
-                <br/>
-
-                <br/>
-
-                <p >
+                <div className="mt-10 mb-10">
                     it's more about the time you spend understanding yourself
                     to get where you somehow specify your next step,
                     and you're barking the wrong tree if you believe it's social media
@@ -36,52 +40,11 @@ export default function Home() {
                     everything whilst indeed doing nothing. yet i can't affirm my purpose,
                     but i somehow acknowledge my intents. hence, beyond my belief, which i may or may not achieve,
                     i wish to perceive more about the sky and moon and what's in between.
-                </p>
-
-                
-
-                
-                <br/>
-                <br/>
+                </div>
 
 
-        {/* <div>
-                <h4 className="text-[1rem] lg:text-lg font-bold"> Some Quotes I like</h4>
-                <ul className="font-serif text-[0.7rem] lg:text-[1rem] list-disc list-inside mt-2 space-y-1">
-                    <li>"The only way to do great work is to love what you do."</li>
-                    <li>"In the end, we only regret the chances we didn't take."</li>
-                    <li>"if you wanna be the best, you have to work more than anyone else."</li>
-                </ul>
-        </div> */}
-
-
-
-                {/*
-                <div style={{
-                    fontStyle: 'italic',
-                    color: 'rgba(113,108,108,0.79)',
-                    lineHeight: 1.5,
-                    fontFamily: 'Constantia, monospace',
-                }}
-                >
-
-                    <p className="text-[0.7rem] lg:text-[0.9rem] ">
-                        "I can never read all the books I want; I can never be all the
-                        people I want and live all the lives I want. I can never train
-                        myself in all the skills I want. And why do I want? I want to
-                        live and feel all the shades, tones and variations of mental
-                        and physical experience possible in my life. And I am horribly limited."
-                    </p>
-
-
-                    <p className="text-[10px] lg:text-[12px] p-2">
-                        <b> — Sylvia Plath, <cite>The Unabridged Journals of Sylvia Plath</cite>
-                        </b></p>
-                </div> */}
-
-                
-
-               <p>
+               {/** Projects Section */}
+               {/* <div className="mt-10 mb-10">
                 a brief explanation about my <a href="/projects" className="text-[var(--aColor)] hover:underline">projects</a>
                 &nbsp;and the way i make them,
                 i've had this problem forever, and if you're reading this
@@ -104,53 +67,95 @@ export default function Home() {
                 just start…
                 that's all i can say.
                 just start.
-            </p>
+               </div> */}
 
-<div className="mt-10 mb-10" >
-  <div className='mb-1 text-[0.9rem] lg:text-[1.2rem] font-bold'>Knowledge Base: </div>
- 
-  <div>
-   - [x] CLI
-   <br/>
-   - [x] Git & GitHub
-   <br/>
-   - [x] Nextjs
-    <br/>
-   - [ ] Objective C
-   <br/>
-   - [ ] Verilog
-   <br/>
-   - [ ] FBGA
-   <br/>
-   - [ ] React
-   <br/>
-   - [ ] Raspberry pi
-   <br/>
-   - [ ] Assembly
-   <br/>
-   - [ ] Virtual Machine
-   <br/>
-   - [ ] LLMS
-   <br/>
-   - [ ] JavaScript
-    <br/>
-   - [ ] Intermediate JavaScript
-   <br/>
-    - [x][ ][ ] Python
-   <br/>
-   - [x][ ][ ] C++
-   <br/>
-  </div>
 
-</div>
-
-                 
-                        <p className='text-gray-600'>
-                        All articles and notes shared here reflect my personal thoughts, 
-                        experiences, and perspectives. They represent only my own opinions
-                         and should not be taken as statements on behalf of any group, organization, or broader viewpoint.
-                        </p>
-
+          <div className="mt-5  lg:text-sm">
+          Knowledge Base below is a collection of bullet points
+          for various topics and technologies that I know little to moderately
+          about but am eager to ace. When I say "ace," I mean truly understand
+          them and be able to apply the knowledge effectively.
+          So you won't find me ticking one off unless 
+          I'm confident in the accuracy of my understanding. 
+          for some of people, showing a checklist like this
+          of things you do not yet master
+          might seem stupid or unnecessary.
+          After all, you're pointing out the things you don’t know.
+          but for me, it's a way to keep myself accountable
+          and motivated to learn and grow. so shut up and let me be.
           </div>
-  );
-}
+
+        {/* Knowledge Base */}
+        <div className="mt-5 mb-10" >
+          <div className='mb-1 text-[0.9rem] lg:text-[1.2rem] font-bold underline'>Knowledge Base: </div>
+        
+          <div>
+          - [x] CLI
+          <br/>
+          - [x] Git & GitHub
+          <br/>
+          - [x] Nextjs
+            <br/>
+          - [ ] Objective C
+          <br/>
+          - [ ] Verilog
+          <br/>
+          - [ ] FBGA
+          <br/>
+          - [ ] Raspberry pi
+          <br/>
+          - [ ] Assembly
+          <br/>
+          - [ ] Virtual Machine
+          <br/>
+          - [ ] LLMS
+          <br/>
+          - [ ] JavaScript
+            <br/>
+          - [ ] Inter JavaScript
+          <br/>
+            - [ ] React
+            <br/>
+            - [x][ ][ ] Python
+          <br/>
+          - [x][ ][ ] C++
+          <br/>
+          </div>
+
+        </div>
+
+
+        {/* Things to be reminded of */}
+        <div className="mt-10 mb-10" >
+          <div className='mb-1 text-[0.9rem] lg:text-[1.2rem] font-bold underline'>
+            Things I want to be reminded of:
+          </div>
+
+          <div className="lg:text-sm">
+        - When you feel unmotivated, don’t stop to rest and wait for energy to return.
+        Instead, read articles, review your notes, or watch inspiring videos.
+        These small actions can reignite your motivation and help you get back on track.
+          </div>
+
+        </div>
+
+
+        {/* Disclaimer
+            <div className='text-gray-600'>
+                All articles and notes shared here reflect my personal thoughts, 
+              experiences, and perspectives. They represent only my own opinions
+                and should not be taken as statements on behalf of any group, organization, or broader viewpoint.
+            </div> */}
+
+
+          <div className='text-gray-600 uppercase lg:text-xs mt-10'>
+
+            please excuse any typos you may encounter.
+            i'm still refining the articles and paragraphs.
+            <br/>
+            <br/>
+            my website needs lots and lots of updates, bear with me :0
+           </div>
+    </div>
+      );
+    }

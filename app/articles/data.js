@@ -11,9 +11,9 @@ export const articles = [
     date: '2025-09-28',
     summary: 'Thoughts on embracing uncertainty and moving forward.',
     content: [
-      'If you focus on the good, you\'ll encounter the good. If you focus on the bad, you\'ll encounter the bad. It\'s not because only one exists -both are always present- but because your perspective decides what stands out. it\'s about your pov to the world and how you observe it, you must carve happiness out of everything, the bad before the good. if you learn to see the good in the bad, you\'ll always be happy, you got laid off from work, smile maybe it\'s the right place for you. One misconception that i must point out, is that "seeing happiness in the so called \'bad events\' doesn\'t mean not fighting for the things you really want. don\'t surrender easily but fight happily.',
+      'If you focus on the good, you\'ll encounter the good. If you focus on the bad, you\'ll encounter the bad. It\'s not because only one exists -both are always present- but because your perspective decides what stands out. it\'s about your pov to the world and how you observe it, you must carve happiness out of everything, the bad before the good. if you learn to see the good in the bad, you\'ll always be happy, you got laid off from work, smile maybe it\'s not the right place for you. One misconception that i must point out, is that "seeing happiness in the so called \'bad events\'" doesn\'t mean not fighting for the things you really want. don\'t surrender easily but fight happily.',
       '',
-      'Happy people aren\'t always the richest, nor the poorest, nor the ones with good health. Happy people are those who wake up and choose to smile through it. They aren\'t the only ones who face struggles, everyone feels like an \'I\'ve-got-the-worst-life\' person sometimes. for some of which are happy, some of which chose to blame it on life. life was never fair upon the eyes of a fragile human, so stop comparing your life to your friend\'s. you\'ve got your battles and i can assure you, they do have their ones too. one argument says that "No, if I had their battle, I wouldn\'t be as sad as they are." "i wish i had that battle instead of mine". Dear human, it wouldn\'t be called a "battle" if you don\'t lose your insanity dealing with it. it\'s as simple as that, God knows that event-x wouldn\'t be a battle for you, so he gave you event-y, not bcz god doesn\'t love you, but because he knows better the test subject you should be graded upon.',
+      'Happy people aren\'t always the richest, nor the poorest, nor the ones with good health. Happy people are those who wake up and choose to smile through it. They aren\'t the only ones who face struggles, everyone feels like an \'I\'ve-got-the-worst-life\' person sometimes. for some of which are happy, some of which chose to blame it on life. life was never fair upon the eyes of a fragile human, so stop comparing your life to your friend\'s. you\'ve got your battles and i can assure you, they do have their ones too. one argument says that "No, if I had their battle, I wouldn\'t be as sad as they are." "i wish i had that battle instead of mine". Dear human, it wouldn\'t be called a "battle" if you don\'t lose your insanity dealing with it. it\'s as simple as that, God knows that event-x wouldn\'t be a battle for you, so he gave you event-y, not because god doesn\'t love you, but because he knows better the test subject you should be graded upon.',
       '',
       'With the same two eyes I can see how broken the world is, and I can also see its beauty. How I delight in serene melancholy means the joy I carve out of the messed up world.',
     ],
@@ -39,7 +39,7 @@ export const articles = [
   {
     slug: 'you-must-be-defined-as-something',
     title: 'in a world where you wanna be everything, you must be defined as something',
-    date: '2025-09-15',
+    date: '2025-08-10',
     summary: 'Thoughts on embracing uncertainty and moving forward.',
     content: [
       '                since the very first breath of maturity i took, i\'ve wanted to ace everything, to be everything\n' +
@@ -62,7 +62,7 @@ export const articles = [
   {
     slug: 'the-human-mankind-cycle',
     title: 'The Human Mankind cycle',
-    date: '2025-09-15',
+    date: '2025-08-23',
     summary: 'Tiny steps to break inertia.',
     content: [
       'We spend our lives chasing answers. One puzzle solved slips into the next, and along the way we collect\n' +
@@ -81,7 +81,7 @@ export const articles = [
   {
     slug: 'you-just-need-a-reason',
     title: 'you\'re not lazy, you just need a reason.',
-    date: '2025-09-15',
+    date: '2025-08-26',
     summary: 'Managing rewards to keep focus.',
     content: [
       'updates soon...',
