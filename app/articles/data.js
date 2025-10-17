@@ -22,7 +22,6 @@ export const articles = [
     slug: 'will-i-ever-reach-there',
     title: 'Will I Ever Reach There?',
     date: '2025-09-15',
-    summary: 'Thoughts on embracing uncertainty and moving forward.',
     content: [
       '                i\'ve admired smart people, people who have done things, people who revolutised their fields, some are\n' +
       '                well known\n' +
@@ -34,6 +33,34 @@ export const articles = [
       '                it\'ll get you somewhere, not today maybe not tmrw as well but make sure that nothing goes for a waste.\n' +
       '                keep grinding to get what\n' +
       '                you\'ve always dreamt of dear...',
+    ],
+  },
+    {
+    slug: 'you-just-need-a-reason',
+    title: 'you\'re not lazy, you just need a reason.',
+    date: '2025-08-26',
+    summary: 'Managing rewards to keep focus.',
+    content: [
+      'updates soon...',
+    ],
+  },
+  {
+    slug: 'the-human-mankind-cycle',
+    title: 'The Human Mankind cycle',
+    date: '2025-08-23',
+    summary: 'Tiny steps to break inertia.',
+    content: [
+      'We spend our lives chasing answers. One puzzle solved slips into the next, and along the way we collect\n' +
+      '                obsessions; porn, cigarettes, social media, whatever dulls the ache for a minute. We gorge on\n' +
+      '                information until the craving loses its grip, then we move on, convinced the next fix will finally\n' +
+      '                silence the questions.\n' +
+      '                We have been asking since childhood: Why is the sky blue? Why is “Dad” spelled D‑A‑D? Soon the questions\n' +
+      '                aim at our friends, our lovers, the manager who frowns behind the desk, the stranger brushing past on\n' +
+      '                the street. The interrogation never stops. We turn it on ourselves; our worth, our beauty, our\n' +
+      '                God—looking for someone or something to shoulder the blame.\n' +
+      '                And sometimes the weight feels lethal. One hardship too many and the mind whispers it would be easier to\n' +
+      '                quit the whole experiment. Most of us have stood near that edge. Yet the very restlessness that drags us\n' +
+      '                there also keeps us alive: the stubborn, infuriating need to know why, and what comes next.',
     ],
   },
   {
@@ -60,31 +87,21 @@ export const articles = [
     ],
   },
   {
-    slug: 'the-human-mankind-cycle',
-    title: 'The Human Mankind cycle',
-    date: '2025-08-23',
-    summary: 'Tiny steps to break inertia.',
+    slug: 'whom-i-am',
+    title: 'Whom I am?',
+    date: '2023-11-01',
     content: [
-      'We spend our lives chasing answers. One puzzle solved slips into the next, and along the way we collect\n' +
-      '                obsessions; porn, cigarettes, social media, whatever dulls the ache for a minute. We gorge on\n' +
-      '                information until the craving loses its grip, then we move on, convinced the next fix will finally\n' +
-      '                silence the questions.\n' +
-      '                We have been asking since childhood: Why is the sky blue? Why is “Dad” spelled D‑A‑D? Soon the questions\n' +
-      '                aim at our friends, our lovers, the manager who frowns behind the desk, the stranger brushing past on\n' +
-      '                the street. The interrogation never stops. We turn it on ourselves; our worth, our beauty, our\n' +
-      '                God—looking for someone or something to shoulder the blame.\n' +
-      '                And sometimes the weight feels lethal. One hardship too many and the mind whispers it would be easier to\n' +
-      '                quit the whole experiment. Most of us have stood near that edge. Yet the very restlessness that drags us\n' +
-      '                there also keeps us alive: the stubborn, infuriating need to know why, and what comes next.',
-    ],
-  },
-  {
-    slug: 'you-just-need-a-reason',
-    title: 'you\'re not lazy, you just need a reason.',
-    date: '2025-08-26',
-    summary: 'Managing rewards to keep focus.',
-    content: [
-      'updates soon...',
+      'whom you are is a very controversial question to ask.',
+      'for me, a soul is introduced and formed within its perspectives and acts upon the lifetime, we as humans are very similar, we\'re pieces of bone and marrow. what makes you, YOU. is a consequence of replicated deeds that were built upon the life and thoughts you grew up in. these thoughts of yours may be altered until they\'re fully formed one day, but the core is the same for everybody, you grew up to be like your surroundings or whom you call your family. These five first years breathing of yours, which you can\'t recall a memory of, are the ones that made you the person you are today. no matter how much you try to change, you can never change the roots of a tree; you only blend it with other leaves to make it better. and your goal should be being the best you could ever be. never coping with anything that doesn\'t align with your perspectives.',
+      '',
+      'putting aside all the philosophy...',
+      'i\'m just an ambitious self learner, (and of course, a college student). i seek knowledge, i wanna be educated and know everything and how everything is what it is, the essence of life.',
+      '',
+      'I don\'t believe in sharing your life goals out loud, but mine aren\'t so different from any other\'s nerdy IT student; creating something that will help humanity, I believe that humanity is capable of much more if it held hands and were altered in a way that they\'re the best versions of themselves, and that\'s what my current project is about.',
+      '',
+      '"to strive, to seek, to find, and not to yield." the maxim i live upon. the essence of my life; at least the sought one.',
+      '',
+      'i wanna live up to my principles for which i have to repeat to myself early and often.',
     ],
   },
 

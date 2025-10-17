@@ -73,7 +73,7 @@ export default function Home() {
           <div className="mt-5  lg:text-sm">
           Knowledge Base below is a collection of bullet points
           for various topics and technologies that I know little to moderately
-          about but am eager to ace. When I say "ace," I mean truly understand
+          about but i'm eager to ace. When I say "ace," I mean truly understand
           them and be able to apply the knowledge effectively.
           So you won't find me ticking one off unless 
           I'm confident in the accuracy of my understanding. 
@@ -137,10 +137,13 @@ export default function Home() {
             Things I want to be reminded of:
           </div>
 
-          <div className="lg:text-sm">
+          <div className="lg:text-sm mb-3">
         - When you feel unmotivated, don’t stop to rest and wait for energy to return.
         Instead, read articles, review your notes, or watch inspiring videos.
         These small actions can reignite your motivation and help you get back on track.
+          </div>
+         <div className="lg:text-sm">
+          -The brain gets more dopamine from planning than doing. That's why people have multiple business ideas but zero businesses. 
           </div>
 
         </div>
