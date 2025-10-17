@@ -89,37 +89,43 @@ export default function Home() {
         <div className="mt-5 mb-10" >
           <div className='mb-1 text-[0.9rem] lg:text-[1.2rem] font-bold underline'>Knowledge Base: </div>
         
-          <div>
-          - [x] CLI
-          <br/>
-          - [x] Git & GitHub
-          <br/>
-          - [x] Nextjs
-            <br/>
-          - [ ] Objective C
-          <br/>
-          - [ ] Verilog
-          <br/>
-          - [ ] FBGA
-          <br/>
-          - [ ] Raspberry pi
-          <br/>
-          - [ ] Assembly
-          <br/>
-          - [ ] Virtual Machine
-          <br/>
-          - [ ] LLMS
-          <br/>
-          - [ ] JavaScript
-            <br/>
-          - [ ] Inter JavaScript
-          <br/>
-            - [ ] React
-            <br/>
-            - [x][ ][ ] Python
-          <br/>
-          - [x][ ][ ] C++
-          <br/>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8">
+            <div>
+              - [x] HTML & CSS & TailwindCSS
+              <br/>
+              - [ ] React
+              <br/>
+              - [x] CLI & Bash
+              <br/>
+              - [x] Git & GitHub
+              <br/>
+              - [x] Nextjs
+              <br/>
+              - [ ] Verilog
+              <br/>
+              - [ ] FBGA
+              <br/>
+              - [ ] Assembly
+              <br/>
+              - [ ] Quantum Computing
+              <br/>
+            </div>
+            <div>
+              - [ ] Quantum Mechanics
+              <br/>
+              - [ ] Raspberry Pi
+              <br/>
+              - [ ] Virtual Machine
+              <br/>
+              - [ ] LLMS
+              <br/>
+              - [ ] Objective C
+              <br/>
+              - [x][x][ ] Python
+              <br/>
+              - [x][x][ ] C++
+              <br/>
+            </div>
           </div>
 
         </div>
@@ -150,7 +156,7 @@ export default function Home() {
 
           <div className='text-gray-600 uppercase lg:text-xs mt-10'>
 
-            please excuse any typos you may encounter.
+            please excuse any typos or mistakes you may encounter.
             i'm still refining the articles and paragraphs.
             <br/>
             <br/>
