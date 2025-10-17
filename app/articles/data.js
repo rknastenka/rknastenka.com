@@ -87,9 +87,9 @@ export const articles = [
     ],
   },
   {
-    slug: 'whom-i-am',
-    title: 'Whom I am?',
-    date: '2023-11-01',
+    slug: 'whom-am-i',
+    title: 'Who am i?',
+    date: '2023-10-01',
     content: [
       'whom you are is a very controversial question to ask.',
       'for me, a soul is introduced and formed within its perspectives and acts upon the lifetime, we as humans are very similar, we\'re pieces of bone and marrow. what makes you, YOU. is a consequence of replicated deeds that were built upon the life and thoughts you grew up in. these thoughts of yours may be altered until they\'re fully formed one day, but the core is the same for everybody, you grew up to be like your surroundings or whom you call your family. These five first years breathing of yours, which you can\'t recall a memory of, are the ones that made you the person you are today. no matter how much you try to change, you can never change the roots of a tree; you only blend it with other leaves to make it better. and your goal should be being the best you could ever be. never coping with anything that doesn\'t align with your perspectives.',
