@@ -143,7 +143,7 @@ export default function Home() {
         These small actions can reignite your motivation and help you get back on track.
           </div>
          <div className="lg:text-sm">
-          -The brain gets more dopamine from planning than doing. That's why people have multiple business ideas but zero businesses. 
+          -The brain gets more dopamine from planning than doing. That's why people have multiple ideas but zero implementations. 
           </div>
 
         </div>

@@ -2,9 +2,13 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { articles } from '../data';
 
-export async function generateStaticParams() {
-  return articles.map((a) => ({ slug: a.slug }));
+export function generateStaticParams() {
+  return articles.map((article) => ({
+    slug: article.slug,
+  }));
 }
+
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;

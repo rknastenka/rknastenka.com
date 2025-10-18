@@ -29,8 +29,7 @@ export default function NotFound() {
 
       {/* Fun Footer Message */}
       <div className="mt-0 text-xs text-gray-500 dark:text-gray-500">
-        <p>Sense of direction not found</p>
-        <p className="mt-1">Did you try checking under the couch?</p>
+        <p>sorry page wasn&apos;t found :{'<'} </p>
       </div>
     </div>
   );

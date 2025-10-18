@@ -87,7 +87,7 @@ export const articles = [
     ],
   },
   {
-    slug: 'whom-am-i',
+    slug: 'who-am-i',
     title: 'Who am i?',
     date: '2023-10-01',
     content: [
