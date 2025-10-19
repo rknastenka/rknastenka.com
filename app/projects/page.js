@@ -49,7 +49,7 @@ export default function Projects() {
                     {/* Right column - Image (smaller) */}
                     <div className="lg:col-span-1">
                         <div className="w-45 h-24  rounded-lg flex items-center justify-center text-gray-500 dark:text-gray-400">
-                           <video src="/projects/jvf-preview-vid.mp4" alt="JVF MANAGEMENT SYSTEM" className="max-w-full max-h-full object-contain" autoPlay loop muted playsInline/>
+                           <video src="/projects/jvf-prev.gif" alt="JVF MANAGEMENT SYSTEM" className="max-w-full max-h-full object-contain" autoPlay loop muted playsInline/>
                         </div>
                     </div>
                 </div>
