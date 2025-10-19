@@ -160,11 +160,6 @@ export default function Home() {
 
 
           <div className='text-gray-600 uppercase lg:text-xs mt-10'>
-
-            please excuse any typos or mistakes you may encounter.
-            i'm still refining the articles and paragraphs.
-            <br/>
-            <br/>
             my website needs lots and lots of updates, bear with me :0
            </div>
     </div>
