@@ -115,6 +115,8 @@ export default function Home() {
               <br/>
               - [ ] Raspberry Pi
               <br/>
+              - [ ] Research
+              <br/>
               - [ ] Virtual Machine
               <br/>
               - [ ] LLMS
