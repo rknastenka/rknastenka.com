@@ -95,6 +95,24 @@ export default function Projects() {
                     </div>
                 </div>    
 
+                {/* Camino project */}
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-center">
+                    <div className="md:col-span-3 space-y-3">
+                        <a href="https://camino.rknastenka.com/" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[Camino]</a>
+                        <p className="text-sm text-gray-400 dark:text-gray-500">
+                           Minimal website to track your daily habits and productive hours with a full year preview as well.
+                           i used to track these on paper earlier on but i figured i must build a digital version as well.
+                           i'm confident a lot of people would find this useful too.
+                           </p>
+                           </div>
+                    <div className="md:col-span-1">
+                        <div className="flex items-center justify-center text-gray-500 dark:text-gray-400 h-full">
+                           <img src="/projects/camino-prev.png" alt="Camino website preview" className="max-w-full max-h-full object-contain"/>
+                        </div>
+                    </div>
+                    
+                </div>    
+
             </div>
 
   

@@ -2,7 +2,7 @@ import { Geist, Geist_Mono, Roboto } from "next/font/google";
 import "./globals.css";
 import NavbarGate from "@/components/NavbarGate";
 import Script from 'next/script';
-import SideVideos from "@/components/SideVideos";
+import ConditionalSideVideos from "@/components/ConditionalSideVideos";
 import MobilePopup from "@/components/MobilePopup";
 import CharacterWidget from "@/components/CharacterWidget";
 
@@ -167,9 +167,9 @@ export default function RootLayout({ children }) {
 
                 {/* <MobilePopup /> */}
                 
-                <SideVideos side="left" />
+                <ConditionalSideVideos side="left" />
 
-               {/* <SideVideos side="right" />  */}
+               {/* <ConditionalSideVideos side="right" />  */}
 
                 <main className=" max-w-3xl mx-auto lg:w-full flex-grow px-6 sm:px-0 lg:px-0 py-8 relative z-10">
                     {children}

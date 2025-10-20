@@ -41,12 +41,12 @@ const SideVideos = ({ side = 'right' }) => {
     // Prevent hydration mismatch by not rendering interactive states until mounted
     if (!mounted) {
         return (
-            <div className={`hidden lg:block fixed top-0 ${side === 'left' ? 'left-4' : 'right-4'} h-screen w-80 z-0 pointer-events-auto overflow-hidden`}>
+            <div className={`hidden lg:block fixed top-0 ${side === 'left' ? 'left-4' : 'right-4'} h-screen w-64 z-0 pointer-events-auto overflow-hidden`}>
                 <div className="h-full flex flex-col justify-start space-y-8 pt-8">
                     {displayVideos.map((video) => (
                         <div
                             key={video}
-                            className="relative w-80 h-52 cursor-pointer"
+                            className="relative w-64 h-40 cursor-pointer"
                         >
                             <video
                                 className="w-full h-full object-cover rounded-lg transition-opacity duration-300 opacity-0"
@@ -66,12 +66,12 @@ const SideVideos = ({ side = 'right' }) => {
     }
 
     return (
-        <div className={`hidden lg:block fixed top-0 ${side === 'left' ? 'left-4' : 'right-4'} h-screen w-80 z-0 pointer-events-auto overflow-hidden`}>
+        <div className={`hidden lg:block fixed top-0 ${side === 'left' ? 'left-4' : 'right-4'} h-screen w-64 z-0 pointer-events-auto overflow-hidden`}>
             <div className="h-full flex flex-col justify-start space-y-8 pt-8">
                 {displayVideos.map((video) => (
                     <div
                         key={video}
-                        className="relative w-80 h-52 cursor-pointer"
+                        className="relative w-64 h-40 cursor-pointer"
                         onMouseEnter={() => handleMouseEnter(video)}
                         onMouseLeave={handleMouseLeave}
                     >
