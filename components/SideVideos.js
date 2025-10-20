@@ -78,7 +78,7 @@ const SideVideos = ({ side = 'right' }) => {
                         <video
                             ref={(el) => videoRefs.current[video] = el}
                             className={`w-full h-full object-cover rounded-lg transition-opacity duration-300 ${
-                                hoveredVideo === video ? 'opacity-80' : 'opacity-0'
+                                hoveredVideo === video ? 'opacity-75' : 'opacity-0'
                             }`}
                             muted
                             loop
