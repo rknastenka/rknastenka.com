@@ -107,10 +107,11 @@ export default function Home() {
               <br/>
               - [ ] Assembly
               <br/>
-              - [ ] Quantum Computing
-              <br/>
+              - [ ] Reverse Engineering
             </div>
             <div>
+              - [ ] Quantum Computing
+              <br/>
               - [ ] Quantum Mechanics
               <br/>
               - [ ] Raspberry Pi
@@ -144,11 +145,15 @@ export default function Home() {
         Instead, read articles, review your notes, or watch inspiring videos.
         These small actions can reignite your motivation and help you get back on track.
           </div>
-         <div className="lg:text-sm">
+         <div className="lg:text-sm mb-3">
           -The brain gets more dopamine from planning than doing. That's why people have multiple ideas but zero implementations. 
           </div>
+         <div className="lg:text-sm">
+          -Notice what you link pleasure to, Notice what you link pain to.
+          </div>
 
-        </div>
+        </div>    
+        
 
 
         {/* Disclaimer
