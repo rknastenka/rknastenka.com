@@ -71,18 +71,9 @@ export default function Home() {
 
 
           <div className="mt-5  lg:text-sm">
-          Knowledge Base below is a collection of bullet points
-          for various topics and technologies that I know little to moderately
-          about but i'm eager to ace. When I say "ace," I mean truly understand
-          them and be able to apply the knowledge effectively.
-          So you won't find me ticking one off unless 
-          I'm confident in the accuracy of my understanding. 
-          for some of people, showing a checklist like this
-          of things you do not yet master
-          might seem stupid or unnecessary.
-          After all, you're pointing out the things you don’t know.
-          but for me, it's a way to keep myself accountable
-          and motivated to learn and grow. so shut up and let me be.
+          Knowledge Base below is a collection of various
+          topics and technologies that I know little to moderately
+          about but eager to learn more, and ace throughout the rest of college.
           </div>
 
         {/* Knowledge Base */}
