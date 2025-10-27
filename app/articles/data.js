@@ -99,5 +99,25 @@ export const articles = [
       'i wanna live up to my principles for which i have to repeat to myself early and often.',
     ],
   },
+{
+  slug: 'education-systems-not-built-for-smart-students',
+  title: 'The Educational Systems Aren’t Built for Smart Students',
+  date: '2025-10-17',
+  content: [
+    'I’m going to ignore the fact that we have to wait until we’re 18 to start college. Honestly, I see no real value in studying for 12 years just to repeat the same material during the first year or two of college. It feels like a huge waste of time for people who’ve been studying their whole lives.',
+    '',
+    'Most universities have placement exams, but I think subjects like Calculus 1 and 2, General Chemistry, and Physics 1 and 2 should also be tested that way. If you fail, you take the course; if you pass, you move on with your study plan. Otherwise, it’s a waste. I personally finished those courses in one year by enrolling in the maximum allowed credit hours, just because I couldn’t wait to actually study the major I’m paying for.',
+    '',
+    'Another thing that makes no sense to me is why “major courses” only start around the third or fourth year. Why should we have to wait that long to study what we’re actually interested in? It feels like the system is designed to slow everyone down instead of helping people progress at their own pace.',
+    '',
+    'A lot of the people at university are genuinely short form content addicted idiots but some aren’t, yet they’re both weighed the same basically. As in, it’s basically breaking the legs of the people who can run the fastest just so everyone can run at the same pace.',
+    '',
+    'If you take a closer look at your study plan, you’ll probably find that only about 54% of it is major-specific. The rest are fillers, literally fillers. It’s frustrating to realize how much time and money are spent on things that add little value to the career you actually want to pursue.',
+    '',
+    'Look at how high-tuition international universities like MIT and Caltech handle this; they offer placement and advanced-standing exams so you can skip intro courses and focus on your major sooner. If they can do it, why can’t our local universities? Maybe it’s because they want students to pay for those basic courses anyway, or, if I’m being generous, maybe they just haven’t built the system or even heard of better models. Either way, students lose time and money while the institutions keep the status quo.',
+    '',
+    'We study the same stuff over and over again for 12 years at school, the same grammar, the same laws, and I’m expected to repeat it all over again at college. That makes no sense to me.',
+  ],
+},
 
 ];
