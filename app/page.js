@@ -139,9 +139,14 @@ export default function Home() {
          <div className="lg:text-sm mb-3">
           -The brain gets more dopamine from planning than doing. That's why people have multiple ideas but zero implementations. 
           </div>
-         <div className="lg:text-sm">
+         <div className="lg:text-sm mb-3">
           -Notice what you link pleasure to, Notice what you link pain to.
           </div>
+          
+          <div className="lg:text-sm">
+          -Goals are for people who care about winning once. Systems are for people who care about winning repeatedly.
+          </div>
+
 
         </div>    
         
