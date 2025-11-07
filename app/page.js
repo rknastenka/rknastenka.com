@@ -84,7 +84,7 @@ export default function Home() {
             <div>
               - [x] HTML & CSS & TailwindCSS
               <br/>
-              - [ ] React
+              - [x] React
               <br/>
               - [x] CLI & Bash
               <br/>

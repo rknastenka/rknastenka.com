@@ -143,7 +143,7 @@ export default function Projects() {
                         I get an idea during a focus session, and I normally write it
                         down in a paper notebook, but when I’m out, I reach for a digital option.
                         The problem is, most note-taking apps are too distracting.
-                        So I built this for myself and for anyone who might benefit from it.
+                        So I built this zero-distractions notepad for myself and for anyone who might benefit from it.
                            </p>
                            </div>
                     <div className="md:col-span-1">
