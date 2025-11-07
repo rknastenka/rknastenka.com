@@ -64,29 +64,6 @@ export const articles = [
     ],
   },
   {
-    slug: 'you-must-be-defined-as-something',
-    title: 'in a world where you wanna be everything, you must be defined as something',
-    date: '2025-08-10',
-    summary: 'Thoughts on embracing uncertainty and moving forward.',
-    content: [
-      '                since the very first breath of maturity i took, i\'ve wanted to ace everything, to be everything\n' +
-      '                ,to know everything, and everyone. i was forever occupied with my own thoughts,\n' +
-      '                with the palace of dreams i kept myself in. then i got that reality check that i must choose a path\n' +
-      '                it\'s sad, ain\'t it. but it\'s reality one self must consent. i knew that for a fact and still refused to\n' +
-      '                obey\n' +
-      '                i know i might be wrong, it\'s a huge risk but i ain\'t letting myself in this herd. one argument ; which\n' +
-      '                totally\n' +
-      '                does make sense, says that companies and job market needs ppl whom are really good at one thing. it is\n' +
-      '                so true\n' +
-      '                but why should i oblige. one such self is me and me is refusing to obey to such nonsense.\n' +
-      '                i\'m not considering myself a polymath, but i may at some point be.\n' +
-      '                for a human to be defined, one human has a one name, such and such each has a one x, no matter how many\n' +
-      '                things\n' +
-      '                you\'re actually good at, they\'re mostly all round about the same topic,\n' +
-      '                for a long time in my life i thought i must be something. but do i...',
-    ],
-  },
-  {
     slug: 'who-am-i',
     title: 'Who am i?',
     date: '2023-10-01',
@@ -119,6 +96,27 @@ export const articles = [
     '',
     'We study the same stuff over and over again for 12 years at school, the same grammar, the same laws, and I\'m expected to repeat it all over again at college. That makes no sense to me.',
   ],
-}
+},
+{
+  slug: 'you-must-be-defined-as-something',
+  title: 'in a world where you can be anything, you must be defined as something',
+  date: '2025-11-07',
+  summary: 'A reflection on purpose, identity, and the freedom to be many things.',
+  content: [
+    'In a world where you can be anything, you must be defined as something. it sounds strange, right? we live in a world that tells us, explore, experiment, never settle, but the moment you do, you get boxed in by your major, your job title, your linkedin bio. so today, i want to talk about what it really means to define yourself, without limiting yourself.',
+
+    'When i was a kid, i wanted to know everything, how stars shine, why the sky is blue. i was that kid with a hundred whys a day, and i bet some of you were too. but then we grow up, and suddenly curiosity isn’t enough anymore. you have to choose. you pick a major, then a sub-major, then a master’s, then one job inside one small corner of that field. we are told this is efficient, and for the economy, maybe it is. but for the human spirit, it is very limiting. when was the last time you heard someone simply say, i’m a scientist? now it’s always, i’m a theoretical condensed matter physicist studying electron entanglement in nanostructures. we’ve divided knowledge so finely that people have started to become their job titles.',
+
+    'Remember that question we all got as kids, what do you want to be when you grow up? most kids said doctor, teacher, designer. when i was asked, i said, a scientist. and someone asked me, what kind? so i said, a physicist. then later, a quantum researcher. then later, an astrophysicist. i was confused about the title i should give myself, but that was the problem. it took me years to realize i wasn’t chasing physics, i was chasing understanding. what i loved wasn’t just equations, it was discovery, the process of learning something new. the word physicist was just a title on the map, but the map to my big purpose was what guided me all along. labels can point you somewhere, but they’re not the journey. your big purpose, your goal, is the journey.',
+
+    'We all fall into the same trap. we meet someone and say, i’m a ux designer, or i’m a mechanical engineer. and the other person nods, like they suddenly know us. next time you want to introduce yourself, try saying, i do ux design. sounds small, right? but it changes everything, because you’re describing what you do, not who you are. see, when you repeat a label long enough, your brain starts to believe it, and you stop exploring beyond it.',
+
+    'Let’s say you’re a computer scientist. okay, but why? what’s the real reason behind it? and please don’t say money. maybe your bigger purpose is to create something that helps people learn faster, or communicate better, or make life easier. your job gives you the money, the tools, the skills, the stability, but that’s not the final goal. the danger is when you stop at the job, when you say, i’m an engineer, and forget why you wanted to build in the first place. i’m not saying quit your job, i’m saying let your job serve your purpose, not define it. your job is the hammer, your goal is the house. you wouldn’t fall in love with the hammer and forget to build the home.',
+
+    'Distractions aren’t things outside your major, they’re things that pull you away from your big purpose. you can study medicine and still play the piano. you can be an engineer and still paint. you can be a teacher and still study the stars. einstein played the violin. maxwell wrote poetry. da vinci explored anatomy, architecture, and art. their curiosity didn’t make them scattered, it made them complete. big ideas come from connecting different dots, from letting your curiosities meet in one place.',
+
+    'So, choose your big purpose. then find the major, the job, the craft that helps you serve it. because in a world where you can be anything, you must be defined as something, and that something is your purpose, not your position.'
+  ]
+},
 
 ];
