@@ -147,6 +147,10 @@ export default function Home() {
           -Goals are for people who care about winning once. Systems are for people who care about winning repeatedly.
           </div>
 
+          <div className="lg:text-sm">
+          -Excellence doesn't come naturally, it is built through practice.
+          </div>
+
 
         </div>    
         
