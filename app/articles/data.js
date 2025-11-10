@@ -34,16 +34,7 @@ export const articles = [
   //     '                keep grinding to get what\n' +
   //     '                you\'ve always dreamt of dear...',
   //   ],
-  // },
-  //   {
-  //   slug: 'you-just-need-a-reason',
-  //   title: 'you\'re not lazy, you just need a reason.',
-  //   date: '2025-08-26',
-  //   summary: 'Managing rewards to keep focus.',
-  //   content: [
-  //     'updates soon...',
-  //   ],
-  // },
+
   // {
   //   slug: 'the-human-mankind-cycle',
   //   title: 'The Human Mankind cycle',
@@ -118,5 +109,14 @@ export const articles = [
     'So, choose your big purpose. then find the major, the job, the craft that helps you serve it. because in a world where you can be anything, you must be defined as something, and that something is your purpose, not your position.'
   ]
 },
+    {
+    slug: 'you-just-need-a-reason',
+    title: 'you\'re not lazy, you just need a reason.',
+    date: 'release soon...',
+    summary: 'Managing rewards to keep focus.',
+    content: [
+      'updates soon...',
+    ],
+  },
 
 ];
