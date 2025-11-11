@@ -94,7 +94,7 @@ export const articles = [
   date: '2025-11-07',
   summary: 'A reflection on purpose, identity, and the freedom to be many things.',
   content: [
-    'In a world where you can be anything, you must be defined as something. it sounds strange, right? we live in a world that tells us, explore, experiment, never settle, but the moment you do, you get boxed in by your major, your job title, your linkedin bio. so today, i want to talk about what it really means to define yourself, without limiting yourself.',
+    'In a world where you can be anything, you must be defined as something. We live in a world that tells us, explore, experiment, never settle, but the moment you do, you get boxed in by your major, your job title, your linkedin bio. so today, i want to talk about what it really means to define yourself, without limiting yourself.',
 
     'When i was a kid, i wanted to know everything, how stars shine, why the sky is blue. i was that kid with a hundred whys a day, and i bet some of you were too. but then we grow up, and suddenly curiosity isn’t enough anymore. you have to choose. you pick a major, then a sub-major, then a master’s, then one job inside one small corner of that field. we are told this is efficient, and for the economy, maybe it is. but for the human spirit, it is very limiting. when was the last time you heard someone simply say, i’m a scientist? now it’s always, i’m a theoretical condensed matter physicist studying electron entanglement in nanostructures. we’ve divided knowledge so finely that people have started to become their job titles.',
 
