@@ -82,34 +82,38 @@ export default function Home() {
         
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8">
             <div>
-              - [x] HTML & CSS & TailwindCSS
-              <br/>
-              - [x] React
-              <br/>
               - [x] CLI & Bash
               <br/>
               - [x] Git & GitHub
               <br/>
+              - [x] Data Analysis
+              <br/>
+              - [x] HTML & CSS
+              <br/>
+              - [x] Javascript & Typescript
+              <br/>
+              - [x] React
+              <br/>
               - [x] Nextjs
-              <br/>
-              - [ ] Verilog
-              <br/>
-              - [ ] FBGA
-              <br/>
-              - [ ] Assembly
-              <br/>
-              - [ ] Reverse Engineering
-            </div>
-            <div>
-              - [ ] Quantum Computing
-              <br/>
-              - [ ] Quantum Mechanics
               <br/>
               - [ ] Raspberry Pi
               <br/>
               - [ ] Research
               <br/>
-              - [ ] Virtual Machine
+              - [x] Verilog
+              <br/>
+              - [ ] FBGA
+            </div>
+            <div>
+              - [ ] Assembly
+              <br/>
+              - [ ] Reverse Engineering
+              <br/>
+              - [ ] Cryptography
+              <br/>
+              - [ ] Machine Learning
+              <br/>
+              - [ ] Quantum Computing
               <br/>
               - [ ] LLMS
               <br/>
@@ -121,7 +125,6 @@ export default function Home() {
               <br/>
             </div>
           </div>
-
         </div>
 
 
