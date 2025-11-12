@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: 'Projects',
@@ -28,7 +29,15 @@ export default function Projects() {
                     </div>
                     <div className="md:col-span-1">
                         <div className="flex items-center justify-center text-gray-500 dark:text-gray-400 h-full">
-                           <img src="/projects/jsyp-prev.gif" alt="IEEE JSYP CONGRESS WEBSITE" className="max-w-full max-h-full object-contain"/>
+                           <Image 
+                             src="/projects/jsyp-prev.gif" 
+                             alt="IEEE JSYP CONGRESS WEBSITE" 
+                             width={400} 
+                             height={300}
+                             className="max-w-full h-auto object-contain"
+                             loading="lazy"
+                             unoptimized
+                           />
                         </div>
                     </div>
                 </div>
@@ -44,7 +53,15 @@ export default function Projects() {
                     </div>
                     <div className="md:col-span-1">
                       <div className="flex items-center justify-center text-gray-500 dark:text-gray-400 h-full">
-                           <img  src="/projects/jvf-prev.gif" alt="JVF MANAGEMENT SYSTEM" className="max-w-full max-h-full object-contain"/>
+                           <Image 
+                             src="/projects/jvf-prev.gif" 
+                             alt="JVF MANAGEMENT SYSTEM" 
+                             width={400} 
+                             height={300}
+                             className="max-w-full h-auto object-contain"
+                             loading="lazy"
+                             unoptimized
+                           />
                      </div>
                     </div>
                 </div>
@@ -59,7 +76,15 @@ export default function Projects() {
                     </div>
                     <div className="md:col-span-1">
                         <div className="flex items-center justify-center text-gray-500 dark:text-gray-400 h-full">
-                           <img src="/projects/rawi-prev.gif" alt="RAWI AI STORY MAKER" className="max-w-full max-h-full object-contain"/>
+                           <Image 
+                             src="/projects/rawi-prev.gif" 
+                             alt="RAWI AI STORY MAKER" 
+                             width={400} 
+                             height={300}
+                             className="max-w-full h-auto object-contain"
+                             loading="lazy"
+                             unoptimized
+                           />
                         </div>
                     </div>
                 </div>
@@ -74,7 +99,15 @@ export default function Projects() {
                     </div>
                     <div className="md:col-span-1">
                         <div className="flex items-center justify-center text-gray-500 dark:text-gray-400 h-full">
-                           <img src="/projects/topontop-prev.gif" alt="TOPONTOP E-COMMERCE TEMPLATE" className="max-w-full max-h-full object-contain"/>
+                           <Image 
+                             src="/projects/topontop-prev.gif" 
+                             alt="TOPONTOP E-COMMERCE TEMPLATE" 
+                             width={400} 
+                             height={300}
+                             className="max-w-full h-auto object-contain"
+                             loading="lazy"
+                             unoptimized
+                           />
                         </div>
                     </div>
                 </div>    
@@ -97,7 +130,14 @@ export default function Projects() {
                     </div>
                     <div className="md:col-span-1">
                         <div className="flex items-center justify-center text-gray-500 dark:text-gray-400 h-full">
-                           <img src="/projects/dp-prev.png" alt="Daily Philosophy website preview" className="max-w-full max-h-full object-contain"/>
+                           <Image 
+                             src="/projects/dp-prev.png" 
+                             alt="Daily Philosophy website preview" 
+                             width={400} 
+                             height={300}
+                             className="max-w-full h-auto object-contain"
+                             loading="lazy"
+                           />
                         </div>
                     </div>
                 </div>    
@@ -121,7 +161,14 @@ export default function Projects() {
                            </div>
                     <div className="md:col-span-1">
                         <div className="flex items-center justify-center text-gray-500 dark:text-gray-400 h-full">
-                           <img src="/projects/camino-prev.png" alt="Camino website preview" className="max-w-full max-h-full object-contain"/>
+                           <Image 
+                             src="/projects/camino-prev.png" 
+                             alt="Camino website preview" 
+                             width={400} 
+                             height={300}
+                             className="max-w-full h-auto object-contain"
+                             loading="lazy"
+                           />
                         </div>
                     </div>
                     
@@ -148,7 +195,14 @@ export default function Projects() {
                            </div>
                     <div className="md:col-span-1">
                         <div className="flex items-center justify-center text-gray-500 dark:text-gray-400 h-full">
-                           <img src="/projects/notepad-prev.jpeg" alt="NotePad preview" className="max-w-full max-h-full object-contain"/>
+                           <Image 
+                             src="/projects/notepad-prev.jpeg" 
+                             alt="NotePad preview" 
+                             width={400} 
+                             height={300}
+                             className="max-w-full h-auto object-contain"
+                             loading="lazy"
+                           />
                         </div>
                     </div>
                     
