@@ -3,13 +3,17 @@ export const poems = [
     slug: 'why-do-we-have-to-pretend',
     title: 'Why Do We Have to Pretend',
     date: 'November 13, 2023',
-    content: `Are we obliged to lie,
+    content: `
+    Are we obliged to lie,
 to pretend, to show the sight?
+
 Standing on the edges of hell,
-shall we fall, or grab the flame?
+shall we fall, or embrace the flame?
+
 Either way, we burn.
-Choices are never made
-you take a devil’s breath
+Choices are never made.
+
+you take a devil's breath
 to stand in this old yard of men,
 on standards they were built.
 
@@ -18,48 +22,56 @@ To show, to scream, to get.
 
 Why do we have to pretend?
 To be, to dress, to fit.
+
 Why do we have to pretend?
-Why can’t humble be enough?
+Why can't humble be enough?
 
 Why do we have to pretend?
 To steal a soul of steel,
 to burn and call it gain.
 
-I’m scared. I want to be me.
+I'm scared. I want to be me.
 But who am I to be?
 Am I the one you see?
+
 I'm scared of you to judge,
-the words of which meant it all.
-I don’t scream for you to hear
+the words that once held it all.
+
+I don't scream for you to hear
 but who the fuck sees?
+
 The beauty everyone carries
-why can’t it be seen?
+why can't it be seen?
 
 Why do we have to pretend?
 Is it so hard to get?
+
 Open the rims of your face,
-hear what I’ve shouted for years.
+hear what I've shouted for years.
 Why do we have to pretend?
-Ignoring us till we break,
+
+You bypass till we burst,
 forcing us to be someone you love.
 
-Maybe then you’ll see
+Maybe then you'll see
 see the world you built.
+
 And now you ask: is that me?
 Should I keep lying,
 or keep the one you seek?
 
 Why do we have to live
 with a stolen soul you took?
+
 Is that me, I asked.
 Thoughts rip through my brain.
-No, it’s mine.
-If it’s broken, it’s still mine.
+No, it's mine.
+If it's broken, it's still mine.
 Because I am a strewn man.
-Look what you’ve made.
+Look what you've made.
 
 Who am I, I asked.
-I don’t know, I replied.`
+I don't know, I replied.`
   },
       {
     slug: 'the-white-shroud',
@@ -74,7 +86,7 @@ i told the moon: come, close my mind.
 the crowded mind became an empty sky,
 ready to fly.
 
-ignite the engine, let’s go hide.
+ignite the engine, let's go hide.
 just take a step for life,
 kill the thought, restart the night.
 
@@ -95,12 +107,12 @@ just terrified.
     title: 'Seed of Mistakes',
     date: 'September 12, 2023',
     content: `
-  can’t leave yet, can’t stay
+  can't leave yet, can't stay
  the urge to reprieve
  is the golden winner of this seed 
  the seed we built by our deeds.
 
-deeds are mistakes that won’t let us proceed,
+deeds are mistakes that won't let us proceed,
  proceed toward what is meant to be.
 
 be the stone that never creaks.
@@ -119,7 +131,8 @@ flee, the last words
     slug: 'Sins',
     title: 'Sins',
     date: 'September 13, 2023',
-    content: `I saw the fear
+    content: `
+I saw the fear
 the fear of losing, the fear of hearing,
 a frozen tree reminding me to shrink,
 while the urge to hold on pulled me near.
@@ -137,7 +150,7 @@ yet never naming the hands that shaped them.
 Doubting even what is seen
 denial stronger than belief.
 
-Facts were never kind companions.
+Facts that were never told.
 Some drew closer,
 but many wandered too far to return.
 
@@ -156,36 +169,37 @@ No happy ending waits for you, my dear.`
  look around. decide.
 you stacked the stones,
  lids to your own eyes.
- and now you’re seeking to define
- what you’ve already sacrificed.
+ and now you're seeking to define
+ what you've already sacrificed.
 `
   },
       {
     slug: 'breathes-for-a-homesick-home',
     title: 'Breathes for a Homesick Home',
     date: 'March 8, 2024',
-    content: `from ear to ear it's not what it seems
-i wanna breathe without the pain in my chest
-i wanna feel the love they've never held
-is it too hard to raise
-what about the tears i shed 
-these prayers were never off
-nothing seems to change
-it's all just the same
-let's stop getting each others for a fool
-it's literally an endless loop
-i'm thinking of ending things
-but God i wanna see you
-do you hear me sobbing for your mercy
-this pain this pain this pain
-please end this
-i'm not made for this
+    content: `
+from ear to ear the mask sits still
+I'd like to breathe without the stitch in my ribs
+to learn the warmth they speak of but seldom hold
+is it so hard to lift?
+what of the salt I've spent?
+prayers go out and fold back in
+the room does not rearrange
+the clock keeps one note
+
+let the echoes stop
+the corridor loops on itself
+I think of leaving the page blank
+yet, God, I'd stay to catch a glint
+do You hear the rain inside my throat?
+this ache, this ache
+let it loosen
+I wasn't shaped for such storms
 `
   },
-
       {
     slug: 'feeling-the-ugliest-ive-ever-felt',
-    title: 'Feeling the Ugliest I’ve Ever Felt',
+    title: 'Feeling the Ugliest I\'ve Ever Felt',
     date: 'April 4, 2024',
     content: `
   feeling the ugliest i’ve ever felt
