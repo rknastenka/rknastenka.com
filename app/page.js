@@ -241,6 +241,13 @@ export default function Home() {
               linkText="Color Spaces, Models, and Gamuts"
               icon="https://www.google.com/s2/favicons?domain=makingsoftware.com&sz=128"
             />
+            
+            <LinkPreview
+              url="https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf"
+              siteName="Apple ML Site"
+              linkText="The Illusion of Thinking (PDF)"
+              icon="https://www.google.com/s2/favicons?domain=apple.com&sz=128"
+            />
           </div>
         </div>
 
