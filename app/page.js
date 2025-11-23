@@ -1,3 +1,4 @@
+import LinkPreview from '@/components/LinkPreview';
 
 export const metadata = {
   title: "Home",
@@ -11,7 +12,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-          <div className=" leading-[#1.8] tracking-wide text-xs lg:text-[1rem]">
+          <div className=" leading-[#1.8] tracking-wide text-xs lg:text-[1rem]" style={{ fontFamily: 'ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"' }}>
 
                 <div className="font-bold mb-10">
                         Hey, welcome to my blog. Here you'll see a bunch of unscripted perceptions of mine,
@@ -154,9 +155,94 @@ export default function Home() {
           -Excellence doesn't come naturally, it is built through practice.
           </div>
 
-
         </div>    
         
+
+        {/* Hardware Resources */}
+        <div className="mt-10 mb-10">
+          <div className='mb-4 text-[0.9rem] lg:text-[1.2rem] font-bold'>
+            very interesting resources {':)'}
+          </div>
+          
+          <div className="space-y-1">
+            <LinkPreview
+              url="https://www.instructables.com/"
+              siteName="Instructables"
+              linkText="Yours for the making"
+              icon="https://www.google.com/s2/favicons?domain=instructables.com&sz=128"
+            />
+            
+            <LinkPreview
+              url="https://hackaday.io/"
+              siteName="hackadayio"
+              linkText="Hackaday.io"
+              icon="https://www.google.com/s2/favicons?domain=hackaday.io&sz=128"
+            />
+            
+            <LinkPreview
+              url="https://projecthub.arduino.cc/"
+              siteName="Arduino Project Hub"
+              linkText="Arduino Project Hub"
+              icon="https://www.google.com/s2/favicons?domain=arduino.cc&sz=128"
+            />
+            
+            <LinkPreview
+              url="https://googleprojectzero.blogspot.com/2019/02/examining-pointer-authentication-on.html"
+              siteName="Google Project Zero"
+              linkText="Examining Pointer Authentication on the iPhone XS"
+              icon="https://www.google.com/s2/favicons?domain=googleprojectzero.blogspot.com&sz=128"
+            />
+            
+            <LinkPreview
+              url="https://www.jmeiners.com/lc3-vm/"
+              siteName="jmeiners.com"
+              linkText="Write your Own Virtual Machine"
+              icon="https://www.google.com/s2/favicons?domain=jmeiners.com&sz=128"
+            />
+            
+            <LinkPreview
+              url="https://en.m.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
+              siteName="Wikipedia"
+              linkText="Dunning–Kruger effect"
+              icon="https://www.google.com/s2/favicons?domain=wikipedia.org&sz=128"
+            />
+            
+            <LinkPreview
+              url="https://quest-lab.cs.wisc.edu/guides/index.html"
+              siteName="Quest Lab"
+              linkText="Computer Systems Guides"
+              icon="https://www.google.com/s2/favicons?domain=quest-lab.cs.wisc.edu&sz=128"
+            />
+            
+            <LinkPreview
+              url="https://en.algorithmica.org/hpc/"
+              siteName="Algorithmica"
+              linkText="Algorithms for Modern Hardware"
+              icon="https://www.google.com/s2/favicons?domain=algorithmica.org&sz=128"
+            />
+            
+            <LinkPreview
+              url="https://p.ost2.fyi/courses"
+              siteName="OST2"
+              linkText="Computer Science Courses"
+              icon="https://www.google.com/s2/favicons?domain=ost2.fyi&sz=128"
+            />
+            
+            <LinkPreview
+              url="https://mikeash.com/pyblog/friday-qa-2017-06-30-dissecting-objc_msgsend-on-arm64.html"
+              siteName="mikeash.com"
+              linkText="Dissecting objc_msgSend on ARM64"
+              icon="https://www.google.com/s2/favicons?domain=mikeash.com&sz=128"
+            />
+            
+            <LinkPreview
+              url="https://www.makingsoftware.com/chapters/color-spaces-models-and-gamuts"
+              siteName="Making Software"
+              linkText="Color Spaces, Models, and Gamuts"
+              icon="https://www.google.com/s2/favicons?domain=makingsoftware.com&sz=128"
+            />
+          </div>
+        </div>
 
 
         {/* Disclaimer
