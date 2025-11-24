@@ -73,35 +73,6 @@ Look what you've made.
 Who am I, I asked.
 I don't know, I replied.`
   },
-      {
-    slug: 'the-white-shroud',
-    title: 'The White Shroud',
-    date: 'May 4, 2021',
-    content: `
- after a rainy day, my hands found the paper.
-the pencil moved, my eyes began to see.
-see and write, in a never-ending way.
-
-i told the moon: come, close my mind.
-the crowded mind became an empty sky,
-ready to fly.
-
-ignite the engine, let's go hide.
-just take a step for life,
-kill the thought, restart the night.
-
-afraid of me, i called the sky.
-on my knees, letting it inside.
-
-my heart ended.
-the clock stopped.
-they wrote the time.
-
-and i walked into the white land.
-nothing left prepared to say.
-just terrified.
-`
-  },
     {
     slug: 'seed-of-mistakes',
     title: 'Seed of Mistakes',
@@ -128,6 +99,34 @@ flee, the last words
 `
   },
     {
+    slug: 'the-white-shroud',
+    title: 'The White Shroud',
+    date: 'May 4, 2021',
+    content: `
+ after a rainy day, my hands found the paper.
+the pencil moved, my eyes began to see.
+see and write, in a never-ending way.
+
+i told the moon: come, close my mind.
+the crowded mind became an empty sky,
+ready to fly.
+
+ignite the engine, let's go hide.
+just take a step for life,
+kill the thought, restart the night.
+
+afraid of me, i called the sky.
+on my knees, letting it inside.
+
+my heart ended.
+the clock stopped.
+they wrote the time.
+
+and i walked into the white land.
+nothing left prepared to say.
+just terrified.
+`}
+    ,{
     slug: 'Sins',
     title: 'Sins',
     date: 'September 13, 2023',

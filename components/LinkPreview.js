@@ -25,7 +25,7 @@ export default function LinkPreview({ url, siteName, linkText, icon }) {
         <span className="text-gray-500 dark:text-gray-400 text-xs lg:text-sm font-normal">
           {siteName}
         </span>
-        <span className="font-semibold text-black dark:text-white text-xs lg:text-sm">
+        <span className="font-semibold  text-xs lg:text-sm">
           {linkText}
         </span>
       </div>
