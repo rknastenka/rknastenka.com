@@ -6,7 +6,7 @@ export default function LinkPreview({ url, siteName, linkText, icon }) {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center gap-2 py-1 no-underline hover:opacity-80 transition-opacity"
+      className="flex items-center gap-2 py-0.5 no-underline hover:opacity-80 transition-opacity"
     >
       {/* Icon */}
       {icon && (

@@ -248,6 +248,13 @@ export default function Home() {
               linkText="The Illusion of Thinking (PDF)"
               icon="https://www.google.com/s2/favicons?domain=apple.com&sz=128"
             />
+            
+            <LinkPreview
+              url="https://www.cse.wustl.edu/~jain/tutorials/gitma15.htm"
+              siteName="CSE WUSTL"
+              linkText="Network Security"
+              icon="https://www.google.com/s2/favicons?domain=wustl.edu&sz=128"
+            />
           </div>
         </div>
 
