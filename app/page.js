@@ -255,6 +255,13 @@ export default function Home() {
               linkText="Network Security"
               icon="https://www.google.com/s2/favicons?domain=wustl.edu&sz=128"
             />
+            
+            <LinkPreview
+              url="https://www.allaboutcircuits.com/textbook/semiconductors/chpt-2/quantum-physics/"
+              siteName="All About Circuits"
+              linkText="Quantum Physics"
+              icon="https://www.google.com/s2/favicons?domain=allaboutcircuits.com&sz=128"
+            />
           </div>
         </div>
 
