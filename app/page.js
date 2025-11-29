@@ -173,17 +173,10 @@ export default function Home() {
             />
             
             <LinkPreview
-              url="https://hackaday.io/"
-              siteName="hackadayio"
-              linkText="Hackaday.io"
-              icon="https://www.google.com/s2/favicons?domain=hackaday.io&sz=128"
-            />
-            
-            <LinkPreview
-              url="https://projecthub.arduino.cc/"
-              siteName="Arduino Project Hub"
-              linkText="Arduino Project Hub"
-              icon="https://www.google.com/s2/favicons?domain=arduino.cc&sz=128"
+              url="https://www.allaboutcircuits.com/projects/"
+              siteName="All About Circuits"
+              linkText="Probably the best place regarding electronics"
+              icon="https://www.google.com/s2/favicons?domain=allaboutcircuits.com&sz=128"
             />
             
             <LinkPreview
@@ -224,7 +217,7 @@ export default function Home() {
             <LinkPreview
               url="https://p.ost2.fyi/courses"
               siteName="OST2"
-              linkText="Computer Science Courses"
+              linkText="Computer Architecture & Malware Analysis"
               icon="https://www.google.com/s2/favicons?domain=ost2.fyi&sz=128"
             />
             
@@ -238,7 +231,7 @@ export default function Home() {
             <LinkPreview
               url="https://www.makingsoftware.com/chapters/color-spaces-models-and-gamuts"
               siteName="Making Software"
-              linkText="Color Spaces, Models, and Gamuts"
+              linkText="Such a masterpiece..."
               icon="https://www.google.com/s2/favicons?domain=makingsoftware.com&sz=128"
             />
             
@@ -251,17 +244,11 @@ export default function Home() {
             
             <LinkPreview
               url="https://www.cse.wustl.edu/~jain/tutorials/gitma15.htm"
-              siteName="CSE WUSTL"
-              linkText="Network Security"
+              siteName="Network Security"
+              linkText="Security Geek's"
               icon="https://www.google.com/s2/favicons?domain=wustl.edu&sz=128"
             />
             
-            <LinkPreview
-              url="https://www.allaboutcircuits.com/textbook/semiconductors/chpt-2/quantum-physics/"
-              siteName="All About Circuits"
-              linkText="Quantum Physics"
-              icon="https://www.google.com/s2/favicons?domain=allaboutcircuits.com&sz=128"
-            />
           </div>
         </div>
 
