@@ -4,13 +4,14 @@ export const metadata = {
   title: "Home",
   description: "Welcome to Nastenka's personal blog. Discover unscripted thoughts and perceptions about life, self-understanding, and random topics. A space for authentic introspective writing.",
   openGraph: {
-    title: "Nastenka - Personal Blog & Thoughts",
+    title: "Nastenka",
     description: "Welcome to Nastenka's personal blog. Discover unscripted thoughts and perceptions about life, self-understanding, and random topics.",
     images: ['/website-preview.png'],
   },
 };
 
 export default function Home() {
+
   return (
           <div className=" leading-[#1.8] tracking-wide text-xs lg:text-[1rem]" style={{ fontFamily: 'ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"' }}>
 

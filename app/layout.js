@@ -5,6 +5,7 @@ import Script from 'next/script';
 import ConditionalSideVideos from "@/components/ConditionalSideVideos";
 import MobilePopup from "@/components/MobilePopup";
 import CharacterWidget from "@/components/CharacterWidget";
+import FullscreenButton from "@/components/FullscreenButton";
 
 import Footer from "@/components/Footer";
 import ConditionalFooter from "@/components/ConditionalFooter";
@@ -163,6 +164,8 @@ export default function RootLayout({ children }) {
 
             <body className={`flex min-h-screen flex-col ${geistSans.variable} ${geistMono.variable} ${roboto.variable} antialiased`}>
               
+                <FullscreenButton />
+                
                 <NavbarGate />
 
                 {/* <MobilePopup /> */}
