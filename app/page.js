@@ -250,6 +250,20 @@ export default function Home() {
               icon="https://www.google.com/s2/favicons?domain=wustl.edu&sz=128"
             />
             
+            <LinkPreview
+              url="https://www.righto.com/"
+              siteName="Ken Shirriff's Blog"
+              linkText="Reverse engineering and hardware analysis"
+              icon="https://www.google.com/s2/favicons?domain=righto.com&sz=128"
+            />
+            
+            <LinkPreview
+              url="https://www.youtube.com/@anassalaheddin1258"
+              siteName="YouTube"
+              linkText="I learnt a lot from this amazing guy"
+              icon="https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+            />
+            
           </div>
         </div>
 
