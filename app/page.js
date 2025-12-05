@@ -104,7 +104,7 @@ export default function Home() {
               <br/>
               - [x] Verilog
               <br/>
-              - [ ] FBGA
+              - [ ] FPGA
             </div>
             <div>
               - [ ] Assembly
