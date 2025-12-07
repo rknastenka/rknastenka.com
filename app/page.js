@@ -1,7 +1,7 @@
 import LinkPreview from '@/components/LinkPreview';
 
 export const metadata = {
-  title: "Home",
+  title: "rknastenka",
   description: "Welcome to Nastenka's personal blog. Discover unscripted thoughts and perceptions about life, self-understanding, and random topics. A space for authentic introspective writing.",
   openGraph: {
     title: "Nastenka",
