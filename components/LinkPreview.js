@@ -11,7 +11,7 @@ export default function LinkPreview({ url, siteName, linkText, icon }) {
         <img
           src={icon}
           alt={siteName}
-          className="w-6 h-6 flex-shrink-0 object-contain rounded"
+          className="w-5 h-5 flex-shrink-0 object-contain rounded"
         />
       )}
       

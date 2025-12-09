@@ -176,14 +176,14 @@ export default function Home() {
             <LinkPreview
               url="https://www.allaboutcircuits.com/projects/"
               siteName="All About Circuits"
-              linkText="Probably the best place regarding electronics"
+              linkText="Everything regarding electronics"
               icon="https://www.google.com/s2/favicons?domain=allaboutcircuits.com&sz=128"
             />
             
             <LinkPreview
               url="https://googleprojectzero.blogspot.com/2019/02/examining-pointer-authentication-on.html"
               siteName="Google Project Zero"
-              linkText="Examining Pointer Authentication on the iPhone XS"
+              linkText="Pointer Authentication on the iPhone XS"
               icon="https://www.google.com/s2/favicons?domain=googleprojectzero.blogspot.com&sz=128"
             />
             
@@ -276,7 +276,7 @@ export default function Home() {
             </div> */}
 
 
-          <div className='text-gray-600 uppercase lg:text-xs mt-10'>
+          <div className='text-gray-600 uppercase text-xs mt-10'>
             my website needs lots and lots of updates, bear with me :0
            </div>
     </div>

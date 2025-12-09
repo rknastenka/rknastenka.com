@@ -41,7 +41,7 @@ export default function Poems() {
               </h2>
             </Link>
             <div className="text-gray-500 text-[0.95rem] mb-4">{poem.date}</div>
-            <div className="whitespace-pre-line poems-text leading-relaxed">
+            <div className="whitespace-pre-line poems-text leading-relaxed text-xs md:text-md lg:text-base">
               {poem.content}
             </div>
           </article>
