@@ -30,7 +30,7 @@ const roboto = Roboto({
 export const metadata = {
     title: {
         default: "Nastenka",
-        template: "%s | Nastenka"
+        template: "%s | rknastenka"
     },
     description: "Welcome to Nastenka's personal blog.",
     keywords: ["Bana Tawalbeh","Nastenka","ini","personal blog", "thoughts", "writing", "introspection", "life philosophy", "self-reflection", "articles", "blog posts"],

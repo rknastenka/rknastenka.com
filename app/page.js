@@ -13,7 +13,7 @@ export const metadata = {
 export default function Home() {
 
   return (
-          <div className=" leading-[#1.8] tracking-wide text-xs lg:text-[1rem]" style={{ fontFamily: 'ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"' }}>
+          <div className=" leading-[#1.8] tracking-wide text-xs lg:text-[1rem]" >
 
                 <div className="font-bold mb-10">
                         Hey, welcome to my blog. Here you'll see a bunch of unscripted perceptions of mine,
@@ -148,11 +148,11 @@ export default function Home() {
           -Notice what you link pleasure to, Notice what you link pain to.
           </div>
           
-          <div className="lg:text-sm">
+          <div className="lg:text-sm mb-3">
           -Goals are for people who care about winning once. Systems are for people who care about winning repeatedly.
           </div>
 
-          <div className="lg:text-sm">
+          <div className="lg:text-sm mb-3">
           -Excellence doesn't come naturally, it is built through practice.
           </div>
 

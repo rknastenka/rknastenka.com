@@ -1,5 +1,3 @@
-'use client';
-
 export default function LinkPreview({ url, siteName, linkText, icon }) {
   return (
     <a
@@ -14,9 +12,6 @@ export default function LinkPreview({ url, siteName, linkText, icon }) {
           src={icon}
           alt={siteName}
           className="w-6 h-6 flex-shrink-0 object-contain rounded"
-          onError={(e) => {
-            e.target.style.display = 'none';
-          }}
         />
       )}
       

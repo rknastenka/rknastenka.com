@@ -6,7 +6,6 @@ export const metadata = {
   description: 'Discover Nastenka\'s projects',
   openGraph: {
     title: 'Projects',
-    description: 'Discover Nastenka\'s projects and creative solutions. Learn about the process of turning ideas into action.',
     images: ['/website-preview.png'],
   },
 };
