@@ -264,6 +264,13 @@ export default function Home() {
               icon="https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
             />
             
+            <LinkPreview
+              url="https://tams.informatik.uni-hamburg.de/applets/hades/webdemos/40-memories/20-rom/demo-ROM1Kx8.html"
+              siteName="Hamburg TAMS"
+              linkText="ROM Memory Demo - HADES"
+              icon="https://www.google.com/s2/favicons?domain=tams.informatik.uni-hamburg.de&sz=128"
+            />
+            
           </div>
         </div>
 
