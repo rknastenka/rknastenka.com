@@ -271,6 +271,13 @@ export default function Home() {
               icon="https://www.google.com/s2/favicons?domain=tams.informatik.uni-hamburg.de&sz=128"
             />
             
+            <LinkPreview
+              url="https://hdlbits.01xz.net/wiki/Problem_sets#Combinational_Logic"
+              siteName="HDLBits"
+              linkText="Verilog Practice Problems"
+              icon="https://www.google.com/s2/favicons?domain=hdlbits.01xz.net&sz=128"
+            />
+            
           </div>
         </div>
 
