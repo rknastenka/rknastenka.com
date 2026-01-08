@@ -4,14 +4,14 @@ export default function LinkPreview({ url, siteName, linkText, icon }) {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center gap-2 py-0.5 no-underline hover:opacity-80 transition-opacity"
+      className="flex items-center gap-2 py-0.3 lg:py-0.5 no-underline hover:opacity-80 transition-opacity"
     >
       {/* Icon */}
       {icon && (
         <img
           src={icon}
           alt={siteName}
-          className="w-5 h-5 flex-shrink-0 object-contain rounded"
+          className="w-4.5 h-4.5 flex-shrink-0 object-contain rounded"
         />
       )}
       
