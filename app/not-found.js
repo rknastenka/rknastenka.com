@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: '404 - Page Not Found',
-  description: 'The page you are looking for does not exist. Return to Nastenka\'s blog homepage to explore articles, gallery, and projects.',
+  description: 'The page you are looking for does not exist.',
 };
 
 export default function NotFound() {

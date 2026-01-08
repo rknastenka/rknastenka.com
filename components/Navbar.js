@@ -24,7 +24,7 @@ export default function Navbar() {
   // Set random profile picture after hydration
   useEffect(() => {
     setIsHydrated(true);
-    const randomNum = Math.floor(Math.random() * 21) + 1;
+    const randomNum = Math.floor(Math.random() * 8) + 1;
     setRandomPfp(`/pfp/${randomNum}.jpg`);
   }, []);
 

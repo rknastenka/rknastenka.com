@@ -1,15 +1,5 @@
 import LinkPreview from '@/components/LinkPreview';
 
-export const metadata = {
-  title: "rknastenka",
-  description: "Welcome to Nastenka's personal blog. Discover unscripted thoughts and perceptions about life, self-understanding, and random topics. A space for authentic introspective writing.",
-  openGraph: {
-    title: "Nastenka",
-    description: "Welcome to Nastenka's personal blog. Discover unscripted thoughts and perceptions about life, self-understanding, and random topics.",
-    images: ['/website-preview.png'],
-  },
-};
-
 export default function Home() {
 
   return (
@@ -71,12 +61,6 @@ export default function Home() {
                 just start.
                </div> */}
 
-
-          <div className="mt-5  lg:text-sm">
-          Knowledge Base below is a collection of various
-          topics and technologies that I know little to moderately
-          about but eager to learn more, and ace throughout the rest of college.
-          </div>
 
         {/* Knowledge Base */}
         <div className="mt-5 mb-10" >

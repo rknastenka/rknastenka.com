@@ -32,11 +32,11 @@ export const metadata = {
         default: "Nastenka",
         template: "%s | rknastenka"
     },
-    description: "Welcome to Nastenka's personal blog.",
+    description: "about me + some projects + my articles, thoughts and poems.",
     keywords: ["Bana Tawalbeh","Nastenka","ini","personal blog", "thoughts", "writing", "introspection", "life philosophy", "self-reflection", "articles", "blog posts"],
-    authors: [{ name: "Nastenka" }],
-    creator: "Nastenka",
-    publisher: "Nastenka",
+    authors: [{ name: "Nastenka, Bana Tawalbeh" }],
+    creator: "Nastenka, Bana Tawalbeh",
+    publisher: "Nastenka, Bana Tawalbeh",
     robots: {
         index: true,
         follow: true,
@@ -53,11 +53,11 @@ export const metadata = {
         locale: 'en_US',
         url: 'https://rknastenka.com',
         siteName: 'Nastenka',
-        title: 'Nastenka - Personal Blog & Thoughts',
-        description: 'Welcome to Nastenka\'s personal blog. Explore unscripted thoughts, perceptions, and notions about life, self-understanding, and random topics.',
+        title: 'Nastenka',
+        description: 'about me + some projects + my articles, thoughts and poems.',
         images: [
             {
-                url: '/website-preview.png',
+                url: '/main.jpg',
                 width: 1200,
                 height: 630,
                 alt: 'Nastenka\'s Personal Blog',
@@ -66,9 +66,9 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Nastenka - Personal Blog & Thoughts',
-        description: 'Welcome to Nastenka\'s personal blog. Explore unscripted thoughts, perceptions, and notions about life, self-understanding, and random topics.',
-        images: ['/website-preview.png'],
+        title: 'Nastenka',
+        description: 'about me + some projects + my articles, thoughts and poems.',
+        images: ['/main.jpg'],
         creator: '@nastenka',
     },
     icons: {

@@ -1,13 +1,3 @@
-export const metadata = {
-  title: 'Poetry',
-  description: 'A collection of poems and creative expressions by Nastenka.',
-  openGraph: {
-    title: 'Poetry',
-    description: 'A collection of poems and creative expressions by Nastenka.',
-    images: ['/website-preview.png'],
-  },
-};
-
 import Link from 'next/link';
 import { poems } from './data';
 
