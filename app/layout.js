@@ -139,8 +139,8 @@ export default function RootLayout({ children }) {
                             "@type": "Person",
                             "name": "Nastenka",
                             "url": "https://rknastenka.com",
-                            "image": "https://rknastenka.com/ini2.png",
-                            "description": "Personal blogger sharing thoughts, perceptions, and notions about life and self-understanding",
+                            "image": "https://rknastenka.com/main.jpg",
+                            "description": "about me + some projects + my articles, thoughts and poems.",
                             "mainEntityOfPage": {
                                 "@type": "WebPage",
                                 "@id": "https://rknastenka.com"
@@ -154,7 +154,7 @@ export default function RootLayout({ children }) {
                                 "name": "Nastenka",
                                 "logo": {
                                     "@type": "ImageObject",
-                                    "url": "https://rknastenka.com/ini2.png"
+                                    "url": "https://rknastenka.com/main.jpg"
                                 }
                             }
                         })

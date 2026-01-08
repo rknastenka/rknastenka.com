@@ -8,7 +8,7 @@ export default function Home() {
      <div className="font-bold mb-10">
       Whom you are is a very controversial question to ask.
       for me, a soul is introduced and formed within its perspectives
-      and acts upon the lifetime, we as humans are very similar, 
+      and acts upon its lifetime, we as humans are very similar, 
       we're pieces of bone and marrow.
       <br/>
       <br/>
@@ -84,8 +84,6 @@ export default function Home() {
               - [ ] Research
               <br/>
               - [x] Verilog
-              <br/>
-              - [ ] FPGA
             </div>
             <div>
               - [ ] Assembly

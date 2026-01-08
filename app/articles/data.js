@@ -9,7 +9,6 @@ export const articles = [
     slug: 'how-I-delight-in-serene-melancholy',
     title: 'how I delight in serene melancholy',
     date: '2025-09-28',
-    summary: 'Thoughts on embracing uncertainty and moving forward.',
     content: [
       'If you focus on the good, you\'ll encounter the good. If you focus on the bad, you\'ll encounter the bad. It\'s not because only one exists -both are always present- but because your perspective decides what stands out. it\'s about your pov to the world and how you observe it, you must carve happiness out of everything, the bad before the good. if you learn to see the good in the bad, you\'ll always be happy, you got laid off from work, smile maybe it\'s not the right place for you. One misconception that i must point out, is that "seeing happiness in the so called \'bad events\'" doesn\'t mean not fighting for the things you really want. don\'t surrender easily but fight happily.',
       '',
@@ -109,6 +108,20 @@ export const articles = [
     'So, choose your big purpose. then find the major, the job, the craft that helps you serve it. because in a world where you can be anything, you must be defined as something, and that something is your purpose, not your position.'
   ]
 },
+  {
+    slug: 'we-credit-our-stagnation-to-digital-noise',
+    title: 'We credit our stagnation to digital noise to avoid the agony of an internal self.',
+    date: '2026-01-08',
+    content: [
+      'it\'s more about the time you spend understanding yourself to get where you somehow specify your next step, and you\'re barking the wrong tree if you believe it\'s social media that\'s holding you back. when in fact, it\'s just you. during the past weeks, the truth had dawned on me. i now avow the verity that has always lain between my lines of complaint. we\'ve all been in a lifelong run, chasing answers and seeking to get somewhere we\'re not in. trying to do everything whilst indeed doing nothing. yet i can\'t affirm my purpose, but i do, in some way, acknowledge my intentions. Hence, beyond my beliefs, which i may or may not achieve, i wish to perceive more about the sky and moon and what\'s in between.',
+      '',
+      'This is me after three years free from social media. It\'s a fact that social media is detrimental to your mind, but it is not the root cause of your laziness. On the contrast, you turned to social media because of that laziness, because you were seeking dopamine, not the other way around.',
+      '',
+      'Regarding all the theories and speculations surrounding popular social media platforms, people keep criticizing them while simultaneously continuing to use them. There is no sense in such acts. There is no sense in posting a reel about how TikTok damages your intellectual ability while still actively posting on and consuming the app. No company has ever forced any of you to use its platforms. You have a mind, and no one is compelling you to choose this; it is your own decision. Harmful influences have existed since forever, and social media is merely one of them. Yes, it degrades your mind, but you are the one engaging with it; it is, in the end, your choice.',
+      '',
+      'You are the result of an accumulated set of choices you, yourself had made in the past. What you do today will determine what you\'ll be tomorrow. You have to set with yourself more often, be your own friend, understand what you\'re doing, and what you actually should be doing. It\'s not social media, it\'s not your community, it\'s You VS You.',
+    ],
+  },
     {
     slug: 'you-just-need-a-reason',
     title: 'you\'re not lazy, you just need a reason.',
