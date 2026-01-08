@@ -167,13 +167,6 @@ export default function Home() {
           
           <div className="space-y-1">
             <LinkPreview
-              url="https://www.instructables.com/"
-              siteName="Instructables"
-              linkText="Yours for the making"
-              icon="https://www.google.com/s2/favicons?domain=instructables.com&sz=128"
-            />
-            
-            <LinkPreview
               url="https://www.allaboutcircuits.com/projects/"
               siteName="All About Circuits"
               linkText="Everything regarding electronics"
@@ -192,13 +185,6 @@ export default function Home() {
               siteName="jmeiners.com"
               linkText="Write your Own Virtual Machine"
               icon="https://www.google.com/s2/favicons?domain=jmeiners.com&sz=128"
-            />
-            
-            <LinkPreview
-              url="https://en.m.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
-              siteName="Wikipedia"
-              linkText="Dunning–Kruger effect"
-              icon="https://www.google.com/s2/favicons?domain=wikipedia.org&sz=128"
             />
             
             <LinkPreview
@@ -242,29 +228,8 @@ export default function Home() {
               linkText="The Illusion of Thinking (PDF)"
               icon="https://www.google.com/s2/favicons?domain=apple.com&sz=128"
             />
-            
-            <LinkPreview
-              url="https://www.cse.wustl.edu/~jain/tutorials/gitma15.htm"
-              siteName="Network Security"
-              linkText="Security Geek's"
-              icon="https://www.google.com/s2/favicons?domain=wustl.edu&sz=128"
-            />
-            
-            <LinkPreview
-              url="https://www.righto.com/"
-              siteName="Ken Shirriff's Blog"
-              linkText="Reverse engineering and hardware analysis"
-              icon="https://www.google.com/s2/favicons?domain=righto.com&sz=128"
-            />
-            
-            <LinkPreview
-              url="https://www.youtube.com/@anassalaheddin1258"
-              siteName="YouTube"
-              linkText="I learnt a lot from this amazing guy"
-              icon="https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
-            />
-            
-            <LinkPreview
+
+            {/* <LinkPreview
               url="https://tams.informatik.uni-hamburg.de/applets/hades/webdemos/40-memories/20-rom/demo-ROM1Kx8.html"
               siteName="Hamburg TAMS"
               linkText="ROM Memory Demo - HADES"
@@ -276,7 +241,7 @@ export default function Home() {
               siteName="HDLBits"
               linkText="Verilog Practice Problems"
               icon="https://www.google.com/s2/favicons?domain=hdlbits.01xz.net&sz=128"
-            />
+            /> */}
             
           </div>
         </div>
