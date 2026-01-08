@@ -53,6 +53,19 @@ body {
   color-scheme: light dark;
 }
 
+/* Wavy underline effect for text selection */
+::selection {
+  background-color: rgba(96, 165, 250, 0.3);
+  backdrop-filter: blur(8px);
+  color: var(--foreground);
+}
+
+::-moz-selection {
+  background-color: rgba(96, 165, 250, 0.3);
+  backdrop-filter: blur(8px);
+  color: var(--foreground);
+}
+
 /* Force styles when in light mode to override browser dark mode */
 .light body {
   background: var(--background) !important;
