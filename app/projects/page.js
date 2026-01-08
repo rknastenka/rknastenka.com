@@ -65,7 +65,7 @@ export default function Projects() {
                     </div>
                 </div>
                 
-               {/* RAWI project */}
+               {/* RAWI project
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-center">
                     <div className="md:col-span-3 space-y-3">
                         <a href="#" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[RAWI Ai story Maker]</a>
@@ -86,32 +86,9 @@ export default function Projects() {
                            />
                         </div>
                     </div>
-                </div>
+                </div> */}
 
-                {/* TopOnTop project */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-center">
-                    <div className="md:col-span-3 space-y-3">
-                        <a href="#" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[E-commerce Shopify Template]</a>
-                        <p className="text-sm text-gray-400 dark:text-gray-500">
-                          A modern, responsive e-commerce shopify template built with [Shopify x Liquid x TailwindCSS] for a fictional gym sport clothes brand "TopOnTop".
-                        </p>
-                    </div>
-                    <div className="md:col-span-1">
-                        <div className="flex items-center justify-center text-gray-500 dark:text-gray-400 h-full">
-                           <Image 
-                             src="/projects/topontop-prev.gif" 
-                             alt="TOPONTOP E-COMMERCE TEMPLATE" 
-                             width={400} 
-                             height={300}
-                             className="max-w-full h-auto object-contain"
-                             loading="lazy"
-                             unoptimized
-                           />
-                        </div>
-                    </div>
-                </div>    
-
-                {/* Daily Philosophy project */}
+                {/* Daily-Philosophy project */}
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-center">
                     <div className="md:col-span-3 space-y-3">
                         <div className="flex items-center gap-2">
@@ -208,7 +185,7 @@ export default function Projects() {
                 </div>    
 
 
-                {/* Notepad project */}
+                {/* Just-Archive project */}
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-center">
                     <div className="md:col-span-3 space-y-3">
                         <div className="flex items-center gap-2">
