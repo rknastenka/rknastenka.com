@@ -3,37 +3,34 @@ import LinkPreview from '@/components/LinkPreview';
 export default function Home() {
 
   return (
-          <div className=" leading-[#1.8] tracking-wide text-xs lg:text-[1rem]" >
+    <div className=" leading-[#1.8] tracking-wide text-xs lg:text-[1rem]" >
 
-                <div className="font-bold mb-10">
-                        Hey, welcome to my blog. Here you'll see a bunch of unscripted perceptions of mine,
-                        i mostly post my thoughts and notions about different random topics
-                        as i'm free as my thoughts allow me to be. get your cup of tea and enjoy reading
-                        dear passenger.
-                </div>
-
-                <div className="mt-10 mb-10">
-                  i'm bana, mostly known as nastenka or ini, choose the one that lingers with you.
-                  this is supposed to be an about me section,
-                  but I’d rather not write the ordinary script.
-                  go through my notes, read my articles,
-                  and decide for your own what kind of a soul you think i am.
-                </div>
-
-
-                <div className="mt-10 mb-10">
-                    it's more about the time you spend understanding yourself
-                    to get where you somehow specify your next step,
-                    and you're barking the wrong tree if you believe it's social media
-                    that's holding you back. when in fact, it's just you. during the past weeks,
-                    the truth had dawned on me. i now avow the verity that has
-                    always lain between my lines of complaint. we've all been in a lifelong run,
-                    chasing answers and seeking to get somewhere we're not in. trying to do
-                    everything whilst indeed doing nothing. yet i can't affirm my purpose,
-                    but i somehow acknowledge my intents. hence, beyond my belief, which i may or may not achieve,
-                    i wish to perceive more about the sky and moon and what's in between.
-                </div>
-
+     <div className="font-bold mb-10">
+      Whom you are is a very controversial question to ask.
+      for me, a soul is introduced and formed within its perspectives
+      and acts upon the lifetime, we as humans are very similar, 
+      we're pieces of bone and marrow.
+      <br/>
+      <br/>
+      what makes you, you. 
+      is a consequence of replicated deeds that were built upon the life 
+      and thoughts you grew up in. these thoughts of yours may be 
+      altered until they're fully formed one day, but the core is 
+      the same for everybody, you grew up to be like your surrounding
+      or whom you call your family. 
+      These five first years breathing of yours,
+      which you can't recall a memory of, are the ones who made 
+      you who you are today.
+      <br/>
+      <br/>
+      no matter how much you try to change,
+      you can never change the roots of a tree; you only blend it
+      with other leaves to make it better. and your goal should
+      be being the best you could ever be. never coping with anything that doesn't align with your perspectives.
+      <br/>
+      <br/>
+     I'm bana btw, mostly known as nastenka or ini, choose the one that lingers with you. Anyway, welcome to my blog. Here you'll see a bunch of unscripted perceptions of mine, i mostly post my thoughts and notions about different random topics as i'm free as my thoughts allow me to be. get your cup of tea and enjoy reading dear passenger. Go through my notes, read my articles, and decide for your own what kind of a soul you think i am.
+    </div>
 
                {/** Projects Section */}
                {/* <div className="mt-10 mb-10">
@@ -240,7 +237,7 @@ export default function Home() {
 
 
           <div className='text-gray-600 uppercase text-xs mt-10'>
-            my website needs lots and lots of updates, bear with me :0
+              i wanna live up to my principles for which i have to repeat to myself early and often.
            </div>
     </div>
       );
