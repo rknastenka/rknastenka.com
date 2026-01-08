@@ -57,7 +57,7 @@ export const metadata = {
         description: 'about me + some projects + my articles, thoughts and poems.',
         images: [
             {
-                url: '/main.jpg',
+                url: 'https://rknastenka.com/main.jpg',
                 width: 1200,
                 height: 630,
                 alt: 'Nastenka\'s Personal Blog',
@@ -68,7 +68,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: 'Nastenka',
         description: 'about me + some projects + my articles, thoughts and poems.',
-        images: ['/main.jpg'],
+        images: ['https://rknastenka.com/main.jpg'],
         creator: '@nastenka',
     },
     icons: {
