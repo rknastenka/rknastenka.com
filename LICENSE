@@ -1,24 +1,18 @@
-# Dual License
-
-This repository contains both source code and creative content, each under different licenses:
-
----
-
 ## Creative Content License (Articles, Poems, Images)
 
-**Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
 
 All articles, poems, images, and other creative content in this repository (including but not limited to files in `/app/articles/`, `/app/poems/`, `/public/gallery/`, and other content directories) are licensed under CC BY-NC-ND 4.0.
 
 Copyright (c) 2026 rknastenka
 
 You are free to:
-- **Share** — copy and redistribute the material in any medium or format
+Share — copy and redistribute the material in any medium or format
 
 Under the following terms:
-- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-- **NonCommercial** — You may not use the material for commercial purposes.
-- **NoDerivatives** — If you remix, transform, or build upon the material, you may not distribute the modified material.
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- NonCommercial — You may not use the material for commercial purposes.
+- NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
 
 Full license text: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
@@ -26,7 +20,7 @@ Full license text: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
 ## Source Code License
 
-**MIT License**
+MIT License
 
 All source code in this repository (including but not limited to JavaScript, CSS, configuration files, and components) is licensed under the MIT License.
 
