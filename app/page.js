@@ -1,4 +1,5 @@
 import LinkPreview from '@/components/LinkPreview';
+import Link from 'next/link';
 
 export default function Home() {
 
@@ -36,16 +37,14 @@ export default function Home() {
      during the past years, the truth had dawned on me. i now avow the verity that has always lain between my lines of complaint. we've all been in a lifelong run, chasing answers and seeking to get somewhere we're not in. trying to do everything whilst indeed doing nothing. yet i can't affirm my purpose, but i do, in some way, acknowledge my intentions. Hence, beyond my beliefs, which i may or may not achieve, i wish to perceive more about the sky and moon and what's in between.
     <br/>
     <br/>
-     I'm bana btw, mostly known as nastenka or ini, choose the one that lingers with you. Anyway, welcome to my blog. Here you'll see a bunch of unscripted perceptions of mine, i mostly post my thoughts and notions about different random <a href="/archive">topics</a> as i'm free as my thoughts allow me to be. get your cup of tea and enjoy reading dear passenger. Go through my notes, read my articles, and decide for your own what kind of a soul you think i am.
+     I'm bana btw, mostly known as nastenka or ini, choose the one that lingers with you. Anyway, welcome to my blog. Here you'll see a bunch of unscripted perceptions of mine, i mostly post my thoughts and notions about different random topics as i'm free as my thoughts allow me to be. get your cup of tea and enjoy reading dear passenger. Go through my notes, read my articles, and decide for your own what kind of a soul you think i am.
     </div>
     
   <div className="mt-10 font-extrabold flex gap-6">
-    <a href="/clavis"> /clavis </a>
-    <a href="/schedule"> /schedule </a>
-    <a href="/annals"> /annals </a>
-    <a href="/libellus"> /libellus </a>
-    <a href="/maxsims"> /maxsims </a>
-    <a href="/resources"> /resources </a>
+    <Link href="/base"> /kBase </Link>
+    <Link href="/schedule"> /schedule </Link>
+    <Link href="/annals"> /annals </Link>
+    <Link href="/reminders"> /reminders </Link>
   </div>
 
     </div>
