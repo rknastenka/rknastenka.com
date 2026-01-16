@@ -27,7 +27,7 @@ export default function Home() {
       you can never change the roots of a tree; you only blend it
       with other leaves to make it better. and your goal should
       be being the best you could ever be. never coping with anything that doesn't align with your perspectives.
- 
+
     <br/>
     <br/>
     it's more about the time you spend understanding yourself to get where you somehow specify your next step, and you're barking the wrong tree if you believe it's social media that's holding you back. when in fact, it's just you.
@@ -39,6 +39,15 @@ export default function Home() {
      I'm bana btw, mostly known as nastenka or ini, choose the one that lingers with you. Anyway, welcome to my blog. Here you'll see a bunch of unscripted perceptions of mine, i mostly post my thoughts and notions about different random <a href="/archive">topics</a> as i'm free as my thoughts allow me to be. get your cup of tea and enjoy reading dear passenger. Go through my notes, read my articles, and decide for your own what kind of a soul you think i am.
     </div>
     
+  <div className="mt-10 font-extrabold flex gap-6">
+    <a href="/clavis"> /clavis </a>
+    <a href="/schedule"> /schedule </a>
+    <a href="/annals"> /annals </a>
+    <a href="/libellus"> /libellus </a>
+    <a href="/maxsims"> /maxsims </a>
+    <a href="/resources"> /resources </a>
+  </div>
+
     </div>
       );
     }
