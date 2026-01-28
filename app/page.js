@@ -40,7 +40,26 @@ export default function Home() {
      I'm bana btw, mostly known as nastenka or ini, choose the one that lingers with you. Anyway, welcome to my blog. Here you'll see a bunch of unscripted perceptions of mine, i mostly post my thoughts and notions about different random topics as i'm free as my thoughts allow me to be. get your cup of tea and enjoy reading dear passenger. Go through my notes, read my articles, and decide for your own what kind of a soul you think i am.
     </div>
     
-  <div className="mt-10 font-extrabold flex gap-6 max-w-3xl">
+
+  <div className="mt-10 text-xs">
+    <p>
+    "What if laziness is nothing but a habit of thinking about the effort instead of thinking about the outcome?
+    What if you could reverse laziness by simply developing a habit of thinking more about the delicious food that you'd like to enjoy
+    instead of how long it would take you to get up and go get it?
+    But the real question is, if you were to test this at home and try to see if you can think more about the good outcome
+    and less about the work, would you get it done?
+    Why is it that people have a second child?
+    Why does a woman who goes through this awful, awful childbirth have a second child?
+    Don't they always say the same thing?
+    If I remembered how bad this was, I wouldn't do it again.
+    Right?
+    So the not thinking about the effort is vital to actually the survival of humanity.
+    If we focused on how hard it was to have a baby, you just wouldn't do it.
+    Or you do too little of it.
+    But if you focus on how awesome it would be to have a family, well, there you go."
+    </p>
+  </div>  
+ <div className="mt-7 font-extrabold flex gap-6 max-w-3xl text-xs">
     <Link href="/base"> /kBase </Link>
     <Link href="/schedule"> /schedule </Link>
     <Link href="/annals"> /annals </Link>

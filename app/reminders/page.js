@@ -29,13 +29,25 @@ export default function Reminders() {
             <li className="mb-3">
               Excellence doesn't come naturally, it is built through practice.
             </li>
+            <li className="mb-3">
+               Preparing to do the thing isn't doing the thing.
+ Scheduling time to do the thing isn't doing the thing.
+ Making a to-do list for the thing isn't doing the thing.
+ Telling people you're going to do the thing isn't doing the thing.
+ Hating on yourself for not doing the thing isn't doing the thing.
+ Hating on other people who have done the thing isn't doing the thing.
+ Fantasizing about all of the adoration you'll receive once you do the thing isn't doing the thing.
+ Reading about how to do the thing isn't doing the thing.
+ Reading about how other people did the thing isn't doing the thing.
+ The only thing that is doing the thing is doing the thing.
+            </li>
           </ul>
           
         </div>   
-
+{/* 
           <div className='text-gray-600 uppercase text-xs mt-10'>
               i wanna live up to my principles for which i have to repeat to myself early and often.
-           </div>
+           </div> */}
     </div>
       );
     }
