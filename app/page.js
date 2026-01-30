@@ -61,7 +61,7 @@ export default function Home() {
   </div>  
  <div className="mt-7 font-extrabold flex gap-6 max-w-3xl text-xs">
     <Link href="/base"> /kBase </Link>
-    <Link href="/schedule"> /schedule </Link>
+    {/* <Link href="/schedule"> /schedule </Link> */}
     <Link href="/annals"> /annals </Link>
     <Link href="/reminders"> /reminders </Link>
   </div>
