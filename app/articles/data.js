@@ -124,7 +124,14 @@ export const articles = [
     slug: 'you-just-need-a-reason',
     title: 'you\'re not lazy, you just need a reason.',
     date: 'release soon...',
-    summary: 'Managing rewards to keep focus.',
+    content: [
+      'updates soon...',
+    ],
+  },
+      {
+    slug: 'the-urgency-paradox',
+    title: 'The Urgency Paradox: How to maintain "panic-level" focus.',
+    date: 'release soon...',
     content: [
       'updates soon...',
     ],
