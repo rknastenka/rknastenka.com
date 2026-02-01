@@ -29,14 +29,14 @@ const roboto = Roboto({
 
 export const metadata = {
     title: {
-        default: "Nastenka",
+        default: "rknastenka", //⌈  ⌉
         template: "%s | rknastenka"
     },
     description: "about me + some projects + my articles, thoughts and poems.",
-    keywords: ["Bana Tawalbeh","Nastenka","ini","personal blog", "thoughts", "writing", "introspection", "life philosophy", "self-reflection", "articles", "blog posts"],
-    authors: [{ name: "Nastenka, Bana Tawalbeh" }],
-    creator: "Nastenka, Bana Tawalbeh",
-    publisher: "Nastenka, Bana Tawalbeh",
+    keywords: ["Bana Tawalbeh","rknastenka","ini","personal blog", "thoughts", "writing", "introspection", "life philosophy", "self-reflection", "articles", "blog posts"],
+    authors: [{ name: "rknastenka, Bana Tawalbeh" }],
+    creator: "rknastenka, Bana Tawalbeh",
+    publisher: "rknastenka, Bana Tawalbeh",
     robots: {
         index: true,
         follow: true,
@@ -52,24 +52,24 @@ export const metadata = {
         type: 'website',
         locale: 'en_US',
         url: 'https://rknastenka.com',
-        siteName: 'Nastenka',
-        title: 'Nastenka',
+        siteName: 'rknastenka',
+        title: 'rknastenka',
         description: 'about me + some projects + my articles, thoughts and poems.',
         images: [
             {
                 url: 'https://rknastenka.com/main.jpg',
                 width: 1200,
                 height: 630,
-                alt: 'Nastenka\'s Personal Blog',
+                alt: 'rknastenka\'s Personal Blog',
             },
         ],
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Nastenka',
+        title: 'rknastenka',
         description: 'about me + some projects + my articles, thoughts and poems.',
         images: ['https://rknastenka.com/main.jpg'],
-        creator: '@nastenka',
+        creator: '@rknastenka',
     },
     icons: {
         icon: '/ini2.png',
@@ -137,7 +137,7 @@ export default function RootLayout({ children }) {
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "Person",
-                            "name": "Nastenka",
+                            "name": "rknastenka",
                             "url": "https://rknastenka.com",
                             "image": "https://rknastenka.com/main.jpg",
                             "description": "about me + some projects + my articles, thoughts and poems.",
@@ -147,11 +147,11 @@ export default function RootLayout({ children }) {
                             },
                             "author": {
                                 "@type": "Person",
-                                "name": "Nastenka"
+                                "name": "rknastenka"
                             },
                             "publisher": {
                                 "@type": "Person",
-                                "name": "Nastenka",
+                                "name": "rknastenka",
                                 "logo": {
                                     "@type": "ImageObject",
                                     "url": "https://rknastenka.com/main.jpg"

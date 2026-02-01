@@ -2,10 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
-  title: 'Projects',
+  title: 'projects',
   description: 'Discover my modest projects',
   openGraph: {
-    title: 'Projects',
+    title: 'projects',
     images: ['/main.jpg'],
   },
 };

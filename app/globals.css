@@ -142,3 +142,7 @@ a:hover {
 .dark .bg-pot {
   background: #161718 !important;
 }
+
+.datee{
+  @apply text-gray-400 italic lg:text-[0.8rem];
+}
