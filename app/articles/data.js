@@ -127,14 +127,5 @@ export const articles = [
     content: [
       'updates soon...',
     ],
-  },
-      {
-    slug: 'the-urgency-paradox',
-    title: 'The Urgency Paradox: How to maintain "panic-level" focus.',
-    date: 'release soon...',
-    content: [
-      'updates soon...',
-    ],
-  },
-
+  }
 ];
