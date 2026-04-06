@@ -23,7 +23,7 @@ export default function Glossary() {
               <div>[x][x] SQL</div>
               <div>[x][x] Verilog</div>
               <div>[x][x] FPGAs</div>
-              <div>[x][x] CNNs</div>
+              <div>[x][ ] CNNs</div>
               <div>[x][x] Neural Networks</div>
               <div>[x][ ] Compilers</div>
               <div>[x][ ] LLVM</div>
@@ -37,9 +37,9 @@ export default function Glossary() {
               <div>[ ][ ] Networks</div>
               <div>[ ][ ] Memory</div>
               <div>[ ][ ] MATLAB</div>
-              <div>[ ][ ] Assembly</div>
               <div>[ ][ ] Reverse Engineering</div>
               <div>[ ][ ] Machine Learning</div>
+              <div>[ ][ ] Deep Learning</div>
               <div>[ ][ ] Quantum Computing</div>
               <div>[ ][ ] LLMS</div>
               <div>[ ][ ] Raspberry Pi</div>

@@ -19,9 +19,12 @@ export default function Projects() {
             <div className="space-y-6">
 
                 {/* JSYP project */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-end">
                     <div className="md:col-span-3 space-y-3">
-                        <a href="https://jsyp.jordan.ieee.org" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[JSYP 10th Edition Congress]</a>
+                        <div className="flex items-baseline gap-2">
+                            <a href="https://jsyp.jordan.ieee.org" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[JSYP 10th Edition Congress]</a>
+                            <div className="self-end"><span className="text-[9px] italic text-gray-400">16/6/2025</span></div>
+                        </div>
                         <p className="text-sm text-gray-400 dark:text-gray-500">
                            A modern interactive website built with [three.js x shaders x gsap x lenis x react] for the IEEE Jordan Section Young Professionals Congress 2025, with the theme "IOT meets LEGO".
                         </p>
@@ -42,9 +45,12 @@ export default function Projects() {
                 </div>
     
                 {/* JVF project */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-end">
                     <div className="md:col-span-3 space-y-3">
-                        <a href="#" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[JVF Management System]</a>
+                        <div className="flex items-baseline gap-2">
+                            <a href="#" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[JVF Management System]</a>
+                            <div className="self-end"><span className="text-[9px] italic text-gray-400">19/3/2025</span></div>
+                        </div>
                         <p className="text-sm text-gray-400 dark:text-gray-500">
                     A full stack e-registration hierarchical system and admin panel for the Jordan Volleyball Federation built with [React x AntDesign x PHP] to manage clubs, players, seasons, age groups, requests/approvals, document attachments, ID card printing, and club statements.                            
                         </p>
@@ -63,11 +69,41 @@ export default function Projects() {
                      </div>
                     </div>
                 </div>
-                
-               {/* RAWI project
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-center">
+
+                {/* First Portfolio project */}
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-end">
                     <div className="md:col-span-3 space-y-3">
-                        <a href="#" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[RAWI Ai story Maker]</a>
+                        <div className="flex items-baseline gap-2">
+                            <a href="https://rknastenka.github.io/portfolio-v00/" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[Portfolio v0]</a>
+                            <div className="self-end"><span className="text-[9px] italic text-gray-400">22/9/2025</span></div>
+                        </div>
+                        <p className="text-sm text-gray-400 dark:text-gray-500">
+                        This was the first initial design for my portfolio website built with React & CSS.
+                        A lowkey brighter lifefull version of this one, hope you like it!
+                        </p>
+                    </div>
+                    <div className="md:col-span-1">
+                      <div className="flex items-center justify-center text-gray-500 dark:text-gray-400 h-full">
+                           <Image 
+                             src="/projects/prt-prev.png" 
+                             alt="FIRST PORTFOLIO WEBSITE" 
+                             width={400} 
+                             height={300}
+                             className="max-w-full h-auto object-contain"
+                             loading="lazy"
+                             unoptimized
+                           />
+                     </div>
+                    </div>
+                </div>
+                
+               {/* RAWI project */}
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-end">
+                    <div className="md:col-span-3 space-y-3">
+                        <div className="flex items-baseline gap-2">
+                            <a href="#" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[RAWI Ai story Maker]</a>
+                            <div className="self-end"><span className="text-[9px] italic text-gray-400">19/9/2025</span></div>
+                        </div>
                         <p className="text-sm text-gray-400 dark:text-gray-500">
                           A web application built with [Next.js x TailwindCSS x Python] that utilizes multiple APIs to personalize kids' stories based on their face and name.
                         </p>
@@ -85,10 +121,10 @@ export default function Projects() {
                            />
                         </div>
                     </div>
-                </div> */}
+                </div>
 
                 {/* Daily-Philosophy project */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-end">
                     <div className="md:col-span-3 space-y-3">
                         <div className="flex items-center gap-2">
                             <a href="https://dailyphilosophy.rknastenka.com/" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[Daily Philosophy]</a>
@@ -97,6 +133,7 @@ export default function Projects() {
                                     <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                                 </svg>
                             </a>
+                            <div className="self-end"><span className="text-[9px] italic text-gray-400">29/10/2025</span></div>
                         </div>
                         <p className="text-sm text-gray-400 dark:text-gray-500">
                             Recent Research has proven that using AI to think, and write limits your brain capabilities, and that's what
@@ -117,8 +154,43 @@ export default function Projects() {
                     </div>
                 </div>    
 
+
+                {/* Notepad project */}
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-end">
+                    <div className="md:col-span-3 space-y-3">
+                        <div className="flex items-center gap-2">
+                            <a href="https://notepad.rknastenka.com/" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[Notepad]</a>
+                            <a href="https://github.com/rknastenka/notepad" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors duration-200">
+                                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                            <div className="self-end"><span className="text-[9px] italic text-gray-400">1/11/2025</span></div>
+                        </div>
+                        <p className="text-sm text-gray-400 dark:text-gray-500">
+                        Sometimes I get an idea during a focus session, and I normally write it
+                        down in a paper notebook, but when I’m out, I reach for a digital option.
+                        The problem is, most note-taking apps are too distracting.
+                        So I built this zero-distractions notepad for myself and for anyone who might benefit from it.
+                           </p>
+                           </div>
+                    <div className="md:col-span-1">
+                        <div className="flex items-center justify-center text-gray-500 dark:text-gray-400 h-full">
+                           <Image 
+                             src="/projects/notepad-prev.jpeg" 
+                             alt="NotePad preview" 
+                             width={400} 
+                             height={300}
+                             className="max-w-full h-auto object-contain"
+                             loading="lazy"
+                           />
+                        </div>
+                    </div>
+                    
+                </div>    
+
                 {/* Camino project */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-end">
                     <div className="md:col-span-3 space-y-3">
                         <div className="flex items-center gap-2">
                             <a href="https://camino.rknastenka.com/" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[Camino]</a>
@@ -127,6 +199,7 @@ export default function Projects() {
                                     <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                                 </svg>
                             </a>
+                            <div className="self-end"><span className="text-[9px] italic text-gray-400">10/11/2025</span></div>
                         </div>
                         <p className="text-sm text-gray-400 dark:text-gray-500">
                            Minimal website to track your daily habits and productive hours with a full year preview as well.
@@ -149,43 +222,9 @@ export default function Projects() {
                     
                 </div>    
 
-                {/* Notepad project */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-center">
-                    <div className="md:col-span-3 space-y-3">
-                        <div className="flex items-center gap-2">
-                            <a href="https://notepad.rknastenka.com/" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[Notepad]</a>
-                            <a href="https://github.com/rknastenka/notepad" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors duration-200">
-                                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                </svg>
-                            </a>
-                        </div>
-                        <p className="text-sm text-gray-400 dark:text-gray-500">
-                        When I study, I keep only one tab open; my slides tab. Sometimes
-                        I get an idea during a focus session, and I normally write it
-                        down in a paper notebook, but when I’m out, I reach for a digital option.
-                        The problem is, most note-taking apps are too distracting.
-                        So I built this zero-distractions notepad for myself and for anyone who might benefit from it.
-                           </p>
-                           </div>
-                    <div className="md:col-span-1">
-                        <div className="flex items-center justify-center text-gray-500 dark:text-gray-400 h-full">
-                           <Image 
-                             src="/projects/notepad-prev.jpeg" 
-                             alt="NotePad preview" 
-                             width={400} 
-                             height={300}
-                             className="max-w-full h-auto object-contain"
-                             loading="lazy"
-                           />
-                        </div>
-                    </div>
-                    
-                </div>    
-
 
                 {/* Just-Archive project */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-end">
                     <div className="md:col-span-3 space-y-3">
                         <div className="flex items-center gap-2">
                             <a href="https://justarchive.rknastenka.com/" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[Just Archive]</a>
@@ -194,6 +233,7 @@ export default function Projects() {
                                     <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                                 </svg>
                             </a>
+                            <div className="self-end"><span className="text-[9px] italic text-gray-400">23/1/2026</span></div>
                         </div>
                         <p className="text-sm text-gray-400 dark:text-gray-500">
                          Jordan University of Science and Technology archive.
@@ -219,15 +259,16 @@ export default function Projects() {
 
                 
                 {/* Mini Notes project */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-end">
                     <div className="md:col-span-3 space-y-3">
                         <div className="flex items-center gap-2">
-                            <a href="https://github.com/rknastenka/obsidian-mini-notes/releases/tag/1.0.0" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[Mini Notes]</a>
-                            <a href="https://github.com/rknastenka/obsidian-mini-notes" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors duration-200">
+                            <a href="https://github.com/rknastenka/obsidian-mini-notes" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[Mini Notes]</a>
+                            <a href="https://github.com/rknastenka/obsidian-mini-notes/releases" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors duration-200">
                                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                                 </svg>
                             </a>
+                            <div className="self-end"><span className="text-[9px] italic text-gray-400">27/1/2026</span></div>
                         </div>
                         <p className="text-sm text-gray-400 dark:text-gray-500">
                             Your quick thoughts, beautifully displayed, without worrying about organization. Review them later in a colorful Google Keep-style card-based view - where you can pin, tag, and arrange what matters.
@@ -250,7 +291,7 @@ export default function Projects() {
                 </div>
 
                 {/* kyrios project */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-end">
                     <div className="md:col-span-3 space-y-3">
                         <div className="flex items-center gap-2">
                             <a href="https://apps.microsoft.com/detail/9NB4DMGZFZMJ?hl=en-us&gl=JO&ocid=pdpshare" target="_blank" rel="noopener noreferrer" className="text-[var(--aColor)] font-semibold text-[1rem] visited:!text-blue-500 transition-colors duration-200">[Kyrios]</a>
@@ -259,6 +300,7 @@ export default function Projects() {
                                     <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                                 </svg>
                             </a>
+                            <div className="self-end"><span className="text-[9px] italic text-gray-400">2/3/2026</span></div>
                         </div>
                         <p className="text-sm text-gray-400 dark:text-gray-500">
                         Lightweight Windows to-do list app that lives in your system tray.
