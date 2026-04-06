@@ -11,27 +11,39 @@ export default function Glossary() {
         
           <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-x-8">
             <div className="space-y-1">
-              <div>[x] CLI & Bash</div>
-              <div>[x] Git & GitHub</div>
-              <div>[x] Data Analysis</div>
-              <div>[x] HTML & CSS</div>
-              <div>[x] Javascript & Typescript</div>
-              <div>[x] React</div>
-              <div>[x] Nextjs</div>
-              <div>[ ] Raspberry Pi</div>
-              <div>[ ] Research</div>
-              <div>[x] Verilog</div>
+              <div>[x][x] CLI & Bash</div>
+              <div>[x][x] Git & GitHub</div>
+              <div>[x][x] Data Analysis</div>
+              <div>[x][x] HTML & CSS</div>
+              <div>[x][ ] Javascript & Typescript</div>
+              <div>[x][ ] React</div>
+              <div>[x][x] Nextjs</div>
+              <div>[x][ ] Python</div>
+              <div>[x][ ] C++</div>
+              <div>[x][x] SQL</div>
+              <div>[x][x] Verilog</div>
+              <div>[x][x] FPGAs</div>
+              <div>[x][x] CNNs</div>
+              <div>[x][x] Neural Networks</div>
+              <div>[x][ ] Compilers</div>
+              <div>[x][ ] LLVM</div>
+              <div>[x][ ] RISC-V</div>
             </div>
             <div className="space-y-1">
-              <div>[ ] Assembly</div>
-              <div>[ ] Reverse Engineering</div>
-              <div>[ ] Cryptography</div>
-              <div>[ ] Machine Learning</div>
-              <div>[ ] Quantum Computing</div>
-              <div>[ ] LLMS</div>
-              <div>[ ] Objective C</div>
-              <div>[x][x][ ] Python</div>
-              <div>[x][x][ ] C++</div>
+              <div>[x][ ] Cryptography</div>
+              <div>[ ][ ] Computer Architecture</div>
+              <div>[ ][ ] UVM</div>
+              <div>[ ][ ] Operating Systems</div>
+              <div>[ ][ ] Networks</div>
+              <div>[ ][ ] Memory</div>
+              <div>[ ][ ] MATLAB</div>
+              <div>[ ][ ] Assembly</div>
+              <div>[ ][ ] Reverse Engineering</div>
+              <div>[ ][ ] Machine Learning</div>
+              <div>[ ][ ] Quantum Computing</div>
+              <div>[ ][ ] LLMS</div>
+              <div>[ ][ ] Raspberry Pi</div>
+              <div>[ ][ ] Research</div>
             </div>
           </div>
 

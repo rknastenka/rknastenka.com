@@ -12,7 +12,7 @@ export default function Log() {
                     <li><s> <strong>project:</strong> v2 personal website</s> <span className="datee">2/8/2025</span></li>
                     <li><s> <strong>project:</strong> rawi ai story generator</s> <span className="datee">19/9/2025</span></li>
                     <li><s> <strong>project:</strong> obsidian plugin: mini notes</s> <span className="datee">27/1/2026</span></li>
-                    <li><s> <strong>project:</strong> froggy: windows system tray app</s> <span className="datee">2/3/2026</span></li>
+                    <li><s> <strong>project:</strong> kyrios: windows system tray app</s> <span className="datee">2/3/2026</span></li>
                     <li><s> <strong>work:</strong> josa: open source contributions</s> <span className="datee">7/3/2026</span></li>
                     {/* 
                     <li><s> <strong>learn:</strong> neso microprocessor & microcontrollers</s> <span className="datee">7/3/2025</span></li>
