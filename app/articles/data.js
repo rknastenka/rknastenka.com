@@ -123,9 +123,21 @@ export const articles = [
     {
     slug: 'you-just-need-a-reason',
     title: 'you\'re not lazy, you just need a reason.',
-    date: 'release soon...',
+    date: '2026-07-05',
     content: [
-      'updates soon...',
+      'you catch yourself recalling moments from a past you never had. you see yourself already there, arrived, already the person you swore you\'d become. And yet you return, inevitably, to the mundane present, where none of it seems to mean anything thus you cannot make yourself get up and run under the rain.',
+      '',
+      'and that heaviness, the reluctance to move when you know you should, does not come from weakness. It comes from a reason too faint to pull you out of bed. Because it was never about the running. It was never about the goal. What keeps you up at night isn\'t the thing you\'re chasing, but the thing buried underneath it. from love and lust to the fear of death, the fear of failure, or the fear of being forgotten.',
+      '',
+      'It\'s easy to write a list of checkboxes for everything you wish to achieve. But a goal with no reason rooted deep beneath it, will quietly starve. Your will thins a little each day until one morning it\'s gone. Not because you lacked discipline. but because you never found out why you wanted the thing in the first place.',
+      '',
+      'So ask. Why this dream, why this job, this grade, this money, this particular shape of a life? why do you seek for more so arrogantly? what is your reason, your cause. why do you do what you do? Ask it once and you\'ll have an answer. Ask it again, and the goal will come apart in your hands. The goal was never the point. it was only ever a mean to something older. something that was there long before the dream had a name.',
+      '',
+      'The man who builds and builds is not chasing wealth. He is drowning out a voice that once told him he was worth nothing. The mother working three jobs is not chasing the pay. She is making certain her children never taste the particular hunger she grew up in. No one burns a decade of sleep for a checkbox. That is the whole distance between a wish and a will, between something you\'d like and something you cannot not do.',
+      '',
+      'Whatever you\'re reaching for, there is a reason under it, waiting. Go down and find it. Name it out loud, even if it frightens you. Because the moment you know why, the rain outside stops being a reason to stay in bed and becomes only weather, weather you walk through on your way to the thing you were always going toward.',
+      '',
+      'because no act of human greatness has ever been achieved without a cause equally great behind it.',
     ],
   }
 ];
